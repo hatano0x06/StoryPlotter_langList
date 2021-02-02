@@ -46,7 +46,7 @@
       MEMO_SORT_TAG       : '标签顺序',
       MEMO_SORT_NEW       : '创建顺序',
       MEMO_SORT_NAME      : '名字顺序',
-      MEMO_SORT_USERORDER : '自訂順序',
+      MEMO_SORT_USERORDER : '自由顺序',
     },
     LANGCODE_TW: {
       MEMO_SORT_DATETIME  : '日期順序',
@@ -54,7 +54,7 @@
       MEMO_SORT_TAG       : '標籤順序',
       MEMO_SORT_NEW       : '創建順序',
       MEMO_SORT_NAME      : '名字順序',
-      MEMO_SORT_USERORDER : '自由順序',
+      MEMO_SORT_USERORDER : '自訂順序',
     },
   },
 
@@ -139,7 +139,7 @@
       PLOT_SORT_TAG       : '标签顺序',
       PLOT_SORT_NEW       : '创建顺序',
       PLOT_SORT_NAME      : '名字顺序',
-      PLOT_SORT_USERORDER : '自由順序',
+      PLOT_SORT_USERORDER : '自由顺序',
     },
     LANGCODE_TW: {
       PLOT_SORT_TAG       : '標籤順序',
@@ -164,18 +164,18 @@
       'folderCaution' : 'フォルダが空っぽの状態が30日以上続くと自動削除されます',
     },
     LANGCODE_CH: {
-      'slideMemo'     : '您可以滑动一个主意以将其移至垃圾箱',
+      'slideMemo'     : '滑动素材即可将其移至垃圾箱',
       'changeMode'    : '可以通过右上方的图标改变排序',
       'searchWord'    : '可以通过搜索图标搜索素材',
       'tapTag'        : '点击标签，可以寻找附有相同标签的素材',
       'folderCaution' : '如果该文件夹保持空白超过30天，它将被自动删除',
     },
     LANGCODE_TW: {
-      'slideMemo'     : '您可以滑動一個主意以將其移至垃圾箱',
+      'slideMemo'     : '滑動素材即可將其移至回收筒',
       'changeMode'    : '可以通過右上方的圖示改變排序',
       'searchWord'    : '可以通過搜尋圖示搜尋素材',
       'tapTag'        : '點選標籤，可以尋找附有相同標籤的素材',
-      'folderCaution' : '如果該文件夾保持空白超過30天，它將被自動刪除',
+      'folderCaution' : '如果該資料夾保持空白超過30天，它將被自動刪除',
     },
   },
   'navigationWhenOpenAppPlotList': {
@@ -204,7 +204,7 @@
       'information'   : '通过？按钮能够查看相应的小提示',
       'download'      : '通过下载按钮能将数据以文件形式取出',
       'savePage'      : '所有页面都会被自动保存',
-      'cautionHide'   : '你也可以默认隐藏 "太长 ~" 的文字\n请在左上方的菜单中进行设置',
+      'cautionHide'   : '可以将“太长 ~”的提示改为默认隐藏\n请在左上方的菜单中进行设置',
     },
     LANGCODE_TW: {
       'Indication'    : '為了方便起見，會顯示線條或是百分比\n但也僅是出於方便參考的目的，可以忽略',
@@ -213,7 +213,7 @@
       'information'   : '通過？按鈕能夠檢視相應的小提示',
       'download'      : '通過下載按鈕能將資料以檔案形式取出',
       'savePage'      : '所有頁面都會被自動儲存',
-      'cautionHide'   : '默認情況下，"太長~" 一詞可以隱藏\n請從左上方的菜單中進行設置',
+      'cautionHide'   : '可以將「太長~」的提示設為自動忽略\n請從左上方的選單中進行設定',
     },
   },  
   'memolist': {
@@ -263,13 +263,13 @@
       'title'       : '素材本',
       'noneMemo'    : '没有可选的素材',
       'addfrombutton'     : '从右下方的按钮添加素材吧',
-      'addfrombuttonPc'   : '使用顶部的文本字段添加一个想法',
+      'addfrombuttonPc'   : '从上方输入框中添加素材吧',
 
       'preUsed'     : '已用于此故事情节：',
       'postUsed'    : '',
       'search'      : '搜索...',
 
-      'noneMemoFromSearch' : '我找不到任何素材',
+      'noneMemoFromSearch' : '找不到素材',
 
       'dateTillBeforeAbout'    : '',
       'dateTillAfterAbout'     : '左右',
@@ -279,14 +279,14 @@
 
       'wordCounter' : ' 字',
 
-      'deletedBar'  : '搬到垃圾桶',
+      'deletedBar'  : '已移至垃圾箱',
       'deletedUndo' : '撤销',
     },
     LANGCODE_TW: {
       'title'       : '素材本',
       'noneMemo'    : '沒有可選的素材',
       'addfrombutton'     : '從右下方的按鈕新增素材吧',
-      'addfrombuttonPc'   : '使用頂部的文本字段添加想法',
+      'addfrombuttonPc'   : '從上方輸入框中添加素材吧',
 
       'preUsed'     : '已用於此故事情節：',
       'postUsed'    : '',
@@ -302,7 +302,7 @@
 
       'wordCounter' : ' 字',
 
-      'deletedBar'  : '移到垃圾桶',
+      'deletedBar'  : '已移到回收筒',
       'deletedUndo' : '撤銷',
 
     },
@@ -372,19 +372,19 @@
       'withCreateFolder'  : 'フォルダも一緒に作ってまとめる'
     },
     LANGCODE_CH: {
-      'title' : '情节',
+      'title' : '剧作本',
       'preTitle' : '标题：',
 
-      'delete'    : '垃圾桶',
+      'delete'    : '垃圾箱',
       'download'  : '下载',
       'copy'      : '另存为',
       'sequel'    : '写续篇',
 
       'sequelTitle'  : '的续篇',
 
-      'none'              : '没有可用情节',
-      'addFromButton'     : '请用右下方按钮加入情节',
-      'addFromButtonPc'   : '请用左上方按钮加入情节',
+      'none'              : '没有故事情节',
+      'addFromButton'     : '请用右下方按钮创建',
+      'addFromButtonPc'   : '请用左上方按钮创建',
 
       'length' : '长度 : ',
 
@@ -394,27 +394,27 @@
       'processing': '进行中',
 
       'addPlot'   : '添加新剧作本',
-      'nonePlotFromSearch' : '我找不到任何情节',
+      'nonePlotFromSearch' : '找不到情节',
 
       'color'             : '情节的颜色 : ',
-      'subTitle'          : '备注字',
+      'subTitle'          : '备注',
 
-      'withCreateFolder'  : '一起创建文件夹'
+      'withCreateFolder'  : '同时集中创建文件夹'
     },
     LANGCODE_TW: {
-      'title' : '情節',
+      'title' : '劇作本',
       'preTitle' : '標題：',
 
-      'delete'    : '垃圾',
+      'delete'    : '回收筒',
       'download'  : '下載',
       'copy'      : '另存為',
       'sequel'    : '寫續篇',
 
       'sequelTitle'  : '的續篇',
 
-      'none'              : '沒有可用情節',
-      'addFromButton'     : '請用右下方按鈕加入情節',
-      'addFromButtonPc'   : '請用左上方按鈕加入情節',
+      'none'              : '沒有故事情節',
+      'addFromButton'     : '請用右下方按鈕建立',
+      'addFromButtonPc'   : '請用左上方按鈕建立',
 
       'length' : '長度 : ',
 
@@ -429,7 +429,7 @@
       'color'             : '情節顏色 : ',
       'subTitle'          : '備註',
 
-      'withCreateFolder'  : '用它做一個文件夾'
+      'withCreateFolder'  : '同時集中建立資料夾'
     },
   },
   'folder': {
@@ -477,16 +477,16 @@
       'folderCurrent'      : '当前 : ',
 
       'beforeSubtitle'      : '你现在拥有 ',
-      'afterMemoSubtitle'       : ' 件素材',
-      'afterPlotSubtitle'       : ' 件剧作',
+      'afterMemoSubtitle'       : ' 个素材',
+      'afterPlotSubtitle'       : ' 个故事情节',
 
-      'sameFolderIsExist'   : '文件夹已存在',
+      'sameFolderIsExist'   : '同名文件已存在',
       'emptyFolderName'     : '请输入文件夹的名字',
 
-      'deleteFolderCaution' : '文件夹中的素材也将被移到垃圾桶中',
-      'deletePlotFolderCaution' : '文件夹中的剧作也将被移到垃圾桶中',
+      'deleteFolderCaution' : '文件夹中的素材也将被移到垃圾箱',
+      'deletePlotFolderCaution' : '文件夹中的剧作也将被移到垃圾箱中',
 
-      'rename' : '重命名, 运动',
+      'rename' : '重命名, 移动',
     },
     LANGCODE_TW: {
       'addFolder'     : '新增資料夾',
@@ -496,16 +496,16 @@
       'folderCurrent'      : '當前 : ',
 
       'beforeSubtitle'      : '你現在擁有 ',
-      'afterMemoSubtitle'       : ' 件素材',
-      'afterPlotSubtitle'       : ' 件劇作',
+      'afterMemoSubtitle'       : ' 個素材',
+      'afterPlotSubtitle'       : ' 個故事情節',
 
-      'sameFolderIsExist'   : '資料夾已存在',
+      'sameFolderIsExist'   : '同名檔案已存在',
       'emptyFolderName'     : '請輸入資料夾的名字',
 
-      'deleteFolderCaution' : '資料夾中的素材也將移至垃圾桶',
-      'deletePlotFolderCaution' : '文件夹中的劇作也將被移到垃圾桶中',
+      'deleteFolderCaution' : '資料夾中的素材也將移至回收筒',
+      'deletePlotFolderCaution' : '資料夾中的故事情節也將被移到回收筒',
 
-      'rename' : '更換名字, 移動',
+      'rename' : '變更名稱, 移動',
     },
   },
 
@@ -679,7 +679,7 @@ Please help us to dig deeper into your work
 - 角色的素材
 - 故事的素材
 - 镜头的素材
-- 其他作品的喜欢的镜头，好处
+- 其他作品的喜欢的镜头，认为好的地方
 等，将各种各样对创作有用的东西写下来吧
 ''',
 
@@ -759,7 +759,7 @@ Please help us to dig deeper into your work
 - 角色的素材
 - 故事的素材
 - 鏡頭的素材
-- 其他作品的喜歡的鏡頭，好處
+- 其他作品的喜歡的鏡頭，認為好的地方
 等，將各種各樣對創作有用的東西寫下來吧
 ''',
 
@@ -1113,14 +1113,14 @@ Please help us to dig deeper into your work
       'mainStory'       : '主线故事的素材',
       'ending'          : '闭幕的素材',
 
-      "subaccident"   : "身体障碍观念",
-      "subsolve"      : "解决身体障碍的想法",
-      "mainaccident"  : "主题思想",
-      "mainsolve"     : "解决主题障碍的想法",
+      "subaccident"   : "表面障碍的素材",
+      "subsolve"      : "解决表面障碍的素材",
+      "mainaccident"  : "表现主题性的素材",
+      "mainsolve"     : "解决表现主题性的内在障碍的素材",
 
-      'checkTitle'    : '检查已选素材',
+      'checkTitle'    : '确认已选素材',
       'noIdea'        : '你没有选择素材，这样可以吗？',
-      'confirmcheck'  : '如果可以的话，就点检查键吧',
+      'confirmcheck'  : '如果没问题的话，就按下打钩按钮吧',
       'selectedIdea'  : '已选素材列表',
     },
     LANGCODE_TW: {
@@ -1157,14 +1157,14 @@ Please help us to dig deeper into your work
       'mainStory'       : '主線故事的素材',
       'ending'          : '閉幕的素材',
 
-      "subaccident"   : "身體障礙觀念",
-      "subsolve"      : "解決身體障礙的想法",
-      "mainaccident"  : "主題思想",
-      "mainsolve"     : "解決主題障礙的想法",
+      "subaccident"   : "表面障礙的素材",
+      "subsolve"      : "解決表面障礙的素材",
+      "mainaccident"  : "表現主題性的素材",
+      "mainsolve"     : "解決表現主題性的內在障礙的素材",
 
-      'checkTitle'    : '檢查已選素材',
+      'checkTitle'    : '確認已選素材',
       'noIdea'        : '你沒有選擇素材，這樣可以嗎？',
-      'confirmcheck'  : '如果可以，請點擊檢查按鈕',
+      'confirmcheck'  : '如果可以，請按下打勾按鈕吧',
       'selectedIdea'  : '已選素材列表',
     },
   },
@@ -1191,7 +1191,7 @@ Please help us to dig deeper into your work
       'short'     : '短篇',
       'middle'    : '中篇',
       'long'      : '长篇',
-      'verylong'  : '很长篇',
+      'verylong'  : '超长篇',
       'free'      : '自由长度',
     },
     LANGCODE_TW: {
@@ -1199,7 +1199,7 @@ Please help us to dig deeper into your work
       'short'     : '短篇',
       'middle'    : '中篇',
       'long'      : '長篇',
-      'verylong'  : '很長篇',
+      'verylong'  : '超長篇',
       'free'      : '自由長度',
     },
   },
@@ -1307,10 +1307,10 @@ Please help us to dig deeper into your work
 
       'color'             : '角色的颜色 : ',
 
-      'tagDecoration'     : '出生、隶属关系、身份等',
+      'tagDecoration'     : '出身、隶属关系、身份地位等',
 
-      'cropImageDone' : '决定',
-      'cropImageBack' : '回去',
+      'cropImageDone' : '确定',
+      'cropImageBack' : '返回',
     },
     LANGCODE_TW: {
       'title'         : '角色的設定',
@@ -1332,9 +1332,9 @@ Please help us to dig deeper into your work
 
       'color'             : '角色的顏色 : ',
 
-      'tagDecoration'     : '出身，隸屬關係，地位等',
+      'tagDecoration'     : '出身、隸屬關係、身份地位等',
 
-      'cropImageDone' : '決斷',
+      'cropImageDone' : '確定',
       'cropImageBack' : '返回',
     },
   },
@@ -1359,15 +1359,15 @@ Please help us to dig deeper into your work
       'nonechar'        : '没有角色',
       'addfrombutton'   : '请通过右下方按钮添加',
       'addfrombuttonPc' : '请通过左上方按钮添加',
-      'delete'          : '垃圾桶',
+      'delete'          : '删除',
 
-      'noneCharFromSearch' : '我找不到那个人物',
+      'noneCharFromSearch' : '找不到角色',
     },
     LANGCODE_TW: {
       'nonechar'        : '沒有角色',
       'addfrombutton'   : '請通過右下方按鈕新增',
       'addfrombuttonPc' : '請通過左上方按鈕新增',
-      'delete'          : '垃圾',
+      'delete'          : '刪除',
 
       'noneCharFromSearch' : '找不到角色',
     },
@@ -1445,8 +1445,8 @@ Please help us to dig deeper into your work
     LANGCODE_CH: {
       'place'         : '地点：',
       'timezone'      : '时间段：',
-      'memo'          : '备注字:',
-      'delete'        : '垃圾桶',
+      'memo'          : '备注:',
+      'delete'        : '删除',
 
       'idea'              : '素材',
       'ideaToOutLine'     : '点击它，用它们写出梗概来吧',
@@ -1463,12 +1463,12 @@ Please help us to dig deeper into your work
       'place'         : '地點：',
       'timezone'      : '時段：',
       'memo'          : '備註：',
-      'delete'        : '垃圾',
+      'delete'        : '刪除',
 
       'idea'              : '素材',
-      'ideaToOutLine'     : '點選它，用它們寫出大綱來吧',
+      'ideaToOutLine'     : '點選它，用它們寫出梗概來吧',
 
-      'outline'           : '大綱',
+      'outline'           : '梗概',
       'outlineToStory'    : '點選它，用它們寫出故事來吧',
 
       'story'             : '正在寫故事...',
@@ -1556,9 +1556,9 @@ Please help us to dig deeper into your work
       'description'       : '发生了什么，和谁如何解决，如何推进故事',
       'descriptionSample'    : '例：角色的感情变化，获得解决故事的提示等',
       'place'             : '地点',
-      'memo'              : '便签本\n预示、补充资料等',
+      'memo'              : '备注栏\n伏线或补充资料等',
       'color'             : '故事颜色 : ',
-      'selectRelation'    : '链接角色的关系图',
+      'selectRelation'    : '与关系图关联',
       'timezone'          : '时间段',
       'emotionchange'     : '感情',
       'emotiontapmessage' : '请点击感情',
@@ -1576,13 +1576,13 @@ Please help us to dig deeper into your work
       'backToOutline'     : '改写梗概',
       'scene'             : '镜头 ',
       'cut'               : '分镜 ',
-      'DELETE'            : '垃圾桶模式',
-      'SORT'              : '秩序模式',
+      'DELETE'            : '删除模式',
+      'SORT'              : '排序模式',
       'total'             : '合计',
       'plotlength'        : '故事情节长度',
-      'nextScene'         : '下一次\n镜头',
-      'nextAction'        : '下一次\n分镜',
-      'nextDialog'        : '下一次\n对话',
+      'nextScene'         : '到下个\n镜头',
+      'nextAction'        : '到下个\n分镜',
+      'nextDialog'        : '到下个\n台词',
     },
     LANGCODE_TW: {
       'title'             : '製作故事',    
@@ -1592,9 +1592,9 @@ Please help us to dig deeper into your work
       'description'       : '發生了什麼，和誰如何解決，如何推進故事',
       'descriptionSample'    : '例：角色的感情變化，獲得解決故事的提示等',
       'place'             : '地點',
-      'memo'              : '備註字段\n提示和補充訊息等',
+      'memo'              : '備註欄\n伏線或補充資料等',
       'color'             : '故事顏色 : ',
-      'selectRelation'    : '鏈接角色的關係圖',
+      'selectRelation'    : '與關係圖關聯',
       'timezone'          : '時段',
       'emotionchange'     : '感情',
       'emotiontapmessage' : '請點選感情',
@@ -1612,13 +1612,13 @@ Please help us to dig deeper into your work
       'backToOutline'     : '改寫梗概',
       'scene'             : '鏡頭 ',
       'cut'               : '分鏡 ',
-      'DELETE'            : '垃圾模式',
-      'SORT'              : '訂購模式',
-      'total'             : '總',
+      'DELETE'            : '刪除模式',
+      'SORT'              : '排序模式',
+      'total'             : '合計',
       'plotlength'        : '故事情節長度',
-      'nextScene'         : '下一次\n鏡頭',
-      'nextAction'        : '下一次\n分鏡',
-      'nextDialog'        : '下一次\n對話',
+      'nextScene'         : '到下個\n鏡頭',
+      'nextAction'        : '到下個\n分鏡',
+      'nextDialog'        : '到下個\n對話',
     },
   },
   'dialogueSplit' : {
@@ -1641,22 +1641,22 @@ Please help us to dig deeper into your work
       'splitbynewline' : '改行で分割します'
     },
     LANGCODE_CH: {
-      'title'   : '你想把它分开吗？',
-      'yes'     : '劈叉',
-      'no'      : '不必',
-      'result'  : '裂痕',
-      'select'  : '选择分割模式',
+      'title'   : '你要把它分割开吗？',
+      'yes'     : '分割',
+      'no'      : '不了',
+      'result'  : '分割结果',
+      'select'  : '选择分割部分',
       'splitby' : '以此为界',
-      'splitbynewline' : '换行'
+      'splitbynewline' : '以换行为界'
     },
     LANGCODE_TW: {
-      'title'   : '您要拆分嗎？',
-      'yes'     :'分裂！',
+      'title'   : '要把它分割開嗎？',
+      'yes'     :'分割！',
       'no'      :'不需要',
       'result'  :'分割結果',
-      'select'  :'選擇分割圖案',
-      'splitby' :'被這個分割',
-      'splitbynewline':'被換行符',
+      'select'  :'選擇分割部分',
+      'splitby' :'以此为界',
+      'splitbynewline':'以換行为界',
     },
   },
   'timezonemap' : {
@@ -1714,10 +1714,10 @@ Please help us to dig deeper into your work
       "title" : "相関図を選択してください"
     },
     LANGCODE_CH: {
-      "title" : "请选择角色的关系图"
+      "title" : "请选择关系图"
     },
     LANGCODE_TW: {
-      "title" : "請選擇角色的關係圖"
+      "title" : "請選擇關係圖"
     },
   },
 
@@ -1752,7 +1752,7 @@ Please help us to dig deeper into your work
       'world' : '世界觀',
       'char'  : '角色',
       'logline' : '主題',
-      'plotSetting' : '標記'
+      'plotSetting' : '加標籤'
     },
   },
   'char' : {
@@ -1946,14 +1946,14 @@ Please help us to dig deeper into your work
       'char_name'        : '名字',
       'char_memo'        : '详细（ 备注栏 ）',
       "char_Charm"          : "魅力",
-      "char_Charm-sample"   : "当你介绍给朋友时就像写",
+      "char_Charm-sample"   : "按照把朋友介绍给别人的时候一样写就好",
       'char_position'    : '故事上的作用',
       'char_position-sample'    : '例：给予主人公一个契机',
       'char_personality' : '性格',
       'char_situation'   : '目前的境遇',
       'char_upbringing'  : '至今为止的成长经历',
       'char_habit'       : '习惯',
-      'char_importantthing' : '比法律或道德重要的事情',
+      'char_importantthing' : '比法律或道德还重要的事情或想法',
       'char_importantthing-sample'    : '例：安稳的活下去',
       'char_distress'         : '至今为止遇到过最困难的事情是什么',
       'char_distress_why'     : '面对困难如何决断，而又如何解决, 或是如何克服，或是如何回避',
@@ -1961,32 +1961,32 @@ Please help us to dig deeper into your work
       'char_age'         : '年龄',
       'char_birth'       : '生日',
       'char_talk'        : '口癖',
-      'char_talk-sample' : '例：语音、口音、用词等',
-      'char_call_me'     : '第一人称代词',
+      'char_talk-sample' : '例：音色、口音、用词等',
+      'char_call_me'     : '如何自称',
       'char_call'        : '被身边人的称呼方式，绰号',
       'char_CharacteristicGesture' : '常有习惯动作',
       'char_CharacteristicGesture-sample' : '例： 撒谎时，鼻子上可见汗水',
       'char_strength'  : '强项是什么',
       'char_weekness'  : '弱点是什么',
       'char_complex'   : '情结 (Complex)是什么',
-      'char_empathy'   : '能在哪里感受到共性',
-      'char_empathy_why'   : '你能感受到的情节',
+      'char_empathy'   : '能在哪里感受到同感',
+      'char_empathy_why'   : '能感受到同感的情节',
       'char_original'  : '独自的思考',
-      'char_childdream': '我纯洁时的感觉，我小时候的梦想',
-      "char_surroundings"  : "周围的声誉",
+      'char_childdream': '当初纯粹时的心情，或是小时候的梦想',
+      "char_surroundings"  : "身边人的评价",
 
-      'char_goal'      : '故事中的目的、动机',
-      'char_obstacle'         : '阻碍你实现目标的障碍是什么?',
-      'char_clear_obstacle'   : '解决障碍的行动',
-      'char_change'    : '通过故事如何变化',
-      'char_change-sample'    : "你不一定要改变才能克服自己的缺点.\n例：一个消极的人变成了一个积极的人\n说服自己的不足，获得认识，改变自己的目标也是一种改变!",
-      'story_pastEventsRelation'    : '这与过去的重要事件有什么关系 ?',
-      'story_pastEventsRelation-sample'    : '\"过去的重大事件\"在世界观',
-      'story_SituationFirst'   : '游戏初期的情况和感受',
-      'story_SituationMiddle'  : '场中的情况，心态',
-      'story_SituationLast'    : '最后的情况和感受',
+      'char_goal'      : '故事中的动机、目的',
+      'char_obstacle'         : '阻碍实现目标的障碍是什么？',
+      'char_clear_obstacle'   : '为了解决障碍的行动',
+      'char_change'    : '通过故事产生什么变化',
+      'char_change-sample'    : "没有一定要产生克服弱点的变化的必要\n例：消极的人变得积极\n接纳或认知到自己的缺点，或改变自己的目标等也算是改变",
+      'story_pastEventsRelation'    : '和过去发生的重要事件有什么关系',
+      'story_pastEventsRelation-sample'    : '\"过去发生的重要事件\"包含于世界观中',
+      'story_SituationFirst'   : '初期的状况、心境、故事中的立场',
+      'story_SituationMiddle'  : '中期的状况、心境、故事中的立场',
+      'story_SituationLast'    : '后期的状况、心境、故事中的立场',
 
-      'appearence_race'  : '人种',
+      'appearence_race'  : '种族',
       'appearence_race-sample'  : '例：西洋系 亚洲系 伊斯兰系 精灵(Elf) 蜥蜴 兽系',
       'appearence_skinColor'  : '肤色',
       'appearence_eyeColor'  : '眼型、瞳色',
@@ -1997,7 +1997,7 @@ Please help us to dig deeper into your work
       'appearence_ordinaryClothes'  : '平时服装',
       'appearence_workClothes'  : '工作服',
       'appearence_decentClothes'  : '正式场合的服装',
-      'appearence_favoriteBrand'  : '喜欢的外形，品牌',
+      'appearence_favoriteBrand'  : '喜欢的打扮，品牌',
       'appearence_accessory'  : '饰品',
       'appearence_accessory-sample'  : '例：眼镜、手镯、戒指',
 
@@ -2005,7 +2005,7 @@ Please help us to dig deeper into your work
       'social_anxietyjob'    : '在公司里想成为怎样的人',
       'social_positionjob'   : '在公司里的立场是什么',
       'social_descriptionjob' : '如何看待工作内容',
-      'social_salary'        : '您对您的工作评价（如工资）是否满意',
+      'social_salary'        : '对工作评价（如工资）是否满意？',
       'social_workfriend'    : '和上司、同事、下属的关系',
       'social_wherejob'      : '在哪里工作',
       'social_anxietyfuture' : '对将来是否有不安',
@@ -2038,14 +2038,14 @@ Please help us to dig deeper into your work
       'char_name'        : '名字',
       'char_memo'        : '詳細（ 備註欄 ）',
       "char_Charm"          : "魅力",
-      "char_Charm-sample"   : "當你介紹給朋友時就像寫",
+      "char_Charm-sample"   : "按照把朋友介绍给别人的时候一样写就好",
       'char_position'    : '故事上的作用',
       'char_position-sample'    : '例：給予主人公一個契機',
       'char_personality' : '性格',
       'char_situation'   : '目前的境遇',
       'char_upbringing'  : '至今為止的成長經歷',
       'char_habit'       : '習慣',
-      'char_importantthing' : '比法律或道德重要的事情',
+      'char_importantthing' : '比法律或道德還重要的事情或想法',
       'char_importantthing-sample' : '例：安穩的活下去',
       'char_distress'         : '至今為止遇到過最困難的事情是什麼',
       'char_distress_why'     : '面對困難如何決斷，而又如何解決，或是如何克服，或是如何迴避',
@@ -2054,7 +2054,7 @@ Please help us to dig deeper into your work
       'char_birth'       : '生日',
       'char_talk'        : '口癖',
       'char_talk-sample' : '例： 聲音、口音、用詞',
-      'char_call_me'        : '第一人稱/自稱',
+      'char_call_me'        : '如何自稱',
       'char_call'        : '被身邊人如何稱呼，綽號',
       'char_CharacteristicGesture' : '常有習慣動作',
       'char_CharacteristicGesture-sample' : '例： 撒謊時，鼻子上可見汗水',
@@ -2062,24 +2062,24 @@ Please help us to dig deeper into your work
       'char_weekness'  : '弱點是什麼',
       'char_complex'   : '情結(Complex)是什麼',
       'char_empathy'   : '能在哪裡感受到共鳴',
-      'char_empathy_why'   : '你能感受到的情節',
+      'char_empathy_why'   : '能感受到共鳴的情節',
       'char_original'  : '獨自的思考',
-      'char_childdream': '純潔的心情，童年的夢想',
-      "char_surroundings"  : "周圍的聲譽",
+      'char_childdream': '當初純粹時的心情，或是小時候的夢想',
+      "char_surroundings"  : "身邊人的評價",
 
-      'char_goal'      : '目的，故事動機',
-      'char_obstacle'         : '阻礙您實現目標的障礙是什麼 ?',
-      'char_clear_obstacle'   : '解決障礙的行動',
-      'char_change'    : '通過故事如何變化',
-      'char_change-sample'    : "您無需進行更改即可克服缺點\n例：消極的人變得積極\n缺陷意識，意識，目標改變等都是改變",
-      'story_pastEventsRelation'    : '您如何參與過去發生的重要事件 ?',
-      'story_pastEventsRelation-sample'    : '世界觀上有\"過去的重要事件\"',
-      'story_SituationFirst'   : '早期情況和情緒，感覺',
-      'story_SituationMiddle'  : '中間階段的情況，感覺',
-      'story_SituationLast'    : '最後的情況和情緒，感覺',
+      'char_goal'      : '故事中的動機、目的',
+      'char_obstacle'         : '阻礙實現目標的障礙是什麼？',
+      'char_clear_obstacle'   : '為了解決障礙的行動',
+      'char_change'    : '通過故事產生什麼變化',
+      'char_change-sample'    : "沒有一定要產生克服弱點的變化的必要\n例：消極的人變得積極\n接納或意識到自己的缺點，或改變自己的目標等都算是改變",
+      'story_pastEventsRelation'    : '和過去發生的重要事件有什麼關係',
+      'story_pastEventsRelation-sample'    : '\"過去發生的重要事件\"包含於世界觀中',
+      'story_SituationFirst'   : '初期的狀況、心境、故事中的立場',
+      'story_SituationMiddle'  : '中期的狀況、心境、故事中的立場',
+      'story_SituationLast'    : '後期的狀況、心境、故事中的立場',
 
-      'appearence_race'  : '種族與物種',
-      'appearence_race-sample'  : '例：西方人、亞洲人、伊斯蘭人、精靈(Elf)、蜥蜴、獸',
+      'appearence_race'  : '種族',
+      'appearence_race-sample'  : '例：西洋系、亞洲系、伊斯蘭系、精靈(Elf)、蜥蜴、獸系',
       'appearence_skinColor'  : '膚色',
       'appearence_eyeColor'  : '眼型、瞳色',
       'appearence_bodyStyle'  : '體型、身高、體重',
@@ -2089,15 +2089,15 @@ Please help us to dig deeper into your work
       'appearence_ordinaryClothes'  : '平時服裝',
       'appearence_workClothes'  : '工作服',
       'appearence_decentClothes'  : '正式場合的服裝',
-      'appearence_favoriteBrand'  : '喜歡的外形、服飾品牌',
-      'appearence_accessory'  : '配件',
+      'appearence_favoriteBrand'  : '喜歡的打扮、品牌',
+      'appearence_accessory'  : '飾品',
       'appearence_accessory-sample'  : '例：眼鏡、手鐲、戒指',
 
       'social_whatjob'       : '做著什麼樣的工作',
       'social_anxietyjob'    : '在公司裡想成為怎樣的人',
       'social_positionjob'   : '在公司裡的立場是什麼',
       'social_descriptionjob' : '如何看待工作內容',
-      'social_salary'        : '對工作評估(例：薪水)滿意嗎？',
+      'social_salary'        : '對工作評價(如薪水)是否滿意？',
       'social_workfriend'    : '和上司、同事、下屬的關係',
       'social_wherejob'      : '在哪裡工作',
       'social_anxietyfuture' : '對將來是否不安',
@@ -2171,45 +2171,45 @@ Please help us to dig deeper into your work
     },
     LANGCODE_CH: {
       'theme'               : '主题，想要告诉读者的事',
-      'theme-sample'        : '例：努力胜过一切, 人物悲伤的容貌迷人',
+      'theme-sample'        : '例：努力比一切都重要、主推角色悲伤的样子很耀眼',
       'interestThemePoint'  : '这个主题的有趣之处是什么？\n你对哪一点有兴趣？',
-      'howshowtheme'        : '如何表现主题，将其传递给读者呢',
+      'howshowtheme'        : '要如何表现主题，将其传递给读者',
       'mainstory'           : '主要的要解决的事情',
-      'mainstory-sample'    : '这往往是一个情感问题\n模糊的不安全感，不切实际的渴望等',
+      'mainstory-sample'    : '多数是情感上的问题\n模糊的不安感，不切实际的向往等',
       'substory'            : '次要的要解决的事情\n例：打倒进攻的山贼',
-      'substory-sample'     : '这往往是一种身体上的障碍\n我必须看到我女朋友的父亲，陨石落在我身上等等',
+      'substory-sample'     : '多数是物理性的障碍\n必须和恋人的父亲见面、陨石落下等',
       'howToSolve'          : '如何解决',
       'reader_interest'     : '读者感兴趣的是哪一个点？',
       'reader_impressed'    : '读者（或者是角色）被什么感动？',
       'reader_impressed-sample' : '读者能学到什么新知识？\n能知道什么新的解释？\n从什么当中得到解放？',
-      'whatYouWantToWrite'  : '你喜欢什么，你擅长什么，你对什么有深刻的认识？',
+      'whatYouWantToWrite'  : '你喜欢的东西，擅长的东西，拥有深厚知识的东西',
       'concept'             : '故事的概念',
-      'concept-sample'      : '例：一个被诅咒的男孩的, 目标是成为世界上最强大的忍者',
-      'howMainCharChange'   : '主人公在整个故事中是如何变化的',
-      'howOtherCharChange'  : '在整个故事中，你身边的人物，包括黑帮，是如何变化的？',
-      'howMainCharChange-sample'   : '例：意识到周围的人不同情你的原因，是因为你的沟通方式',
-      'howOtherCharChange-sample'  : '例：同情英雄的勇气，为自由而站出来',
+      'concept-sample'      : '例：被诅咒的少年目标是成为最强忍者',
+      'howMainCharChange'   : '通过故事，主人公产生怎样的变化',
+      'howOtherCharChange'  : '通过故事，身边的角色（包括路人）产生怎样的变化',
+      'howMainCharChange-sample'   : '例：意识到身边人对自己没有同感的原因，在于自身的沟通方式',
+      'howOtherCharChange-sample'  : '例：对主人公的勇气产生同感，为了自由挺身而出',
     },
     LANGCODE_TW: {
       'theme'               : '主題，想要告訴讀者的事',
-      'theme-sample'        : '例：努力工作比什麼都重要,人物悲傷的容貌迷人',
+      'theme-sample'        : '例：努力比什麼都重要、主推角色悲傷的樣子很耀眼',
       'interestThemePoint'  : '這個主題的有趣之處是什麼？\n你對哪一點有興趣？',
-      'howshowtheme'        : '如何表現主題，將其傳遞給讀者呢',
-      'mainstory'           : '主要要解決的事情',
-      'mainstory-sample'    : '情感上的問題很受歡迎\n隱約的心神不定、不切實際的渴望等等',
-      'substory'            : '次要要解決的事情',
-      'substory-sample'     : '身體上有很多障礙\n遇見女朋友的父親、隕石墜落等等',
+      'howshowtheme'        : '要如何表現主題，將其傳遞給讀者',
+      'mainstory'           : '主要的要解決的事情',
+      'mainstory-sample'    : '多數是情感上的問題\n模糊的不安感、不切實際的嚮往等等',
+      'substory'            : '次要的要解決的事情',
+      'substory-sample'     : '多數是物理性的障礙\n必須和戀人的父親見面、隕石墜落等',
       'howToSolve'          : '如何解決',
       'reader_interest'     : '讀者感興趣的是哪一個點？',
       'reader_impressed'    : '讀者（或者是角色）被什麼感動？',
       'reader_impressed-sample' : '讀者能學到什麼新知識？\n能知道什麼新的解釋？\n從什麼當中得到解放？',
-      'whatYouWantToWrite'  : '您喜歡什麼，擅長什麼以及對什麼有深刻的了解',
-      'concept'             : '故事概念',
-      'concept-sample'      : '例：一個被詛咒的男孩旨, 在成為世界上最強大的忍者',
-      'howMainCharChange'   : '英雄如何通過故事發生變化',
-      'howOtherCharChange'  : '周圍人物（包括小怪）如何在整個故事中發生變化',
-      'howMainCharChange-sample'   : '例：如果人們不支持您，您將意識到您的溝通方式是一個問題',
-      'howOtherCharChange-sample'  : '例：同情主角的勇氣，捍衛自由',
+      'whatYouWantToWrite'  : '你喜歡的東西，擅長的東西，擁有深厚知識的東西',
+      'concept'             : '故事的概念',
+      'concept-sample'      : '例：被詛咒的少年目標是成為最強忍者',
+      'howMainCharChange'   : '通過故事，主人公產生怎樣的變化',
+      'howOtherCharChange'  : '通過故事，身邊角色（包括路人）產生怎樣的變化',
+      'howMainCharChange-sample'   : '例：意識到身邊人對自己沒有同感的原因，在於自身的溝通方式',
+      'howOtherCharChange-sample'  : '例：對主人公的勇氣產生共鳴，為自由挺身而出',
     },
   },
 
@@ -2255,7 +2255,7 @@ Please help us to dig deeper into your work
       'era-sample'  : '例：現代、中世紀、近未來、幻想世界',
       'worldview'   : '世界觀',
       'stage'       : '故事在什麼地方進行？',
-      'originalty'  : '除了王道要素以外，你新增的獨創要素',
+      'originalty'  : '除了舞臺的王道要素以外，你新增的獨創要素',
       'mechanism'   : '（如果有的話）舞臺背後的機關',
       'mechanism-sample'   : '例：人猿星球的那顆星球本身實際上是地球',
       'originalWord' : '設定的原創用語',
@@ -2364,12 +2364,12 @@ By the end of the story, it's completely conquered'""",
     },
     LANGCODE_CH: {
       'mainchar'                : '主人公',
-      'maincharDescription'     : '''能感受到共性，会希望给他加油的人物
+      'maincharDescription'     : '''能感受到同感，会希望给他加油的人物
 
 拥有着为什么东西而纠结的部分，为了解决这个问题而行动
 
-如果主人公是坏家伙，难以令人感受到共性的话，
-可以让更坏的敌方人物登场，
+如果主人公是坏家伙，难以令人感受到同感的话，
+可以让更坏的敌对角色登场，
 通过能够提升好感的镜头将其转变为会希望支持的人物''',
 
       'supportchar'             : '引导主人公的人',
@@ -2377,14 +2377,14 @@ By the end of the story, it's completely conquered'""",
 
 和主人公有着正相反的意见，给主人公或是在故事中起到刺激作用
 
-可以是女主角，或是伙伴，或承担敌方的角色''',
+可以是女主角，或是伙伴，或是反派角色''',
 
-      'enemychar'             : '主角的克隆',
-      'enemycharDescription'  : '''谁无法实现主题
-主角用这个人来回忆主题
+      'enemychar'             : '主人公的倒影',
+      'enemycharDescription'  : '''无法实现故事主题的人物
+主人公通过这个角色来回顾主题
 
-如果您是反派/对手，那么您就是最无情的人
-故事结束时被彻底击败''',
+如果是反派，那就是最不能同情的人物
+在故事的最后被殴得体无完肤那种''',
 
       'addchar'             : '角色',
     },
@@ -2405,12 +2405,12 @@ By the end of the story, it's completely conquered'""",
 
 可以是女主角、夥伴或敵對角色等等''',
 
-      'enemychar'             : '主角的克隆',
-      'enemycharDescription'  : '''誰無法實現主題
-主角用這個人來回憶主題
+      'enemychar'             : '主人公的倒影',
+      'enemycharDescription'  : '''無法實現故事主題的人物
+主人公通過這個角色來回顧主題
 
-如果您是反派/對手，那麼您就是最無情的人
-故事結束時被徹底擊敗''',
+如果是反派，那就是最不能同情的人物
+在故事的最後被毆得體無完膚那種''',
 
       'addchar'             : '角色',
     },
@@ -2490,10 +2490,10 @@ Pattern 2. The incident begins to move in an unexpected direction""",
     LANGCODE_CH: {
       UNIT_OPENING   : '例：留下印象的世界观的描写',
       UNIT_SETUP     : '例：介绍世界观、角色间关系性等，表明角色的特征或成为原因的行动',
-      "thinking"     : "例：与主角的亲密感，自我反省，回想创伤，遭受扭曲的主题人物的迫害",
+      "thinking"     : "例：与向往的人变得亲密、自我反省、回忆起心灵创伤、遭受扭曲的表现主题的人物的迫害",
       UNIT_TURNING1  : '例：主人公被卷入事件，故事朝着没想到的方向急速展开',
-      UNIT_SUBSTORY  : '例：与主题相关的内容. 回顾角色的自我，回忆创伤，与主角改变自我的人相关的失败等',
-      UNIT_FUN       : '例：动作戏等等的约定俗成的演出. 角色之间的关系发展. 同时，主要故事也在进步',
+      UNIT_SUBSTORY  : '例：与主题相关的内容、自我反省、回忆起心灵创伤、关于作为主人公分身的人物的主题的失败等',
+      UNIT_FUN       : '例：动作戏等等的约定俗成的演出。角色间的关系会发展。同时主线故事的问题也在进行',
       UNIT_MIDPOINT  : '例：与伙伴决裂或敌人的逆袭等，危险度逐渐上升',
       UNIT_DARKNESS  : '例：主人公得到新的醒悟，得到导向解决事件的契机',
       UNIT_TURNING2  : '例：一切为了解决事件而开始行动',
@@ -2503,52 +2503,52 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       VERYSHORT_TURNING   : '', 
       VERYSHORT_FUN        : '', 
 
-      "verylong_turning_1"  : """例：模式1.原始事件的发生
-模式2. 主角卷入小事件，将得到解决""",
-      "verylong_turning_2"  : """例：模式1.主角卷入事件并努力解决一个基本问题
-模式2. 事件开始向意外方向移动""",
-      "verylong_develop_relation" : "例：动作戏等等的约定俗成的演出. 角色之间的关系发展. 同时，主要故事也在进步",
-      "verylong_sub_progress"  : "例：掉进一小撮，但解决了。它也伪装成更深层次的困难",
-      "verylong_main_progress"  : "例：与主题相关的内容。回顾角色的自我，回忆创伤，与主角改变自我的人相关的失败等",
-      "verylong_sub_midpoint"  : "例：陷入身体紧张。比主角入侵更强大的敌人",
-      "verylong_sub_darkness"  : "例：机智和提示解决问题",
-      "verylong_sub_solve"  : "例：逃避危机并获得安全",
-      "verylong_main_midpoint"  : "例：安全区遭到入侵并在心理上陷入困境，或者预见到了绝望的未来",
-      "verylong_main_darkness"  : "例：权衡解决问题的重要事情。主角有了新的认识，并有机会解决案件",
-      "verylong_main_solve"  : "例：一切开始解决案件",
+      "verylong_turning_1"  : """例：模式1. 作为一切根源的事件的发生
+模式2. 主角卷入小事件，然后解决""",
+      "verylong_turning_2"  : """例：模式1.主角被卷入事件，为了解决本质问题而行动
+模式2. 事件开始向意外方向发展""",
+      "verylong_develop_relation" : "例：动作戏等等的约定俗成的演出。角色间的关系会发展。同时主线故事的问题也在进行",
+      "verylong_sub_progress"  : "例：虽然陷入小小的危机，但解决了。同时也是更严重的困难的铺垫",
+      "verylong_main_progress"  : "例：与主题相关的内容、自我反省、回忆起心灵创伤、关于作为主人公分身的人物的主题的失败等",
+      "verylong_sub_midpoint"  : "例：陷入物理性的危机。碾压性强大的敌人来袭",
+      "verylong_sub_darkness"  : "例：由于机智或伏线获得解决问题的线索",
+      "verylong_sub_solve"  : "例：摆脱了一时的危机，获得安全",
+      "verylong_main_midpoint"  : "例：安全区遭到入侵并在心理上陷入困境，或是预见到了绝望的未来",
+      "verylong_main_darkness"  : "例：为了解决问题，将重要的事情摆在天平之上。究极的二选一，孤注一掷。主人公得到新的认知，并获得解决事件的契机",
+      "verylong_main_solve"  : "例：一切为了解决事件而开始行动",
 
       UNIT_COMMON    : '',
       UNIT_MAINSTORY : '',
     },
     LANGCODE_TW: {
-      UNIT_OPENING   : '例：留下印象的世界觀描寫',
-      UNIT_SETUP     : '例：介紹世界觀、角色間關係性等，表明角色特徵或成為原因的行動',
-      "thinking"     : "例：與主角的親密感，自我反省，回想創傷，遭受扭曲的主題人物的迫害",
-      UNIT_TURNING1  : '例：主人公被捲入事件，故事朝著沒想到的方向急速展開',
-      UNIT_SUBSTORY  : '例：與主題相關的內容. 回顧角色的自我，回憶創傷，與主角改變自我的人相關的失敗等',
-      UNIT_FUN       : '例：動作戲等的約定俗成演出. 角色之間的關係發展. 同時，主要故事也在進步',
+      UNIT_OPENING   : '例：留下印象的世界觀的描寫',
+      UNIT_SETUP     : '例：介紹世界觀、角色間關係性等，表明角色的特徵或成爲原因的行動',
+      "thinking"     : "例：與嚮往的人變得親密、自我反省、回憶起心靈創傷、遭受扭曲的表現主題的人物的迫害",
+      UNIT_TURNING1  : '例：主人公被捲入事件，故事朝着沒想到的方向急速展開',
+      UNIT_SUBSTORY  : '例：與主題相關的內容、自我反省、回憶起心靈創傷、關於作爲主人公分身的人物的主題的失敗等',
+      UNIT_FUN       : '例：動作戲等等的約定俗成的演出。角色間的關係會發展。同時主線故事的問題也在進行',
       UNIT_MIDPOINT  : '例：與夥伴決裂或敵人的逆襲等，危險度逐漸上升',
       UNIT_DARKNESS  : '例：主人公得到新的醒悟，得到導向解決事件的契機',
-      UNIT_TURNING2  : '例：一切為了解決事件而開始行動',
+      UNIT_TURNING2  : '例：一切爲了解決事件而開始行動',
       UNIT_FINALE    : '例：事件解決，變得安穩後的故事段落. 能夠看見主人公改變後的樣子',
 
       VERYSHORT_SETUP      : '', 
       VERYSHORT_TURNING   : '', 
       VERYSHORT_FUN        : '', 
 
-      "verylong_turning_1"      : """例：模式1.原始事件的發生
-模式2. 主角捲入小事件，將得到解決""",
-      "verylong_turning_2"      : """例：模式1.主角捲入事件並努力解決一個基本問題
-模式2. 事件開始向意外方向移動""",
-      "verylong_develop_relation"  : "例：動作戲等的約定俗成演出. 角色之間的關係發展. 同時，主要故事也在進步",
-      "verylong_sub_progress"  : "例：掉進一小撮，但解決了。它也偽裝成更深層次的困難",
-      "verylong_main_progress"  : "例：與主題相關的內容。回顧角色的自我，回憶創傷，與主角改變自我的人相關的失敗等",
-      "verylong_sub_midpoint"  : "例：陷入身體緊張。比主角入侵更強大的敵人",
-      "verylong_sub_darkness"  : "例：機智和提示解決問題",
-      "verylong_sub_solve"  : "例：逃避危機並獲得安全",
-      "verylong_main_midpoint"  : "例：安全區遭到入侵並在心理上陷入困境，或者預見到了絕望的未來",
-      "verylong_main_darkness"  : "例：權衡解決問題的重要事情。主角有了新的認識，並有機會解決案件",
-      "verylong_main_solve"  : "例：一切開始解決案件",
+      "verylong_turning_1"  : """例：模式1. 作爲一切根源的事件的發生
+模式2. 主角捲入小事件，然後解決""",
+      "verylong_turning_2"  : """例：模式1.主角被捲入事件，爲了解決本質問題而行動
+模式2. 事件開始向意外方向發展""",
+      "verylong_develop_relation" : "例：動作戲等等的約定俗成的演出。角色間的關係會發展。同時主線故事的問題也在進行",
+      "verylong_sub_progress"  : "例：雖然陷入小小的危機，但解決了。同時也是更嚴重的困難的鋪墊",
+      "verylong_main_progress"  : "例：與主題相關的內容、自我反省、回憶起心靈創傷、關於作爲主人公分身的人物的主題的失敗等",
+      "verylong_sub_midpoint"  : "例：陷入物理性的危機。碾壓性強大的敵人來襲",
+      "verylong_sub_darkness"  : "例：由於機智或伏線獲得解決問題的線索",
+      "verylong_sub_solve"  : "例：擺脫了一時的危機，獲得安全",
+      "verylong_main_midpoint"  : "例：安全區遭到入侵併在心理上陷入困境，或是預見到了絕望的未來",
+      "verylong_main_darkness"  : "例：爲了解決問題，將重要的事情擺在天平之上。究極的二選一，孤注一擲。主人公得到新的認知，並獲得解決事件的契機",
+      "verylong_main_solve"  : "例：一切爲了解決事件而開始行動",
 
       UNIT_COMMON    : '',
       UNIT_MAINSTORY : '',
@@ -2623,12 +2623,12 @@ Pattern 2. The incident begins to move in an unexpected direction""",
     LANGCODE_CH: {
       UNIT_OPENING   : '开幕', 
       UNIT_SETUP     : '角色或关系性的介绍',
-      "thinking"     : "关于主题的思考",
+      "thinking"     : "对主题的思考",
       UNIT_TURNING1  : '发生事件',
-      "substory"     : "支持故事",
+      "substory"     : "辅助性故事",
       UNIT_FUN       : '王道演出和关系发展',
-      UNIT_MIDPOINT  : '问题变得更加严重或浮出水面',
-      UNIT_DARKNESS  : '意识，决策与成长',
+      UNIT_MIDPOINT  : '问题的严重化、公开化',
+      UNIT_DARKNESS  : '认知，决策与成长',
       UNIT_TURNING2  : '解决问题',
       UNIT_FINALE    : '闭幕',
 
@@ -2636,18 +2636,18 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       VERYSHORT_TURNING   : '发生小事情并解决', 
       VERYSHORT_FUN        : '表现出角色令人意外的一面收尾', 
 
-      "verylong_turning_1"  : "原始事件的发生",
-      "verylong_turning_2"  : "参与事件",
+      "verylong_turning_1"  : "一切根源的事件的发生",
+      "verylong_turning_2"  : "被事件卷入",
       "verylong_develop_relation"  : "王道演出和关系发展",
 
-      UNIT_VERYLONG_SUB_PROGRESS 		: '次故事进度',
-      UNIT_VERYLONG_MAIN_PROGRESS 		: '主要故事进度',
-      "verylong_sub_midpoint"   : "子故事问题的恶化",
-      "verylong_sub_darkness"   : "子故事中的机智和决定",
-      "verylong_sub_solve"      : "解決子故事",
-      "verylong_main_midpoint"  : "主要故事的问题变得更加严重或浮出水面",
-      "verylong_main_darkness"  : "主要故事的意识和决定",
-      "verylong_main_solve"     : "解決主要故事",
+      UNIT_VERYLONG_SUB_PROGRESS 		: '支线故事的进行',
+      UNIT_VERYLONG_MAIN_PROGRESS 		: '主线故事的进行',
+      "verylong_sub_midpoint"   : "支线故事的问题的严重化",
+      "verylong_sub_darkness"   : "在支线故事中的机智和决策",
+      "verylong_sub_solve"      : "支线故事的解决",
+      "verylong_main_midpoint"  : "主线故事的问题的严重化、公开化",
+      "verylong_main_darkness"  : "主线故事的认知与决策",
+      "verylong_main_solve"     : "主线故事的解决",
 
       UNIT_COMMON    : '增加的章节',
       UNIT_MAINSTORY : '主线故事',
@@ -2655,12 +2655,12 @@ Pattern 2. The incident begins to move in an unexpected direction""",
     LANGCODE_TW: {
       UNIT_OPENING   : '開幕', 
       UNIT_SETUP     : '角色或關係性的介紹',
-      "thinking"     : "關於主題的思考",
+      "thinking"     : "對主題的思考",
       UNIT_TURNING1  : '發生事件',
-      "substory"     : "支持故事",
+      "substory"     : "輔助性故事",
       UNIT_FUN       : '王道演出和關係發展',
-      UNIT_MIDPOINT  : '問題變得更加嚴重或浮出水面',
-      UNIT_DARKNESS  : '醒悟與成長',
+      UNIT_MIDPOINT  : '問題的嚴重化、公開化',
+      UNIT_DARKNESS  : '認知，決策與成長',
       UNIT_TURNING2  : '解決問題',
       UNIT_FINALE    : '閉幕',
 
@@ -2668,20 +2668,20 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       VERYSHORT_TURNING   : '發生小事情並解決', 
       VERYSHORT_FUN        : '表現出角色令人意外的一面收尾', 
 
-      "verylong_turning_1"    : "原始事件的發生",
-      "verylong_turning_2"    : "參與事件",
+      "verylong_turning_1"  : "一切根源的事件的發生",
+      "verylong_turning_2"  : "被事件捲入",
       "verylong_develop_relation"  : "王道演出和關係發展",
 
-      UNIT_VERYLONG_SUB_PROGRESS 		: '子故事進度',
-      UNIT_VERYLONG_MAIN_PROGRESS   : '主要故事進度',
-      "verylong_sub_midpoint"  : "子故事問題的惡化",
-      "verylong_sub_darkness"  : "子故事中的機智和決定",
-      "verylong_sub_solve"     : "解決子故事",
-      "verylong_main_midpoint" : "主要故事的問題變得更加嚴重或浮出水面",
-      "verylong_main_darkness" : "主要故事的意識和決定",
-      "verylong_main_solve"    : "解决主要故事",
+      UNIT_VERYLONG_SUB_PROGRESS 		: '支線故事的進行',
+      UNIT_VERYLONG_MAIN_PROGRESS 		: '主線故事的進行',
+      "verylong_sub_midpoint"   : "支線故事的問題的嚴重化",
+      "verylong_sub_darkness"   : "在支線故事中的機智和決策",
+      "verylong_sub_solve"      : "支線故事的解決",
+      "verylong_main_midpoint"  : "主線故事的問題的嚴重化、公開化",
+      "verylong_main_darkness"  : "主線故事的認知與決策",
+      "verylong_main_solve"     : "主線故事的解決",
 
-      UNIT_COMMON    : '新增章節',
+      UNIT_COMMON    : '新增的章節',
       UNIT_MAINSTORY : '主線故事',
     },
   },
@@ -2792,8 +2792,8 @@ Pattern 2. The incident begins to move in an unexpected direction""",
 
       UNIT_COMMON    : '可能有点太长了',
       UNIT_MAINSTORY : '',
-      'sequenceEmptyMessage'    : '从右下角的按钮中添加一章',
-      'sequenceEmptyMessagePc'  : '从左上角的按钮中添加一章',
+      'sequenceEmptyMessage'    : '从右下角的按钮中添加章节',
+      'sequenceEmptyMessagePc'  : '从左上角的按钮中添加章节',
 
       'unitCautionHide' : '隐藏建议',
       'unitCautionShow' : '显示建议',
@@ -2828,8 +2828,8 @@ Pattern 2. The incident begins to move in an unexpected direction""",
 
       UNIT_COMMON    : '可能有點太長了',
       UNIT_MAINSTORY : '',
-      'sequenceEmptyMessage'    : '單擊右下角的按鈕添加章節',
-      'sequenceEmptyMessagePc'  : '單擊左上角的按鈕添加章節',
+      'sequenceEmptyMessage'    : '從右下角的按鈕添加章節',
+      'sequenceEmptyMessagePc'  : '從左上角的按鈕添加章節',
 
       'unitCautionHide' : '隱藏建議',
       'unitCautionShow' : '顯示建議',
@@ -2867,32 +2867,32 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'addStory' : 'ネタの追加',
     },
     LANGCODE_CH: {
-      'alertTitle'  : '更改章',
-      'title'       : '章题',
+      'alertTitle'  : '更改小标题',
+      'title'       : '小标题',
       'description' : '详细',
 
-      'addFirst' : '章已添加到开头',
+      'addFirst' : '小标题已添加到开头',
       'addBefore' : '已添加到 ',
       'addAfter'  : ' 的后部',
 
-      'zoomIn'  : '扩张',
-      'zoomOut' : '收缩',
-      'addSequenceUnit' : ' 添加章',
+      'zoomIn'  : '放大',
+      'zoomOut' : '缩小',
+      'addSequenceUnit' : ' 添加小标题',
 
       'addStory' : '添加素材',
     },
     LANGCODE_TW: {
-      'alertTitle'  : '更改章節題',
-      'title'       : '章題',
+      'alertTitle'  : '更改小標題',
+      'title'       : '小標題',
       'description' : '詳細',
 
-      'addFirst' : '章節已新增到開頭',
-      'addBefore' : '已新增到 ',
+      'addFirst' : '小標題已添加到開頭',
+      'addBefore' : '已添加到 ',
       'addAfter'  : ' 的後部',
 
-      'zoomIn'  : '擴張',
-      'zoomOut' : '收縮',
-      'addSequenceUnit' : ' 新增章節',
+      'zoomIn'  : '放大',
+      'zoomOut' : '縮小',
+      'addSequenceUnit' : ' 添加小標題',
 
       'addStory' : '添加素材',
     },
@@ -3123,11 +3123,11 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'lang'             : '',
     },
     LANGCODE_CH: {
-      'menu'             : '选项设置',
+      'menu'             : '主菜单',
       'privacyPolicy'    : '隐私政策',
       'term'             : '使用条约',
       'request'          : '提改进意见/建议',
-      'garbage'          : '垃圾桶',
+      'garbage'          : '垃圾箱',
       'screenlock'       : '密码设置',
       'screenlockOn'     : '目前:开',
       'screenlockOff'    : '目前:关',
@@ -3140,11 +3140,11 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'lang'             : '改进翻译',
     },
     LANGCODE_TW: {
-      'menu'             : '选项设置',
+      'menu'             : '主選單',
       'privacyPolicy'    : '隱私政策',
       'term'             : '使用條約',
       'request'          : '提改進意見/建議',
-      'garbage'          : '垃圾桶',
+      'garbage'          : '垃圾箱',
       'screenlock'       : '密碼設定',
       'screenlockOn'     : '目前:開',
       'screenlockOff'    : '目前:關',
@@ -3230,54 +3230,54 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       "noneGroupName" : "无",
 
       "selectTitle" : "添加一个组或角色",
-      "groupColor"  : "组颜色",
+      "groupColor"  : "组的颜色",
       "groupName"   : "组的名称",
 
-      "deleteCharTitle" : "你想把你的角色从群里删除吗？",
-      "deleteCharYes"   : "解开",
+      "deleteCharTitle" : "要把角色移出组吗？",
+      "deleteCharYes"   : "移除",
 
       "selectPosTitle"          : "组名称的位置",
       GROUPTITLE_POS_TOPLEFT    : "左上", 
-      GROUPTITLE_POS_TOPCENTER  : "中上层",
+      GROUPTITLE_POS_TOPCENTER  : "正上",
       GROUPTITLE_POS_TOPRIGHT   : "右上", 
       GROUPTITLE_POS_BOTTOMLEFT   : "左下", 
-      GROUPTITLE_POS_BOTTOMCENTER : "中下部", 
+      GROUPTITLE_POS_BOTTOMCENTER : "正下", 
       GROUPTITLE_POS_BOTTOMRIGHT  : "右下", 
 
       "groupListFromDownload"     : "组别列表",
-      "groupRelationFromDownload" : "組关系",
-      "charRelationFromDownload"  : "角色关系",
+      "groupRelationFromDownload" : "组的关系",
+      "charRelationFromDownload"  : "角色的关系",
 
       "selectChar": "选择角色",
 
     },
     LANGCODE_TW: {
-      "title" : "角色組設定",
-      "firstMessage" : "點擊添加組！",
+      "title" : "角色組設置",
+      "firstMessage" : "點擊添加組",
 
       "selectAddType" : "選擇您要添加的類型",
       "group"       : "組",
       "char"        : "角色",
-      "noneGroupName" : "沒有",
+      "noneGroupName" : "無",
 
-      "selectTitle" : "添加組和角色",
-      "groupColor"  : "組色",
-      "groupName"   : "組的名字",
+      "selectTitle" : "添加一個組或角色",
+      "groupColor"  : "組的顏色",
+      "groupName"   : "組的名稱",
 
-      "deleteCharTitle" : "您要從群組中刪除角色嗎？",
-      "deleteCharYes"   : "去掉",
+      "deleteCharTitle" : "要把角色移出組嗎？",
+      "deleteCharYes"   : "移除",
 
-      "selectPosTitle"          : "組名位置",
+      "selectPosTitle"          : "組名稱的位置",
       GROUPTITLE_POS_TOPLEFT    : "左上", 
-      GROUPTITLE_POS_TOPCENTER  : "中心上",
+      GROUPTITLE_POS_TOPCENTER  : "正上",
       GROUPTITLE_POS_TOPRIGHT   : "右上", 
       GROUPTITLE_POS_BOTTOMLEFT   : "左下", 
-      GROUPTITLE_POS_BOTTOMCENTER : "中心下", 
+      GROUPTITLE_POS_BOTTOMCENTER : "正下", 
       GROUPTITLE_POS_BOTTOMRIGHT  : "右下", 
 
-      "groupListFromDownload"     : "組清單",
-      "groupRelationFromDownload" : "組關係",
-      "charRelationFromDownload"  : "角色關係",
+      "groupListFromDownload"     : "組別列表",
+      "groupRelationFromDownload" : "組的關係",
+      "charRelationFromDownload"  : "角色的關係",
 
       "selectChar": "選擇角色",
     },
@@ -3380,7 +3380,7 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'save'              : '保存',
 
       'addRelation'       : '点击添加关系性',
-      'deleteRelation'    : '点击垃圾桶关系性',
+      'deleteRelation'    : '点击删除关系性',
 
       'longPress'     : '移动模式',
       'scalePress'    : '放大缩小模式',
@@ -3393,39 +3393,39 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'tapAndChangeArrow' : '点击箭头可以改变种类',
 
       'arrowColorSet'     : '对箭头颜色设置标签',
-      'addRelationMap'    : '添加角色的关系图',
-      'addRelationMapTitle'    : '角色的关系图的标题',
-      'defaultTitle'      : '主要角色的关系图',
+      'addRelationMap'    : '添加关系图',
+      'addRelationMapTitle'    : '关系图的标题',
+      'defaultTitle'      : '主要的关系图',
 
-      'controller_title'  : '工作范围 : ',
+      'controller_title'  : '操作范围 : ',
       'controller_all' : '所有',
       'controller_iconMove' : '图标选择/移动',
-      'controller_groupMove' : '组选',
+      'controller_groupMove' : '选择组',
       'controller_boardMove' : '整体移动',
       'controller_boardScale' : '放大缩小',
 
       'hideCharacater' : '角色隐藏设置',
-      'hideCharacaterTitle' : '选择你要显示的字符',
+      'hideCharacaterTitle' : '选择你要显示的角色',
 
       'groupRelationButton' : '组别设置',
 
-      'linkStory' : '故事链接',
-      'editTitleToolTip' : "重命名图",
+      'linkStory' : '关联的故事段落',
+      'editTitleToolTip' : "重命名关系图",
 
-      'zoomin'  : '扩张',
-      'zoomout' : '收缩',
+      'zoomin'  : '放大',
+      'zoomout' : '缩小',
 
     },
     LANGCODE_TW: {
-      'title'    : '角色關係圖',
+      'title'    : '角色的關係圖',
       'relationShipFirst'   : '',
       'relationShipMid'     : ' 對 ',
       'relationShipEnd'     : '的印象',
 
       'save'              : '儲存',
 
-      'addRelation'       : '點選新增關係',
-      'deleteRelation'    : '點選刪除關係',
+      'addRelation'       : '點選新增關係性',
+      'deleteRelation'    : '點選刪除關係性',
 
       'longPress'     : '移動模式',
       'scalePress'    : '放大縮小模式',
@@ -3438,27 +3438,27 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'tapAndChangeArrow' : '點選箭頭可以改變種類',
 
       'arrowColorSet'     : '對箭頭顏色設定標籤',
-      'addRelationMap'    : '角色關係圖添加',
-      'addRelationMapTitle'    : '關聯圖標題',
-      'defaultTitle'      : '主要關聯圖',
+      'addRelationMap'    : '新增關係圖',
+      'addRelationMapTitle'    : '關係圖的標題',
+      'defaultTitle'      : '主要的關係圖',
 
-      'controller_title'  : '工作範圍 : ',
+      'controller_title'  : '操作範圍 : ',
       'controller_all' : '所有',
-      'controller_iconMove' : '圖標選擇/移動',
-      'controller_groupMove' : '組選擇',
+      'controller_iconMove' : '圖示選擇/移動',
+      'controller_groupMove' : '選擇組',
       'controller_boardMove' : '整體移動',
       'controller_boardScale' : '放大縮小',
 
-      'hideCharacater' : '隱藏角色設定',
-      'hideCharacaterTitle' : '請選擇您要顯示的角色',
+      'hideCharacater' : '角色隱藏設定',
+      'hideCharacaterTitle' : '選擇你要顯示的角色',
 
-      'groupRelationButton' : '組設置',
+      'groupRelationButton' : '組別設定',
 
-      'linkStory' : '鏈接故事',
-      'editTitleToolTip' : "重命名圖",
+      'linkStory' : '關聯的故事段落',
+      'editTitleToolTip' : "重新命名關係圖",
 
-      'zoomin'  : '擴張',
-      'zoomout' : '收縮',
+      'zoomin'  : '放大',
+      'zoomout' : '縮小',
     },
   },
   'notification' : {
@@ -3634,15 +3634,14 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'end'         : '如何推进故事',
 
       'whatHappen-sample'   : '是角色内心面的问题？ 还是物理性的障碍？',
-      "end-sample"  : """进展如何？
-问题朝着解决方向发展了吗？""",
-      "endChar"  : "角色的情感或关系如何变化？",
+      "end-sample"  : """事件有朝着解决的方向发展吗？""",
+      "endChar"  : "角色的感情或关系性如何变化",
 
-      "howDilemma"  : "会出现什么样的困境",
-      "howDilemma-sample"  : "终极两种选择，下注等",
-      "failedCase"  : "如果角色失败，将会发生什么？",
-      "failedCase-sample"  : """例：最好死的情况，
-您绝对希望避免的痛苦程度""",
+      "howDilemma"  : "出现了什么样的困境",
+      "howDilemma-sample"  : "究极二选一，孤注一掷等",
+      "failedCase"  : "如果失败，角色会变得怎样",
+      "failedCase-sample"  : """例：死了还比较好的状况、
+绝对想要避免程度的痛苦""",
 
       'whoDo'             : '能看到怎样的意外性，',
       'otherReaction'     : '其他人如何反应',
@@ -3668,13 +3667,14 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'end'         : '如何推進故事',
 
       'whatHappen-sample'   : '是角色內心面的問題？ 還是物理性的障礙？',
-      "end-sample"  : """進展如何？ 問題是否已解決？""",
-      "endChar"  : "角色的情感或關係如何變化？",
+      "end-sample"  : """事件有朝著解決的方向發展嗎？""",
+      "endChar"  : "角色的感情或關係性如何變化",
 
-      "howDilemma"  : "會出現什麼樣的困境",
-      "howDilemma-sample"  : "終極兩種選擇，下注等",
-      "failedCase"  : "如果角色失敗，將會發生什麼？",
-      "failedCase-sample"  : """例：最好死的情況，您絕對希望避免的痛苦程度""",
+      "howDilemma"  : "出現了什麼樣的困境",
+      "howDilemma-sample"  : "究極二選一，孤注一擲等",
+      "failedCase"  : "如果失敗，角色會變得怎樣",
+      "failedCase-sample"  : """例：死了還比較好的狀況、
+絕對想要避免程度的痛苦""",
 
       'whoDo'             : '能看到怎樣的意外性，',
       'otherReaction'     : '其他人如何反應',
@@ -3762,9 +3762,9 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'reading' : '读取中...',
 
       'modalTitle' : '设备更换用',
-      'beforeTime' : '该文件将在',
-      'afterTime'  : '秒内创建',
-      'failed'     : '这不是备份文件\n请选择正确的'
+      'beforeTime' : '文件将在',
+      'afterTime'  : '秒后创建',
+      'failed'     : '不是正确的备份文件\n请选择正确的备份文件'
     },
     LANGCODE_TW: {
       'write' : '資料輸出',
@@ -3775,9 +3775,9 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'reading' : '讀取中...',
 
       'modalTitle' : '裝置更換用',
-      'beforeTime' : '文件將在',
-      'afterTime'  : '秒鐘內創建',
-      'failed'     : '這不是備份文件\n請選擇正確的一個'
+      'beforeTime' : '檔案將在',
+      'afterTime'  : '秒後建立',
+      'failed'     : '不是正確的備份檔案\n請選擇正確的備份檔案'
     },
   },
   'sampleMemo' : {
@@ -3820,7 +3820,7 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'howtoUse'  : 'ストーリープロッターでできることが知りたい人は こちらをご覧ください',
     },
     LANGCODE_CH: {
-      'advice'  : "咨询",
+      'advice'  : "建议",
 
       'intro0'  : '从日常生活中制作出编织故事的丝线——素材吧！',
       'intro1'  : '角色在创作之中也是重要的要素之一',
@@ -3836,10 +3836,10 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'support4'  : '有兴趣，会留心的变故、事件又是怎样的呢？',
       'support5'  : '保持节奏多多充实你的素材本吧！',
 
-      'howtoUse'  : '如果你想知道 "故事织机" 可以做什么，请点击这里',
+      'howtoUse'  : '如果你想知道 "故事织机" 可以做什么，请看这里',
     },
     LANGCODE_TW: {
-      'advice'  : "諮詢",
+      'advice'  : "建議",
       
       'intro0'  : '從日常生活中製作出編織故事的絲線——素材吧！',
       'intro1'  : '角色在創作之中也是重要的要素之一',
@@ -3855,7 +3855,7 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'support4'  : '有興趣，會留心的變故、事件又是怎樣的呢？',
       'support5'  : '保持節奏多多充實你的素材本吧！',
 
-      'howtoUse'  : '如果您想知道 "故事織機" 可以做到，請單擊此處',
+      'howtoUse'  : '如果您想知道 "故事織機" 可以做什麼，請看這裡',
     },
   },
   'download' : {
@@ -3908,7 +3908,7 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'relation'    : '关系图',        
       'iosMessage'  : '请选择\'保存到文件\'',
 
-      'startdownload'  : '制作文件...',
+      'startdownload'  : '正生成文件...',
     },
     LANGCODE_TW: {
       'storyBefore' : '',
@@ -3925,7 +3925,7 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'relation'    : '關係圖',        
       'iosMessage'  : '請選擇\'儲存到檔案\'',
 
-      'startdownload'  : '正在建立檔案...',
+      'startdownload'  : '正生成檔案...',
     },
   },
   'deletedialog' : {
@@ -3946,19 +3946,19 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'yesDelete' : '削除',
     },
     LANGCODE_CH: {
-      'title'   : '移到垃圾箱？',
-      'yes'     : '扔了吧！',
-      'no'      : '不删除',
+      'title'   : '要移到垃圾箱吗？',
+      'yes'     : '删除！',
+      'no'      : '取消',
 
-      'titleDelete' : '你确定要删除它吗？',
-      'yesDelete' : '删减',
+      'titleDelete' : '你真的要删除它吗？',
+      'yesDelete' : '删除',
     },
     LANGCODE_TW: {
-      'title'   : '移至垃圾箱？',
-      'yes'     : '垃圾吧！',
-      'no'      : '不刪除',
+      'title'   : '要移到回收筒嗎？',
+      'yes'     : '刪除！',
+      'no'      : '取消',
 
-      'titleDelete' : '您真的要刪除它嗎？',
+      'titleDelete' : '你真的要刪除它嗎？',
       'yesDelete' : '刪除',
     },
   },
@@ -3989,12 +3989,12 @@ Pattern 2. The incident begins to move in an unexpected direction""",
     },
     LANGCODE_CH: {
       'title'         : '故事情节的长度变更',
-      'description'   : '减少长度的情况素材将与其他章结合',
+      'description'   : '若减少长度\n素材将与其他章节结合',
       'success'       : '改变长度',
     },
     LANGCODE_TW: {
       'title'         : '故事情節的長度變更',
-      'description'   : '減少長度的情況素材將與其他章節結合',
+      'description'   : '若減少長度\n素材將與其他章節結合',
       'success'       : '改變長度',
     },
   },
@@ -4023,7 +4023,7 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'yes'           : '完成'
     },
     LANGCODE_TW: {
-      'yes'           : '完成了'
+      'yes'           : '完成'
     },
   },
 
@@ -4057,14 +4057,14 @@ Pattern 2. The incident begins to move in an unexpected direction""",
       'ios'           : '「写真」に移動し\n「読み込み/書き込み」に\n変更してください',
     },
     LANGCODE_CH: {
-      'title'         : '为了能够做到这一点',
+      'title'         : '为了可以',
       'yes'           : '暂不',
       'open'          : '修改设置',
       'android'       : '需要您前往「储存空间」一列\n授予相应权限',
       'ios'           : '需要您前往「照片」一列\n将其变更为「读取/写入」',
     },
     LANGCODE_TW: {
-      'title'         : '有能力去',
+      'title'         : '为了可以',
       'yes'           : '暫不',
       'open'          : '修改設定',
       'android'       : '需要您前往「儲存空間」一列\n授予相應權限',
@@ -4279,30 +4279,30 @@ Thank you for your cooperation<br>
       
       "emailValidation"   : "请输入有效的电子邮件",
 
-      'resetModalTitle'   : '要初始化密码吗',
-      'resetModalSentenceForm' : '如果你做了 "联系开发商重置"，我们一经发现，就会立即处理\n这可能需要一些时间\n谢谢你的理解',
-      'resetModalSentenceMail' : '如果您没有收到邮件，请按 "联系开发商重置"\n\n但是，我们一经发现，就会尽快处理\n所以，可能需要一些时间\n谢谢你的理解',
-      'resetbyMail'       : '重发',
-      'resetbyDevMan'     : '联系开发商重置',
+      'resetModalTitle'   : '重置密码',
+      'resetModalSentenceForm' : '若选择 "联系开发者重置"，开发者注意到之后才会处理\n因此可能需要一段时间来处理\n请知悉。',
+      'resetModalSentenceMail' : '如果您没有收到邮件，请按 "联系开发者重置"\n\n但，开发者注意到之后才会处理\n因此可能需要一段时间来处理\n请知悉。',
+      'resetbyMail'       : '重置',
+      'resetbyDevMan'     : '联系开发者重置',
 
-      'emailTitle'        : '注册您的电子邮件地址，以便重发密码',
-      'emailDescription'  : '如果电子邮件地址是空白的，将在开发商注意到后尽快发出，这需要一些时间. ',
+      'emailTitle'        : '注册您的电子邮件地址，以便重置密码',
+      'emailDescription'  : '如果电子邮件地址是空白的，将在开发者注意到后才会发出，这需要一些时间。',
       'sendMail'          : '测试发送邮件',
       'emailAddress'      : '请输入您的电子邮件地址',
-      'emailCheckTitle'   : '检查您的电子邮件地址',
-      'emailCheckBody'    : '这将是一个从故事织机发送电子邮件的测试',
-      'emailConfirmTitle' : '您已被设置为重新发送密码的电子邮件地址',
-      'emailConfirmBody'  : '您已被设定为故事织机的补发密码的送货地址',
+      'emailCheckTitle'   : '请确认您的电子邮件地址',
+      'emailCheckBody'    : '<p>这是故事织机的电子邮件发送测试</p>',
+      'emailConfirmTitle' : '已设置重置密码用电子邮件地址',
+      'emailConfirmBody'  : '<p>已设定为故事织机重置密码的发送地址</p>',
 
-      'emailPasswordResetTitle' : '重新发出故事织机的密码',
+      'emailPasswordResetTitle' : '重置故事织机的密码',
       'emailPasswordResetBodyPre'   : '',
       'emailPasswordResetBodyPost'  : """
 <br>
-请注意，每个版本和日期都会更改密码<br>
+请注意，密码会随每个版本和日期而变化<br>
 <br>
-解锁密码后，请将密码改成自己在应用里面知道的密码<br>
+解锁密码后，请将密码改为确实能记得的密码<br>
 <br>
-如果不能，请您再联系我们<br>
+如果还是不行，请您再联系我们<br>
 <br>
 谢谢您的合作
 """,
@@ -4313,35 +4313,34 @@ Thank you for your cooperation<br>
       'delete'            : '刪除',
       'cancel'            : '取消',
 
-      "emailValidation"   : "請輸入有效電子郵件",
+      "emailValidation"   : "請輸入有效的電子郵件",
 
+      'resetModalTitle'   : '重置密碼',
+      'resetModalSentenceForm' : '若選擇 "聯絡開發者重置"，開發者注意到之後才會處理\n因此可能需要一段時間來處理\n請知悉。',
+      'resetModalSentenceMail' : '如果您沒有收到郵件，請按 "聯絡開發者重置"\n\n但，開發者注意到之後才會處理\n因此可能需要一段時間來處理\n請知悉。',
+      'resetbyMail'       : '重置',
+      'resetbyDevMan'     : '聯絡開發者重置',
 
-      'resetModalTitle'   : '要初始化密碼嗎',
-      'resetModalSentenceForm' : '如果您選擇 "與開發人員聯繫以重置" ，我們將在收到通知後立即處理我們\n這可能要花點時間\n謝謝您的諒解',
-      'resetModalSentenceMail' : '如果您沒有收到電子郵件，請按 "與開發人員聯繫以重置"\n\n但是，我們會在接到通知後立即處理\n因此，可能需要一些時間\n謝謝您的諒解',
-      'resetbyMail'       : '補發',
-      'resetbyDevMan'     : '與開發人員聯繫以重置',
+      'emailTitle'        : '註冊您的電子郵件地址，以便重置密碼',
+      'emailDescription'  : '如果電子郵件地址是空白的，將在開發者注意到後才會發出，這需要一些時間。',
+      'sendMail'          : '測試傳送郵件',
+      'emailAddress'      : '請輸入您的電子郵件地址',
+      'emailCheckTitle'   : '請確認您的電子郵件地址',
+      'emailCheckBody'    : '<p>這是故事織機的電子郵件傳送測試</p>',
+      'emailConfirmTitle' : '已設定重置密碼用電子郵件地址',
+      'emailConfirmBody'  : '<p>已設定為故事織機重置密碼的傳送地址</p>',
 
-      'emailTitle'        : '註冊您的電子郵件地址以重新發出密碼',
-      'emailDescription'  : '如果電子郵件地址為空，則會在開發人員注意到後立即發出，這將需要一些時間',
-      'sendMail'          : '測試發送電子郵件',
-      'emailAddress'      : '輸入你的電子郵箱地址',
-      'emailCheckTitle'   : '檢查您的電子郵件地址',
-      'emailCheckBody'    : '這將是從故事織機發送電子郵件的測試',
-      'emailConfirmTitle' : '您已設置為重新發出密碼的電子郵件地址',
-      'emailConfirmBody'  : '已將您設置為故事織機重新發行密碼的收貨地址',
-
-      'emailPasswordResetTitle' : '重新發出故事織機的密碼',
+      'emailPasswordResetTitle' : '重置故事織機的密碼',
       'emailPasswordResetBodyPre'   : '',
       'emailPasswordResetBodyPost'  : """
 <br>
-請注意，密碼隨每個版本升級和日期而變化<br>
+請注意，密碼會隨每個版本和日期而變化<br>
 <br>
-取消密碼後，請將其更改為您在應用程序內部知道的密碼<br>
+解鎖密碼後，請將密碼改為確實能記得的密碼<br>
 <br>
-如果不起作用，請再次與我們聯繫<br>
+如果還是不行，請您再聯絡我們<br>
 <br>
-謝謝
+謝謝您的合作
 """,
     },
   },  
@@ -4451,7 +4450,7 @@ Thank you for your cooperation<br>
       'loginOnlyDescription'  : 'サインイン情報が切れました\n再度サインインしてください',
     },
     LANGCODE_CH: {
-      'login'       : '同步多个设备上的数据并进行备份',
+      'login'       : '于复数设备同步数据与备份',
       'pageTitle'   : '于复数设备同步数据',
       'pageTitleLogout'   : '注销',
       'pageCaution' : '以同一账号登录即可同步数据',
@@ -4464,7 +4463,7 @@ Thank you for your cooperation<br>
       'logout'      : '注销',
       'cancel'      : '取消',
       'paymentCaution' : '月费USD \$3.5/月即可使用\n（实际收取货币与价格依商店区域而不同）\n(初次使用一周内免费)',
-      'paymentDetail'  : '收费的理由',
+      'paymentDetail'  : '收费的原因',
 
       'writing'     : '(正在其他设备里执笔)',
 
@@ -4472,9 +4471,9 @@ Thank you for your cooperation<br>
 
       'continueUse'      : '继续续费使用',
       'continueUseNot'   : '不续费使用',
-      'checkRequest'     : '要求调查采购缺陷',
+      'checkRequest'     : '购买异常的调查请求',
 
-      'cancelTitle' : '要取停止据同步吗？',
+      'cancelTitle' : '要停止数据同步吗？',
       'cancelSentence'  : '不要忘记停止购买哦！',
       'cancelSentenceDetail'  : '操作步骤请看这里',
       'cancelYes'   : '停止同步',
@@ -4486,11 +4485,11 @@ Thank you for your cooperation<br>
       'uploadLoading'   : '文件上传中...',
       'cancelLoading'   : '文件下载中...',
       'processing'      : '进行中...',
-      'notClosePage1'   : '在不关闭应用的情况下',
-      'notClosePage2'   : '请保持开放',
-      'backupLoading1'  : '建立备份数据...',
-      'backupLoading2'        : '请保存文件，因为在将数据转移到云端时可能会出现问题.  !!',
-      'backupLoading2local'   : '请保存文件，因为在移动数据到本地时可能会出现问题.  !!',
+      'notClosePage1'   : '请保持打开',
+      'notClosePage2'   : '不要关闭应用',
+      'backupLoading1'  : '正创建备份文件...',
+      'backupLoading2'        : '请保存文件，因为在将数据转移到云端时可能会出现问题！',
+      'backupLoading2local'   : '请保存文件，因为在移动数据到本地时可能会出现问题！',
 
       'subscriptionAppendix' : '补充',
       'subscriptionPeriod' : '本功能的使用需要收取月费USD \$3.5/月\n（实际收取货币与价格依商店区域而不同）\n\n如需取消，请再次打开此画面，并选择\'注销\'',
@@ -4500,11 +4499,11 @@ Thank you for your cooperation<br>
       'iosAfterPurchase'            : '购买后可使用',
 
       'loginOnlyTitle'        : '登录',
-      'loginOnlyDescription'  : '我丢失了我的登录信息\n请重新登录',
+      'loginOnlyDescription'  : '登录信息过期\n请重新登录',
 
     },
     LANGCODE_TW: {
-      'login'       : '同步多台設備上的數據並備份',
+      'login'       : '於複數裝置同步資料並備份',
       'pageTitle'   : '於複數裝置同步資料',
       'pageTitleLogout'   : '登出',
       'pageCaution' : '以同一賬號登入即可同步資料',
@@ -4517,7 +4516,7 @@ Thank you for your cooperation<br>
       'logout'      : '登出',
       'cancel'      : '取消',
       'paymentCaution' : '月費USD \$3.5/月即可使用\n（實際收取貨幣與價格依商店區域而不同）\n(初次使用一週內免費)',
-      'paymentDetail'  : '收費的理由',
+      'paymentDetail'  : '收費的原因',
 
       'writing'     : '(正在其他裝置裡執筆)',
 
@@ -4525,7 +4524,7 @@ Thank you for your cooperation<br>
 
       'continueUse'      : '繼續續費使用',
       'continueUseNot'   : '不續費使用',
-      'checkRequest'     : '購買缺陷調查請求',
+      'checkRequest'     : '購買異常的調查請求',
 
       'cancelTitle' : '要停止資料同步嗎？',
       'cancelSentence'  : '不要忘記停止購買喔！',
@@ -4539,11 +4538,11 @@ Thank you for your cooperation<br>
       'uploadLoading'   : '檔案上傳中...',
       'cancelLoading'   : '檔案下載中...',
       'processing'      : '進行中...',
-      'notClosePage1'   : '無需關閉應用程序',
-      'notClosePage2'   : '請這樣打開',
-      'backupLoading1'  : '創建備份數據...',
-      'backupLoading2'        : '請保存文件，因為將數據移至雲時可能會出現問題 !!',
-      'backupLoading2local'   : '請保存文件，因為將數據移至本地時可能會出現問題 !!',
+      'notClosePage1'   : '請保持打開',
+      'notClosePage2'   : '不要關閉應用',
+      'backupLoading1'  : '正建立備份檔案...',
+      'backupLoading2'        : '請保存檔案，因為將資料移至雲端時可能會出現問題！',
+      'backupLoading2local'   : '請保存檔案，因為將資料移至本地時可能會出現問題！',
 
       'subscriptionAppendix' : '補充',
       'subscriptionPeriod' : '本功能的使用需要收取月費USD \$3.5/月\n（實際收取貨幣與價格依商店區域而不同）\n\n如需取消，請再次開啟此畫面，並選擇\'登出\'',
@@ -4552,8 +4551,8 @@ Thank you for your cooperation<br>
       'iosFirstPurchasedButtontext' : '恢復購買狀態',
       'iosAfterPurchase'            : '購買後可用',
 
-      'loginOnlyTitle'        : '登錄',
-      'loginOnlyDescription'  : '登錄信息已過期\n請重新登錄',
+      'loginOnlyTitle'        : '登入',
+      'loginOnlyDescription'  : '登入信息過期\n請重新登入',
     },
   },
   'tagArrowColor' : {
@@ -4729,146 +4728,148 @@ As you can see, it's stored as an unknown state''',
 見てわかるように、何がなんだがわからない状態として保存されています''',
     },
     LANGCODE_CH: {
-      'title'           : '支付的原因',
+      'title'           : '收费的原因',
       'reason'          : '''
-这主要有两个原因. 
+主要有两个原因
 
-1. 在使用该功能的技术中，使用的是现收现付功能. 
-2. 为本应用的持续、集中开发创造一个环境. 
+1. 实现这个功能的技术中，用到了按用量收费的功能
+2. 为了创造一个能持续、集中开发本应用的环境
 
-我将逐一写出详细的内容. 
+接下来会逐一详细说明
 
-有些人还担心把自己的数据放到云端，让大家都能看到. 
-我想在最后解释一下. 
+还有可能会有些人担心，自己的数据上传云端会让其他人都能看到 
+这点我会在最后说明 
 
 ----
 
-1. 在使用该功能的技术中，使用的是现收现付功能. 
+1. 实现这个功能的技术中，用到了按用量收费的功能. 
 
-为了实现终端之间的数据同步
+为了实现设备之间的数据同步，必需：
 - 在云端存储和管理您的数据
-- 当数据更新时，更新通知会发送到不同设备上的所有设备上. 
-这就是主要成本的来源. 
+- 若数据更新，在其他设备中将更新通知发送到所有设备上
+也是主要在这里产生费用
 
-直到现在，一切都在终端，所以没有任何成本. 
-这个功能使得操作端数据管理的成本更高了. 
+至今为止，一切都在设备中进行处理，所以并没有产生费用
+而由于此功能，数据交由服务商进行管理，因此产生了费用
 
 ----
 
-2. 为本应用的持续、集中开发创造一个环境. 
+2. 为了创造一个能持续、集中开发本应用的环境 
 
-这是我个人的故事，但由于各种原因，我目前没有工作，专注于这个APP的开发. 
+虽然是私人问题，但由于各种原因，我目前没有工作，专注于这个APP的开发
 
-可以选择工作，但那只能让我在周末的时候发展，这样会拖慢我的发展速度. 
+虽然也能选择上班，但这样一来我只能在周末的时候开发，开发速度会大幅降低 
 
-我和下一个人一样喜欢这款APP，希望能专注于支持你的创新事业!
+我个人也是非常喜欢这个APP，也希望能尽量专注于支持大家的创作活动
 
-我曾想过用 "广告 "的方式让其付费，但我避而不谈，因为在你意识到 "展示广告 "的那一刻，"支持创作 "的意义就崩溃了. 
+虽然想过以 "广告" 的方式实现收费，但因为在意识到 "让你看广告" 的那一刻 "支持创作" 的意义就崩溃了，所以我没有这么做
 
-因此
-- 一个不会给你带来负担的金额
-- 这就是我的生存之道. 
-我们将价格定为
+为此，我以
+- 在不会造成各位的负担的范围内的金额
+- 大约足够支撑我生活的金额
+作为定价的标准
 
 -----
 
 总结
 
-- 维护功能本身是有成本的. 
-- 的钱，你买不起. 
-所以才会变成这样. 
+由于
+- 维持功能本身需要成本
+- 不超出各位负担范围的金额
+这样的理由，而采用了这样的形式
 
-感谢您阅读此文!
+虽文笔拙劣，但仍感谢您的阅读
 
-如果您有任何疑问，请通过 "改进/请求 "栏目与我们联系. 
+如果您有任何疑问，请通过 "改进意见/建议" 与我们联系
 
-感谢您一直以来对该应用的支持. 
+今后也请您多多支持 
 
 
 ----
 
-关于将您的数据放在云端的担忧
+关于将您的数据上传到云端的担忧
 
-数据的保护方法如下
-原则上，只有数据的创造者才能访问它. 
-数据的处理，让人看不清、看不懂. 
+数据采用以下的方法进行保护
+1. 原则上能够访问的只有数据的制作者
+2. 由于数据进行过处理，即使被看到也没法看懂
 
-原则上说，这是因为未来有能力分担
-但是，除非你允许用户分享，否则你将无法访问它. 
+之说以说是原则上，是因为未来会有分享的功能
+然而，除非用户允许分享，否则仍是无法访问
 
-有关数据处理的更多信息，请看下面的图片. 
-如你所见，它是以不知道是什么的状态存储的''',
+关于数据的处理，请看以下图片
+如你所见，它是以看不懂是什么的状态存储的''',
     },
     LANGCODE_TW: {
       'title'           : '付款原因',
       'reason'          : '''
-有兩個主要原因
+主要有兩個原因
 
-1.使用此功能的技術使用按使用付費功能
-2.為持續不斷地開發此應用程序準備一個環境
+1. 實現這個功能的技術中，用到了按用量收費的功能
+2. 為了創造一個能持續、集中開發本應用的環境
 
-我將詳細介紹每個
+接下來會逐一詳細說明
 
-另外，我認為有些人擔心通過將數據上傳到雲，每個人都可以看到它. 
-我想最後解釋一下
-
-----
-
-1.使用此功能的技術使用按使用付費功能
-
-在設備之間同步數據
--在雲中存儲和管理數據
--當數據被更新時，更新通知被發送到所有終端到另一個終端
-是需要的，主要是這裡的成本
-
-實際上，一切都在終端中，因此沒有成本
-此功能使在操作端管理數據變得昂貴
+還有可能會有些人擔心，自己的資料上傳雲端會讓其他人都能看到 
+這點我會在最後說明 
 
 ----
 
-2.為持續不斷地開發此應用程序準備一個環境
+1. 實現這個功能的技術中，用到了按用量收費的功能. 
 
-這是我的個人故事，但是由於種種原因，我目前不在工作，而是專注於此應用程序的開發. 
+為了實現裝置之間的資料同步，必需：
+- 在雲端儲存和管理您的資料
+- 若資料更新，在其他裝置中將更新通知傳送到所有裝置上
+也是主要在這裡產生費用
 
-還有一個工作選項，但在這種情況下，只能在星期六和星期日進行開發，並且開發速度會急劇下降. 
+至今為止，一切都在裝置中進行處理，所以並沒有產生費用
+而由於此功能，資料交由服務商進行管理，因此產生了費用
 
-我非常喜歡這個應用程序，希望我可以專注於支持您的創意活動. 
+----
 
-我也考慮過“廣告”作為一種付款方式，但是我避免了，因為當我意識到“展示廣告”時，“支持創作”的含義就消失了. 
+2. 為了創造一個能持續、集中開發本應用的環境 
 
-是因為，
--不負擔所有人的金額
--我可以住的錢
-結果，我們設定了價格
+雖然是私人問題，但由於各種原因，我目前沒有工作，專注於這個APP的開發
+
+雖然也能選擇上班，但這樣一來我只能在週末的時候開發，開發速度會大幅降低 
+
+我個人也是非常喜歡這個APP，也希望能儘量專注於支援大家的創作活動
+
+雖然想過以 "廣告" 的方式實現收費，但因為在意識到 "讓你看廣告" 的那一刻 "支援創作" 的意義就崩潰了，所以我沒有這麼做
+
+為此，我以
+- 在不會造成各位的負擔的範圍內的金額
+- 大約足夠支撐我生活的金額
+作為定價的標準
 
 -----
 
-摘要
+總結
 
--維護功能本身會產生成本
--每個人的錢不合理
-因此，它變成這樣
+由於
+- 維持功能本身需要成本
+- 不超出各位負擔範圍的金額
+這樣的理由，而採用了這樣的形式
 
-文字不佳，但謝謝您的閱讀
+雖文筆拙劣，但仍感謝您的閱讀
 
-如有任何疑問，請隨時通過“改進/要求”與我們聯繫. 
+如果您有任何疑問，請通過 "改進意見/建議" 與我們聯絡
 
-感謝您今後的支持. 
+今後也請您多多支援 
 
 
 ----
 
-有關將數據提交到雲的擔憂
+關於將您的資料上傳到雲端的擔憂
 
-數據受以下方法保護
-1.原則上，只有數據創建者可以訪問
-2.我正在處理數據，因此處於我看不見的狀態
+資料採用以下的方法進行保護
+1. 原則上能夠存取的只有資料的製作者
+2. 由於資料進行過處理，即使被看到也沒法看懂
 
-原則上，原因是因為將來可以完成共享功能. 
-但是，除非用戶允許共享，否則將無法訪問. 
+之說以說是原則上，是因為未來會有分享的功能
+然而，除非使用者允許分享，否則仍是無法存取
 
-參見下圖進行數據處理
-如您所見，它以未知狀態存儲''',
+關於資料的處理，請看以下圖片
+如你所見，它是以看不懂是什麼的狀態儲存的''',
     },    
   },
   'checkUploadedData' : {
@@ -4885,16 +4886,16 @@ As you can see, it's stored as an unknown state''',
       'cancel'          : 'しない',
     },
     LANGCODE_CH: {
-      'title'           : '数据已经上传了',
-      'sentence'        : '你是否也想把你手头的数据上传到手头？',
+      'title'           : '数据已上传',
+      'sentence'        : '是否要将当前本地数据上传？',
       'yes'             : '上传',
-      'cancel'          : '不',
+      'cancel'          : '取消',
     },
     LANGCODE_TW: {
       'title'           : '數據已上傳',
-      'sentence'        : '您是否要上傳已有的數據？',
-      'yes'             : '上載',
-      'cancel'          : '不要做',
+      'sentence'        : '是否要將當前本地資料上傳？',
+      'yes'             : '上傳',
+      'cancel'          : '取消',
     },
   },
   'okdialog' : {
@@ -4959,22 +4960,22 @@ As you can see, it's stored as an unknown state''',
       'link'  : '詳細手順',
     },
     LANGCODE_CH: {
-      'title'      : '购买过程中的错误',
-      'androidSentence'   : '1.\n来自Google Play Store上的 "订阅"\n\n2.\n选择 "故事织机"，然后点击\n\n3.\n取消正常购买并\n\n4.\n请再次按下APP的登录按钮',
-      'iosSentence'       : '1. \n在 "设置 "应用中点选你的名字\n\n2.\n点选 "订阅"\n\n3.\n在故事织机中选择 "取消订阅"，然后点击\n\n4.\n请再次按下APP的登录按钮\n\n',
+      'title'      : '发生购买错误',
+      'androidSentence'   : '1.\n请从Google Play Store上的 "订阅"\n\n2.\n选择 "故事织机"\n\n3.\n点击"取消订阅"\n\n4.\n然后再次按下APP的登录按钮',
+      'iosSentence'       : '1. \n请在 "设置 "应用中点选你的名字\n\n2.\n点选 "订阅"\n\n3.\n在故事织机中选择 "取消订阅"\n\n4.\n然后再次按下APP的登录按钮\n\n',
       'androidLink'       : 'https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=zh-Hans',
       'iosLink'           : 'https://support.apple.com/zh-cn/HT202039#iOS',
-      'ok'    : '证实',
-      'link'  : '详细程序',
+      'ok'    : '确认',
+      'link'  : '详细步骤',
     },
     LANGCODE_TW: {
-      'title'      : '購買程序錯誤',
-      'androidSentence'   : '1.\n來自Google Play商店的"訂閱"\n\n2.\n選擇"故事織機"\n\n3.\n"取消訂閱"\n\n4.\n再次按應用程序登錄按鈕',
-      'iosSentence'       : '1.\n在"設置"應用中點擊您的名字\n\n2.\n點擊"訂閱"\n\n3.\n在故事織機中執行"取消訂閱"\n\n4.\n再次按應用程序登錄按鈕',
+      'title'      : '發生購買錯誤',
+      'androidSentence'   : '1.\n請從Google Play Store上的 "訂閱"\n\n2.\n選擇 "故事織機"\n\n3.\n點選"取消訂閱"\n\n4.\n然後再次按下APP的登入按鈕',
+      'iosSentence'       : '1. \n請在 "設定 "應用中點選你的名字\n\n2.\n點選 "訂閱"\n\n3.\n在故事織機中選擇 "取消訂閱"\n\n4.\n然後再次按下APP的登入按鈕\n\n',
       'androidLink'       : 'https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=zh-Hant',
       'iosLink'           : 'https://support.apple.com/zh-tw/HT202039#iOS',
-      'ok'    : '確認書',
-      'link'  : '詳細程序',
+      'ok'    : '確認',
+      'link'  : '詳細步驟',
     },
   },
   'connectWifi' : {
@@ -4987,12 +4988,12 @@ As you can see, it's stored as an unknown state''',
       'notConnection'   : 'ネットに繋がっていないため、データ同期がされません\nネットに繋がり次第、同期されます',
     },
     LANGCODE_CH: {
-      'cannotUse'       : '请在连接到互联网后才能使用此功能. ',
-      'notConnection'   : '由于没有连接到互联网，所以数据没有同步\n一旦上线，就会同步',
+      'cannotUse'       : '请在连接到互联网后再使用此功能',
+      'notConnection'   : '由于没有连接到互联网，所以数据没有同步\n一旦连上网路，就会进行同步',
     },
     LANGCODE_TW: {
-      'cannotUse'       : '連接到互聯網後，請使用此功能',
-      'notConnection'   : '數據未同步，因為您未連接到互聯網\n一旦連接到網絡，它將被同步',
+      'cannotUse'       : '請在連線到網際網路後再使用此功能',
+      'notConnection'   : '由於沒有連線到網際網路，所以資料沒有同步\n一旦連上網路，就會进行同步',
     },
   },
   'memolistSetting' : {
@@ -5062,11 +5063,11 @@ As you can see, it's stored as an unknown state''',
       MEMO_SORT_USED      : '已使用顺序',
       MEMO_SORT_TAG       : '标签顺序',
 
-      "deleteDirectionTitle" : "删除提示的方向",
-      IDEA_DELETE_DIRECTION_BOTH : "双向的",
+      "deleteDirectionTitle" : "删除情节的方向",
+      IDEA_DELETE_DIRECTION_BOTH : "双向",
       IDEA_DELETE_DIRECTION_LEFT_TO_RIGHT : "从左到右",
       IDEA_DELETE_DIRECTION_RIGHT_TO_LEFT : "从右到左",
-      IDEA_DELETE_DIRECTION_NONE : "没有",
+      IDEA_DELETE_DIRECTION_NONE : "无",
 
     },
     LANGCODE_TW: {
@@ -5087,11 +5088,11 @@ As you can see, it's stored as an unknown state''',
       MEMO_SORT_USED      : '已使用順序',
       MEMO_SORT_TAG       : '標籤順序',
 
-      "deleteDirectionTitle" : "刪除提示的方向",
-      IDEA_DELETE_DIRECTION_BOTH : "雙向的",
+      "deleteDirectionTitle" : "刪除情節的方向",
+      IDEA_DELETE_DIRECTION_BOTH : "雙向",
       IDEA_DELETE_DIRECTION_LEFT_TO_RIGHT : "從左到右",
       IDEA_DELETE_DIRECTION_RIGHT_TO_LEFT : "從右到左",
-      IDEA_DELETE_DIRECTION_NONE : "沒有",
+      IDEA_DELETE_DIRECTION_NONE : "無",
 
     },
   },
@@ -5140,9 +5141,9 @@ As you can see, it's stored as an unknown state''',
 
       PLOT_SORT_TAG       : '标签顺序',
 
-      "wordShowTitle"     : "字符显示",
-      PLOT_WORDSHOW       : '情节中',
-      PLOT_STORYWORDSHOW  : '写字时',
+      "wordShowTitle"     : "字数显示",
+      PLOT_WORDSHOW       : '显示故事情节时',
+      PLOT_STORYWORDSHOW  : '写故事时',
     },
     LANGCODE_TW: {
       'title' : '故事情節的顯示設定',
@@ -5156,9 +5157,9 @@ As you can see, it's stored as an unknown state''',
 
       PLOT_SORT_TAG       : '標籤順序',
 
-      "wordShowTitle"     : "字符顯示",
-      PLOT_WORDSHOW       : '情節時',
-      PLOT_STORYWORDSHOW  : '書寫時',
+      "wordShowTitle"     : "字數顯示",
+      PLOT_WORDSHOW       : '顯示故事情節時',
+      PLOT_STORYWORDSHOW  : '寫故事時',
     },
   },
   'freeInput' : {
@@ -5304,18 +5305,18 @@ As you can see, it's stored as an unknown state''',
 
     },
     LANGCODE_CH: {
-      "title"   : "垃圾桶",
+      "title"   : "垃圾箱",
       "type"    : "类型",
       "folder"  : "文件夹",
-      "deleteDateBefore" : "在 ",
-      "deleteDateAfter"  : " 时被毁",
+      "deleteDateBefore" : "删除于 ",
+      "deleteDateAfter"  : "",
 
-      "deleteDialogTooltip" : "所有数据被删除",
-      "deleteDialogTitle" : "删除所有垃圾数据",
-      "empty" : "没有什么是垃圾",
-      "empty2" : "如果你毁掉一些东西，数据就会到这里来. ",
+      "deleteDialogTooltip" : "删除所有数据",
+      "deleteDialogTitle" : "删除所有垃圾箱数据",
+      "empty" : "垃圾箱空空如也",
+      "empty2" : "若将内容移至垃圾箱，这里就会显示数据",
 
-      "plotname" : "故事名称 : ",
+      "plotname" : "情节名称 : ",
 
       "revival" : "撤销",
       "type_category" : "按类型",
@@ -5326,11 +5327,11 @@ As you can see, it's stored as an unknown state''',
       "char"  : "角色",
       "relationShip" : "关系性",
       "relationShipDetail" : "角色的关系图",
-      "unit"    : "章节",
-      "card"    : "故事",
-      "scene"   : "景象",
+      "unit"    : "章",
+      "card"    : "节",
+      "scene"   : "镜头",
       "cut"     : "行动",
-      "dialog"  : "对话",
+      "dialog"  : "台词",
 
       "today"     : "今天",
       "yesterday" : "昨天",
@@ -5342,30 +5343,30 @@ As you can see, it's stored as an unknown state''',
       "lastweek"  : "上周",
       "twoweeks"    : "前一周",
       "threeweeks"  : "三周前",
-      "lastmonth"   : "上月",
+      "lastmonth"   : "上个月",
       "twomonth"    : "前一个月",
       "threemonth"  : "三个月前",
       "past"        : "在此之前",
 
-      "deleteMessage"  : "清理垃圾"
+      "deleteMessage"  : "清空垃圾箱"
 
     },
     LANGCODE_TW: {
-      "title"   : "垃圾桶",
+      "title"   : "回收筒",
       "type"    : "類型",
       "folder"  : "資料夾",
-      "deleteDateBefore" : "浪費在 ",
+      "deleteDateBefore" : "刪除於 ",
       "deleteDateAfter"  : "",
 
-      "deleteDialogTooltip" : "刪除所有數據",
-      "deleteDialogTitle" : "刪除所有垃圾數據",
-      "empty" : "沒什麼是垃圾",
-      "empty2" : "如果您丟了東西，數據將來到這裡",
+      "deleteDialogTooltip" : "刪除所有資料",
+      "deleteDialogTitle" : "刪除所有回收筒資料",
+      "empty" : "回收筒空空如也",
+      "empty2" : "若將內容移至回收筒，這裡就會顯示資料",
 
-      "plotname" : "故事情節 : ",
+      "plotname" : "情節名稱 : ",
 
-      "revival" : "撤消",
-      "type_category" : "按類型",
+      "revival" : "撤銷",
+      "type_category" : "按型別",
       "date_category" : "按日期",
 
       "memo"  : "素材",
@@ -5373,28 +5374,28 @@ As you can see, it's stored as an unknown state''',
       "char"  : "角色",
       "relationShip" : "關係性",
       "relationShipDetail" : "角色的關係圖",
-      "unit"    : "章節",
-      "card"    : "故事",
-      "scene"   : "場面",
-      "cut"     : "行為",
-      "dialog"  : "對話",
+      "unit"    : "章",
+      "card"    : "節",
+      "scene"   : "鏡頭",
+      "cut"     : "行動",
+      "dialog"  : "臺詞",
 
-      "today"     : "今天", 
-      "yesterday" : "昨天", 
-      "twodays"   : "兩天前", 
+      "today"     : "今天",
+      "yesterday" : "昨天",
+      "twodays"   : "兩天前",
       "threedays" : "三天前",
-      "fourdays"  : "四天前", 
+      "fourdays"  : "四天前",
       "fivedays"  : "五天前",
       "sixdays"   : "六天前",
-      "lastweek"  : "上個星期", 
-      "twoweeks"  : "前一周", 
-      "threeweeks": "三個星期前",
-      "lastmonth" : "上個月", 
-      "twomonth"  : "前一個月",
-      "threemonth" : "三個月前",
-      "past"      : "在那之前",
+      "lastweek"  : "上週",
+      "twoweeks"    : "前一週",
+      "threeweeks"  : "三週前",
+      "lastmonth"   : "上個月",
+      "twomonth"    : "前一個月",
+      "threemonth"  : "三個月前",
+      "past"        : "在此之前",
 
-      "deleteMessage"  : "清理垃圾"
+      "deleteMessage"  : "清空回收筒"
     },
   },  
   'lp' : {
@@ -5451,54 +5452,54 @@ As you can see, it's stored as an unknown state''',
       'optionToolTip'   : "オプション",
     },
     LANGCODE_CH: {
-      'smartphoneTitle' : '智能手机',
-      "guidanceTitle"   : '如果您使用的是智能手机，请使用以下APP',
-      'message1' : '创造是很难的，不是吗？',
-      'message2' : '当你发展你的想法时... 计算故事的流程... 思考人物... 并把你的情感放在他们身上...',
-      'message3' : '我有很多事情要想',
-      'message4' : '故事织机可以帮助你解决你的创作负担',
-      'message5' : '请利用它!',
-      'point'    : '點',
+      'smartphoneTitle' : '智能手机请看这里',
+      "guidanceTitle"   : '如果您使用的是智能手机，请使用APP',
+      'message1' : '创作是很难的呀',
+      'message2' : '边缓缓充实素材... 边计算叙事的节奏... 边思考角色... 边将情感倾注在他们身上...',
+      'message3' : '要考虑的事情实在是太多了',
+      'message4' : '故事织机可以帮助你降低创作的负担',
+      'message5' : '请务必好好活用！',
+      'point'    : '要点',
       'pointafter'    : '',
 
-      'support_1_title' : '功能丰富的创意书',
-      'support_1_1'    : '您可以进行颜色、标签、分类和搜索',
-      'support_1_2'    : '积累你的好故事，并把它们用在你的剧情中!',
+      'support_1_title' : '功能丰富的素材本',
+      'support_1_1'    : '可以进行添加颜色、添加标签、文件夹分类和搜索',
+      'support_1_2'    : '积累好素材，并把它们用在你的故事情节吧',
 
-      'support_2_title' : '对于一个耐人寻味的情节',
-      'support_2_1'     : '支持从一个想法发展一个故事',
-      'support_2_2'     : '预测分钟数的能力使其能够轻松地保持一个伟大的故事流',
-      'support_2_3'     : '支持各种地块长度',
+      'support_2_title' : '为了打造充满魅力的故事情节',
+      'support_2_1'     : '辅助你从素材蜕变为故事',
+      'support_2_2'     : '分量预测的功能让你更容易控制叙事的节奏',
+      'support_2_3'     : '支持各种故事情节长度',
 
-      'support_3_title' : '挖掘环境',
-      'support_3_1'     : '超过100个字符设置',
-      'support_3_2'     : '相关图，也可设置组别',
+      'support_3_title' : '深耕设定',
+      'support_3_1'     : '100个以上的角色设定项目',
+      'support_3_2'     : '可以设定组别的相关图',
 
       'optionToolTip'   : "选项",
     },
     LANGCODE_TW: {
-      'smartphoneTitle' : '對於智能手機',
-      "guidanceTitle"   : '對於智能手機，請使用該應用',
-      'message1' : '很難創造',
-      'message2' : '在充實想法，計算故事流，思考角色，散發情感時',
-      'message3' : '我有很多事情要考慮',
-      'message4' : '故事織機支持創造的負擔',
-      'message5' : '請千方百計',
-      'point'       : '第',
-      'pointafter'  : '点',
+      'smartphoneTitle' : '智慧手機請看這裡',
+      "guidanceTitle"   : '如果您使用的是智慧手機，請使用APP',
+      'message1' : '創作是很難的呀',
+      'message2' : '邊緩緩充實素材... 邊計算敘事的節奏... 邊思考角色... 邊將情感傾注在他們身上...',
+      'message3' : '要考慮的事情實在是太多了',
+      'message4' : '故事織機可以幫助你降低創作的負擔',
+      'message5' : '請務必好好活用！',
+      'point'    : '要點',
+      'pointafter'    : '',
 
-      'support_1_title' : '功能豐富的創意書',
-      'support_1_1'    : '您可以為文件夾上色，標記，分類和搜索',
-      'support_1_2'    : '收集您的精彩材料並在您的情節中使用它',
+      'support_1_title' : '功能豐富的素材本',
+      'support_1_1'    : '可以進行新增顏色、新增標籤、資料夾分類和搜尋',
+      'support_1_2'    : '積累好素材，並把它們用在你的故事情節吧',
 
-      'support_2_title' : '對於有吸引力的地塊',
-      'support_2_1'     : '支持從想法擴展到故事',
-      'support_2_2'     : '預測音量可輕鬆維持出色的故事流',
-      'support_2_3'     : '支持各種繪圖長度',
+      'support_2_title' : '為了打造充滿魅力的故事情節',
+      'support_2_1'     : '輔助你從素材蛻變為故事',
+      'support_2_2'     : '分量預測的功能讓你更容易控制敘事的節奏',
+      'support_2_3'     : '支援各種故事情節長度',
 
-      'support_3_title' : '深入研究設置',
-      'support_3_1'     : '超過100個字符設置項目',
-      'support_3_2'     : '也可以設置組的相關圖',
+      'support_3_title' : '深耕設定',
+      'support_3_1'     : '100個以上的角色設定項目',
+      'support_3_2'     : '可以設定組別的相關圖',
 
       'optionToolTip'   : "選項",
     },
@@ -5538,35 +5539,35 @@ As you can see, it's stored as an unknown state''',
     },
     LANGCODE_CH: {
       "weather"  : "天气",
-      "sunny"  : "晴朗的天空",
-      "cloudy"  : "多云的天空",
-      "smock"  : "烟和雾",
+      "sunny"  : "晴天",
+      "cloudy"  : "多云",
+      "smock"  : "烟雾",
       "dust"  : "沙尘暴",
       "blizzard"  : "暴风雪",
-      "fog"  : "多雾路段",
+      "fog"  : "起雾",
       "drizzle"  : "细雨",
-      "rain"  : "雨",
-      "sleet"  : "霰",
-      "snow"  : "雪",
-      "hail"  : "冰雹",
-      "thunder"  : "雷",
-      "none"  : "没有",
+      "rain"  : "下雨",
+      "sleet"  : "雨夹雪",
+      "snow"  : "下雪",
+      "hail"  : "下冰雹",
+      "thunder"  : "打雷",
+      "none"  : "无",
     },
     LANGCODE_TW: {
       "weather"  : "天氣",
-      "sunny"  : "晴朗的天空",
-      "cloudy"  : "多雲的天空",
-      "smock"  : "煙和霧",
+      "sunny"  : "晴天",
+      "cloudy"  : "多雲",
+      "smock"  : "煙霧",
       "dust"  : "沙塵暴",
       "blizzard"  : "暴風雪",
-      "fog"  : "多霧路段",
+      "fog"  : "起霧",
       "drizzle"  : "細雨",
-      "rain"  : "雨",
-      "sleet"  : "霰",
-      "snow"  : "雪",
-      "hail"  : "冰雹",
-      "thunder"  : "雷",
-      "none"  : "沒有",
+      "rain"  : "下雨",
+      "sleet"  : "雨夾雪",
+      "snow"  : "下雪",
+      "hail"  : "下冰雹",
+      "thunder"  : "打雷",
+      "none"  : "無",
     },
   },
 };
