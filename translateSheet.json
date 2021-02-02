@@ -1,0 +1,5572 @@
+const Map<String, Map<String, Map<String, String>>> localizedValues = {
+  'top' : {
+    LANGCODE_EN: {
+      'title' : 'Story Plotter',
+      'memo'  : 'Idea Note',
+      'plot'  : 'Plot Note',
+    },
+    LANGCODE_JA: {
+      'title' : 'ストーリー プロッター',
+      'memo'  : 'ネタ帳',
+      'plot'  : 'プロット帳',
+    },
+    LANGCODE_CH: {
+      'title' : '故事织机',
+      'memo'  : '素材本',
+      'plot'  : '剧作本',
+    },
+    LANGCODE_TW: {
+      'title' : '故事織機',
+      'memo'  : '素材本',
+      'plot'  : '劇作本',
+    },
+  },
+  
+  // こっちがタイトル表示
+  'memoSort': {
+    LANGCODE_EN: {
+      MEMO_SORT_DATETIME  : 'Date Order',
+      MEMO_SORT_USED      : 'Use Order',
+      MEMO_SORT_TAG       : 'Tag Order',
+      MEMO_SORT_NEW       : 'Create Order',
+      MEMO_SORT_NAME      : 'Name Order',
+      MEMO_SORT_USERORDER : 'Free Order',
+    },
+    LANGCODE_JA: {
+      MEMO_SORT_DATETIME  : '期日順',
+      MEMO_SORT_USED      : '使用済順',
+      MEMO_SORT_TAG       : 'タグ順',
+      MEMO_SORT_NEW       : '作成順',
+      MEMO_SORT_NAME      : '名前順',
+      MEMO_SORT_USERORDER : '自由順',
+    },
+    LANGCODE_CH: {
+      MEMO_SORT_DATETIME  : '日期顺序',
+      MEMO_SORT_USED      : '已使用顺序',
+      MEMO_SORT_TAG       : '标签顺序',
+      MEMO_SORT_NEW       : '创建顺序',
+      MEMO_SORT_NAME      : '名字顺序',
+      MEMO_SORT_USERORDER : '自訂順序',
+    },
+    LANGCODE_TW: {
+      MEMO_SORT_DATETIME  : '日期順序',
+      MEMO_SORT_USED      : '已使用順序',
+      MEMO_SORT_TAG       : '標籤順序',
+      MEMO_SORT_NEW       : '創建順序',
+      MEMO_SORT_NAME      : '名字順序',
+      MEMO_SORT_USERORDER : '自由順序',
+    },
+  },
+
+  // こっちが選択
+  'memoSortShow': {
+    LANGCODE_EN: {
+      MEMO_SORT_DATETIME  : 'Date Order',
+      MEMO_SORT_USED      : 'Use Order',
+      MEMO_SORT_TAG       : 'Tag Order',
+      MEMO_SORT_NEW       : 'Create Order',
+      MEMO_SORT_NAME      : 'Name Order',
+      MEMO_SORT_USERORDER : 'Free Order',
+    },
+    LANGCODE_JA: {
+      MEMO_SORT_DATETIME  : '期日順',
+      MEMO_SORT_USED      : '使用済順',
+      MEMO_SORT_TAG       : 'タグ順',
+      MEMO_SORT_NEW       : '作成順',
+      MEMO_SORT_NAME      : '名前順',
+      MEMO_SORT_USERORDER : '自由順',
+    },
+    LANGCODE_CH: {
+      MEMO_SORT_DATETIME  : '日期顺序',
+      MEMO_SORT_USED      : '已使用顺序',
+      MEMO_SORT_TAG       : '标签顺序',
+      MEMO_SORT_NEW       : '创建顺序',
+      MEMO_SORT_NAME      : '名字顺序',
+      MEMO_SORT_USERORDER : '自由顺序',
+    },
+    LANGCODE_TW: {
+      MEMO_SORT_DATETIME  : '日期順序',
+      MEMO_SORT_USED      : '已使用順序',
+      MEMO_SORT_TAG       : '標籤順序',
+      MEMO_SORT_NEW       : '創建順序',
+      MEMO_SORT_NAME      : '名字順序',
+      MEMO_SORT_USERORDER : '自訂順序',
+    },
+  },  
+  // こっちがタイトル表示
+  'plotSort': {
+    LANGCODE_EN: {
+      PLOT_SORT_TAG       : 'Tag Order',
+      PLOT_SORT_NEW       : 'Create Order',
+      PLOT_SORT_NAME      : 'Name Order',
+      PLOT_SORT_USERORDER : 'Free Order',
+    },
+    LANGCODE_JA: {
+      PLOT_SORT_TAG       : 'タグ順',
+      PLOT_SORT_NEW       : '作成順',
+      PLOT_SORT_NAME      : '名前順',
+      PLOT_SORT_USERORDER : '自由順',
+    },
+    LANGCODE_CH: {
+      PLOT_SORT_TAG       : '标签顺序',
+      PLOT_SORT_NEW       : '创建顺序',
+      PLOT_SORT_NAME      : '名字顺序',
+      PLOT_SORT_USERORDER : '自由順序',
+    },
+    LANGCODE_TW: {
+      PLOT_SORT_TAG       : '標籤順序',
+      PLOT_SORT_NEW       : '創建順序',
+      PLOT_SORT_NAME      : '名字順序',
+      PLOT_SORT_USERORDER : '自訂順序',
+    },
+  },
+
+  // こっちが選択
+  'plotSortShow': {
+    LANGCODE_EN: {
+      PLOT_SORT_TAG       : 'Tag Order',
+      PLOT_SORT_NEW       : 'Create Order',
+      PLOT_SORT_NAME      : 'Name Order',
+      PLOT_SORT_USERORDER : 'Free Order',
+    },
+    LANGCODE_JA: {
+      PLOT_SORT_TAG       : 'タグ順',
+      PLOT_SORT_NEW       : '作成順',
+      PLOT_SORT_NAME      : '名前順',
+      PLOT_SORT_USERORDER : '自由順',
+    },
+    LANGCODE_CH: {
+      PLOT_SORT_TAG       : '标签顺序',
+      PLOT_SORT_NEW       : '创建顺序',
+      PLOT_SORT_NAME      : '名字顺序',
+      PLOT_SORT_USERORDER : '自由順序',
+    },
+    LANGCODE_TW: {
+      PLOT_SORT_TAG       : '標籤順序',
+      PLOT_SORT_NEW       : '創建順序',
+      PLOT_SORT_NAME      : '名字順序',
+      PLOT_SORT_USERORDER : '自訂順序',
+    },
+  },
+  'navigationWhenOpenAppMemoList': {
+    LANGCODE_EN: {
+      'slideMemo'     : 'swipe the idea to move it to the trash',
+      'changeMode'    : 'order can change from right top icon',
+      'searchWord'    : 'can search Idea from magnifying glass icon',
+      'tapTag'        : 'tap tag to search Idea with the same tag',
+      'folderCaution' : 'folder will be automatically deleted if it remains empty for more than 30 days',
+    },
+    LANGCODE_JA: {
+      'slideMemo'     : 'ネタをスワイプするとゴミ箱に移動できます',
+      'changeMode'    : '右上のアイコンから並び順を変えられます',
+      'searchWord'    : '検索アイコンからネタの検索ができます',
+      'tapTag'        : 'タグをタップすると 同じタグがついているネタを探せます',
+      'folderCaution' : 'フォルダが空っぽの状態が30日以上続くと自動削除されます',
+    },
+    LANGCODE_CH: {
+      'slideMemo'     : '您可以滑动一个主意以将其移至垃圾箱',
+      'changeMode'    : '可以通过右上方的图标改变排序',
+      'searchWord'    : '可以通过搜索图标搜索素材',
+      'tapTag'        : '点击标签，可以寻找附有相同标签的素材',
+      'folderCaution' : '如果该文件夹保持空白超过30天，它将被自动删除',
+    },
+    LANGCODE_TW: {
+      'slideMemo'     : '您可以滑動一個主意以將其移至垃圾箱',
+      'changeMode'    : '可以通過右上方的圖示改變排序',
+      'searchWord'    : '可以通過搜尋圖示搜尋素材',
+      'tapTag'        : '點選標籤，可以尋找附有相同標籤的素材',
+      'folderCaution' : '如果該文件夾保持空白超過30天，它將被自動刪除',
+    },
+  },
+  'navigationWhenOpenAppPlotList': {
+    LANGCODE_EN: {
+      'Indication'    : 'There are lines and percentages for reference, but they are only for reference\nIt\'s okay to ignore it',
+      'lensPlot'      : 'Can zoom in and out to see the Plot from different angles',
+      'otherUser'     : 'Enrich your characters, setting, and theme to deepen your plot!',
+      'information'   : '? button to see a few tips',
+      'download'      : 'Download button allows you to retrieve the data as a file',
+      'savePage'      : 'all page save automatically',
+      'cautionHide'   : 'You can also hide the "too long~" text by default\nUse the menu from upper left corner to set this option',
+    },
+    LANGCODE_JA: {
+      'Indication'    : '目安となる線やパーセントが出ますが、あくまでも目安です\n無視しても大丈夫です',
+      'lensPlot'      : '拡大縮小して、いろんな角度からプロットを見れます',
+      'otherUser'     : 'キャラ、世界観、テーマを充実させて、プロットを深堀できます',
+      'information'   : '？ボタンで、ちょっとしたTipsが見れます',
+      'download'      : 'ダウンロードボタンでデータをファイルで取り出せます',
+      'savePage'      : 'すべてのページは自動的に保存されます',
+      'cautionHide'   : '「長すぎ～」という文言はデフォルトで非表示にもできます\n左上のメニューから設定を行ってください',
+    },
+    LANGCODE_CH: {
+      'Indication'    : '为了方便起见，会显示线条或是百分比\n但也仅是出于方便参考的目的，可以忽略',
+      'lensPlot'      : '通过放大缩小，能从各个角度查看你的故事情节',
+      'otherUser'     : '充实你的角色设定、世界观与主题，让你的故事情节更丰满',
+      'information'   : '通过？按钮能够查看相应的小提示',
+      'download'      : '通过下载按钮能将数据以文件形式取出',
+      'savePage'      : '所有页面都会被自动保存',
+      'cautionHide'   : '你也可以默认隐藏 "太长 ~" 的文字\n请在左上方的菜单中进行设置',
+    },
+    LANGCODE_TW: {
+      'Indication'    : '為了方便起見，會顯示線條或是百分比\n但也僅是出於方便參考的目的，可以忽略',
+      'lensPlot'      : '通過放大縮小，能從各個角度檢視你的故事情節',
+      'otherUser'     : '充實你的角色設定、世界觀與主題，讓你的故事情節更豐滿',
+      'information'   : '通過？按鈕能夠檢視相應的小提示',
+      'download'      : '通過下載按鈕能將資料以檔案形式取出',
+      'savePage'      : '所有頁面都會被自動儲存',
+      'cautionHide'   : '默認情況下，"太長~" 一詞可以隱藏\n請從左上方的菜單中進行設置',
+    },
+  },  
+  'memolist': {
+    LANGCODE_EN: {
+      'title'       : 'Idea Note',
+      'noneMemo'    : 'You don\'t have any ideas',
+      'addfrombutton'   : 'Add an idea using the button on the bottom right',
+      'addfrombuttonPc' : 'Add an idea using the text field on the top',
+      'preUsed'     : 'Used in plot : ',
+      'postUsed'    : '',
+      'search'      : 'Search',
+      'noneMemoFromSearch' : 'No idea caught on search',
+
+      'dateTillBeforeAbout'   : 'About ',
+      'dateTillAfterAbout'    : '',
+
+      'convertPlot'   : 'Create a Plot from an Idea',
+      'addIdea'       : 'Add Idea',
+
+      'wordCounter' : ' Words',
+
+      'deletedBar' : 'Moved to trash',
+      'deletedUndo' : 'Undo',
+    },
+    LANGCODE_JA: {
+      'title'       : 'ネタ帳',
+      'noneMemo'    : '選べるネタがありません',
+      'addfrombutton'     : '右下のボタンから ネタを追加してください',
+      'addfrombuttonPc'   : '上の欄から ネタを追加してください',
+      'preUsed'     : '',
+      'postUsed'    : ' で使用済み',
+      'search'      : '検索',
+      'noneMemoFromSearch' : '検索に何も引っかかりませんでした',
+
+      'dateTillBeforeAbout'    : '',
+      'dateTillAfterAbout'     : '頃',
+
+      'convertPlot'   : 'ネタからプロットを作る',
+      'addIdea'       : '新しいネタの追加',
+
+      'wordCounter' : ' 文字',
+
+      'deletedBar' : 'ゴミ箱に移動しました',
+      'deletedUndo' : '元に戻す',
+    },
+    LANGCODE_CH: {
+      'title'       : '素材本',
+      'noneMemo'    : '没有可选的素材',
+      'addfrombutton'     : '从右下方的按钮添加素材吧',
+      'addfrombuttonPc'   : '使用顶部的文本字段添加一个想法',
+
+      'preUsed'     : '已用于此故事情节：',
+      'postUsed'    : '',
+      'search'      : '搜索...',
+
+      'noneMemoFromSearch' : '我找不到任何素材',
+
+      'dateTillBeforeAbout'    : '',
+      'dateTillAfterAbout'     : '左右',
+
+      'convertPlot'   : '以素材制作故事情节',
+      'addIdea'       : ' 添加新素材',
+
+      'wordCounter' : ' 字',
+
+      'deletedBar'  : '搬到垃圾桶',
+      'deletedUndo' : '撤销',
+    },
+    LANGCODE_TW: {
+      'title'       : '素材本',
+      'noneMemo'    : '沒有可選的素材',
+      'addfrombutton'     : '從右下方的按鈕新增素材吧',
+      'addfrombuttonPc'   : '使用頂部的文本字段添加想法',
+
+      'preUsed'     : '已用於此故事情節：',
+      'postUsed'    : '',
+      'search'      : '搜尋...',
+
+      'noneMemoFromSearch' : '找不到素材',
+
+      'dateTillBeforeAbout'    : '',
+      'dateTillAfterAbout'     : '左右',
+
+      'convertPlot'   : '以素材製作故事情節',
+      'addIdea'       : ' 新增素材',
+
+      'wordCounter' : ' 字',
+
+      'deletedBar'  : '移到垃圾桶',
+      'deletedUndo' : '撤銷',
+
+    },
+  },
+
+  'plotlist' : {
+    LANGCODE_EN: {
+      'title'     : 'Plot',
+      'preTitle'  : 'Title : ',
+
+      'delete'    : 'Trash',
+      'copy'      : 'Duplicate',
+      'sequel'  : 'Write Sequel',
+
+      'sequelTitle'  : ' Sequel',
+
+      'download'  : 'Download',
+
+      'none'              : 'No Plot available',
+      'addFromButton'     : 'Add Plot from bottom right button',
+      'addFromButtonPc'   : 'Add Plot from top left button',
+
+      'length' : 'Length : ',
+
+      'preModalSentence' : 'this mode can',
+      'postModalSentence' : 'Story length',
+
+      'ok'    : 'Start writing',
+      'processing': 'processing',
+      'addPlot' : 'Add Plot',
+
+      'nonePlotFromSearch' : 'No plot caught on search',
+
+      'color'             : 'Plot Color : ',
+      'subTitle'          : 'Note',
+
+      'withCreateFolder'  : 'Create folders together'
+    },
+    LANGCODE_JA: {
+      'title' : 'プロット帳',
+      'preTitle' : '題名：',
+
+      'delete'    : '削除',
+      'download'  : 'ダウンロード',
+      'copy'      : '別名保存',
+      'sequel'    : '続編を書く',
+
+      'sequelTitle'  : 'の続編',
+
+      'none'              : 'プロットがありません',
+      'addFromButton'     : '右下のボタンから追加してください',
+      'addFromButtonPc'   : '左上のボタンから追加してください',
+
+      'length' : '長さ : ',
+
+      'preModalSentence' : 'このモードでは',
+      'postModalSentence' : 'の話ができます',
+      'ok'    : '書く',
+      'processing': '処理中',
+
+      'addPlot'   : 'プロットの追加',
+      'nonePlotFromSearch' : '検索に何も引っかかりませんでした',
+
+      'color'             : 'プロットの色 : ',
+      'subTitle'          : 'メモ',
+
+      'withCreateFolder'  : 'フォルダも一緒に作ってまとめる'
+    },
+    LANGCODE_CH: {
+      'title' : '情节',
+      'preTitle' : '标题：',
+
+      'delete'    : '垃圾桶',
+      'download'  : '下载',
+      'copy'      : '另存为',
+      'sequel'    : '写续篇',
+
+      'sequelTitle'  : '的续篇',
+
+      'none'              : '没有可用情节',
+      'addFromButton'     : '请用右下方按钮加入情节',
+      'addFromButtonPc'   : '请用左上方按钮加入情节',
+
+      'length' : '长度 : ',
+
+      'preModalSentence' : '这个模式里大约可制作',
+      'postModalSentence' : '长度的内容',
+      'ok'    : '开始写',
+      'processing': '进行中',
+
+      'addPlot'   : '添加新剧作本',
+      'nonePlotFromSearch' : '我找不到任何情节',
+
+      'color'             : '情节的颜色 : ',
+      'subTitle'          : '备注字',
+
+      'withCreateFolder'  : '一起创建文件夹'
+    },
+    LANGCODE_TW: {
+      'title' : '情節',
+      'preTitle' : '標題：',
+
+      'delete'    : '垃圾',
+      'download'  : '下載',
+      'copy'      : '另存為',
+      'sequel'    : '寫續篇',
+
+      'sequelTitle'  : '的續篇',
+
+      'none'              : '沒有可用情節',
+      'addFromButton'     : '請用右下方按鈕加入情節',
+      'addFromButtonPc'   : '請用左上方按鈕加入情節',
+
+      'length' : '長度 : ',
+
+      'preModalSentence' : '這個模式裡大約可製作',
+      'postModalSentence' : '長度的內容',
+      'ok'    : '開始寫',
+      'processing': '處理中',
+
+      'addPlot'   : '新增劇作本',
+      'nonePlotFromSearch' : '找不到情節',
+
+      'color'             : '情節顏色 : ',
+      'subTitle'          : '備註',
+
+      'withCreateFolder'  : '用它做一個文件夾'
+    },
+  },
+  'folder': {
+    LANGCODE_EN: {
+      'addFolder'     : 'Add Folder',
+      'addFolderTitle'     : 'Folder\'s Name',
+      'backToFolderTop'    : 'to parent',
+      'folderCurrent'      : 'Current : ',
+
+      'beforeSubtitle'      : '',
+      'afterMemoSubtitle'       : ' idea exists',
+      'afterPlotSubtitle'       : ' plot exists',
+
+      'sameFolderIsExist'   : 'This folder already exists',
+      'emptyFolderName'     : 'Please enter something in the folder name',
+
+      'deleteFolderCaution' : 'All ideas under the folder will be moved to trash box too',
+      'deletePlotFolderCaution' : 'All plots under the folder will be moved to trash box too',
+
+      'rename' : 'rename, move',
+    },
+    LANGCODE_JA: {
+      'addFolder'     : 'フォルダの追加',
+      'addFolderTitle'     : 'フォルダ名',
+      'backToFolderTop'    : '1つ上へ',
+      'folderCurrent'      : '現在 : ',
+
+      'beforeSubtitle'      : '',
+      'afterMemoSubtitle'       : '件のネタがあります',
+      'afterPlotSubtitle'       : '件のプロットがあります',
+
+      'sameFolderIsExist'   : 'すでにファイルが存在します',
+      'emptyFolderName'     : 'フォルダ名には何か入力してください',
+
+      'deleteFolderCaution' : 'フォルダの中にあるネタもゴミ箱に移動されます',
+      'deletePlotFolderCaution' : 'フォルダの中にあるプロットもゴミ箱に移動されます',
+
+      'rename' : '名前の変更, 移動',
+    },
+    LANGCODE_CH: {
+      'addFolder'     : '添加新文件夹',
+
+      'addFolderTitle'     : '文件夹名',
+      'backToFolderTop'    : '返回上一级',
+      'folderCurrent'      : '当前 : ',
+
+      'beforeSubtitle'      : '你现在拥有 ',
+      'afterMemoSubtitle'       : ' 件素材',
+      'afterPlotSubtitle'       : ' 件剧作',
+
+      'sameFolderIsExist'   : '文件夹已存在',
+      'emptyFolderName'     : '请输入文件夹的名字',
+
+      'deleteFolderCaution' : '文件夹中的素材也将被移到垃圾桶中',
+      'deletePlotFolderCaution' : '文件夹中的剧作也将被移到垃圾桶中',
+
+      'rename' : '重命名, 运动',
+    },
+    LANGCODE_TW: {
+      'addFolder'     : '新增資料夾',
+
+      'addFolderTitle'     : '資料夾名稱',
+      'backToFolderTop'    : '返回上一層',
+      'folderCurrent'      : '當前 : ',
+
+      'beforeSubtitle'      : '你現在擁有 ',
+      'afterMemoSubtitle'       : ' 件素材',
+      'afterPlotSubtitle'       : ' 件劇作',
+
+      'sameFolderIsExist'   : '資料夾已存在',
+      'emptyFolderName'     : '請輸入資料夾的名字',
+
+      'deleteFolderCaution' : '資料夾中的素材也將移至垃圾桶',
+      'deletePlotFolderCaution' : '文件夹中的劇作也將被移到垃圾桶中',
+
+      'rename' : '更換名字, 移動',
+    },
+  },
+
+  'howto' : {
+    LANGCODE_EN: {
+      'title' : 'How to use',
+      'convertPlotTitle' : 'Convert',
+      'overview'  : 'OverView',
+      'howto'     : 'How to Use',
+      'watchMovie': 'Watch the video to see how to use it',
+      'memolistOverview' : '''Idea Note is a place to collect ideas for creation
+
+- Character Idea
+- Story Idea
+- Scene Idea
+- Favorite scene or good part of another Story
+write something that will help you in various ways
+''',
+
+      'memolistHowto1'    : "You can add a new Idea from the bottom right of the Idea Note",
+      'memolistHowto1Pc'  : "You can add a new Idea from the top of the Idea Note",
+
+      'memolistHowto2' : '''You can set
+- Text input
+- Image
+- Tags
+- Reminder Date
+- Folder
+
+We don't set out to use it.
+Use it as if it were easy to use!
+''',
+
+      'convertOverview' : '''The conversion function does the work of converting a Idea into a Plot.
+
+Select the topic you want to use in the work according to the topic displayed at the top.
+Once you've chosen all the subjects, you'll have a plot!
+''',
+
+      'convertHowto' : '''You can use the convert feature at the bottom right of the Idea Note.
+
+In convert feature, this will be shown
+- Topic
+- Number of Recommended Idea
+- Chosen a Idea
+
+The number of recommendations will be shown, but can be adjusted after the plot is created
+It's okay to ignore recommend number
+''',
+
+      'plotOverview' : '''Create a plot for your work.
+
+You can input
+- Plot
+- Setting
+- Characters (correlation chart)
+- Theme
+''',
+
+      'plotHowto1' : '''Plots can also be created from a Plot Note
+
+In the plot, we're using the Hollywood method of the third act
+Follow the Story Plotter and create a story that is engaging!
+''',
+
+      'plotHowto2' : '''In the plot, we increase
+Idea -> Outline -> Story
+to flesh out the story.
+
+First, arrange the Idea so that it follows the flow of the story, then make it concrete.
+
+It also helps with the amount of writing, with a horizontal %.
+However, since this is a kind of assistance, you can use it as a reference and have them ignore it.
+
+For each item, there is an entry field
+- Setting
+- Character
+- Theme
+
+Please help us to dig deeper into your work
+''',    
+    },
+    LANGCODE_JA: {
+      'title' : 'ご利用ガイド',
+      'convertPlotTitle' : '変換',
+      'overview'  : '概要',
+      'howto'     : '使い方',
+      'watchMovie': '動画で使いかたを見る',
+      'memolistOverview' : '''ネタ帳は、創作のためのアイデアをまとめる場所です
+
+- キャラクターのネタ
+- ストーリーのネタ
+- シーンのネタ
+- 別作品の好きなシーン、いいところ
+など様々な創作に役立つものを書いていってください
+''',
+
+      'memolistHowto1'    : "ネタの追加は、ネタ帳の右下のボタンからできます",
+      'memolistHowto1Pc'  : "ネタの追加は、ネタ帳の上の欄からできます",
+
+      'memolistHowto2' : '''ネタには
+- 文章入力
+- 画像
+- タグ
+- リマインド日付
+- フォルダ
+を設定できます
+
+使い方は定めていません
+使いやすいように使ってください！
+''',
+
+      'convertOverview' : '''変換機能では、ネタをプロットに変換する作業を行います
+
+上部に表示されたお題に沿って、その作品で使いたいネタを選択します
+すべてをお題でネタを選びきると、プロットが出来上がります
+''',
+
+      'convertHowto' : '''変換機能は、ネタ帳の右下から使えます
+
+変換機能では、
+- お題
+- おすすめのネタの数
+- 選んだネタ
+が表示されます
+
+おすすめの数は表示されますが、プロット作成後に調整できます
+無視しても大丈夫です
+''',
+
+      'plotOverview' : '''作品のプロットを作ります
+
+- プロット
+- 世界観
+- キャラクター（相関図）
+- テーマ
+を入力することができます
+''',
+
+      'plotHowto1' : '''プロットはプロット帳からも作成できます
+
+プロットでは、第三部幕というハリウッドの手法を取り入れています
+ストーリープロッターに沿って、話を作ることで、魅力的な作品を作ることができます
+''',
+
+      'plotHowto2' : '''プロットでは、
+ネタ -> あらすじ -> ストーリー
+という風に、徐々に話を具体的にする仕組みになっています
+
+最初にネタを話の流れに沿うように配置し、それから具体的にしていきます
+
+また、横の%表記によって、執筆量に関しての補助も行います
+しかし、これは補助みたいな物なので、参考程度にして、無視してもらっても大丈夫です
+
+- 世界観
+- キャラクター
+- テーマ
+では、それぞれの項目において、入力項目が用意されています
+
+作品の深堀に役立ててください
+''',
+    },
+    LANGCODE_CH: {
+      'title' : '使用指南',
+      'convertPlotTitle' : '转换',
+      'overview'  : '概要',
+      'howto'     : '使用方法',
+      'watchMovie': '看视频了解使用方法',
+      'memolistOverview' : '''素材本是为创作目的将自己的灵感做整理的地方
+
+- 角色的素材
+- 故事的素材
+- 镜头的素材
+- 其他作品的喜欢的镜头，好处
+等，将各种各样对创作有用的东西写下来吧
+''',
+
+      'memolistHowto1'    : "素材的添加可以从素材本的右下方开始操作",
+      'memolistHowto1Pc'  : "您可以从想法笔记的顶部添加一个新的想法",
+
+      'memolistHowto2' : '''可以对素材进行
+- 输入文章
+- 图片
+- 标签
+- 提醒日期
+- 文件夹
+的设定
+
+并没有规定的使用方法
+你觉得怎么方便就怎么用吧！
+''',
+
+      'convertOverview' : '''使用转换功能，可以将素材转换为故事情节
+
+根据上方所显示的话题，选择在作品中想要使用的素材
+将每个话题都选上素材，故事情节就差不多完成了
+''',
+
+      'convertHowto' : '''转换功能可以通过素材本的右下方使用
+
+在转换功能里会显示
+- 话题
+- 推荐的素材数量
+- 已选择的素材
+
+尽管推荐数量会继续显示，但制作出故事情节后可以进行调整
+把它忽略掉也没关系
+''',
+
+      'plotOverview' : '''可以制作作品的故事情节
+
+你可以输入
+- 故事情节
+- 世界观
+- 角色（关系图）
+- 主题
+''',
+
+      'plotHowto1' : '''故事情节也可以通过剧作本制作
+
+在故事情节中，引入了好莱坞的「三幕式结构」表现手法
+只要按照故事织机的指引编制出故事，就可以制作出充满魅力的作品
+''',
+
+      'plotHowto2' : '''在故事情节中，有着会以
+素材 -> 梗概 -> 故事
+这样的流程，一点一点将故事具体化的机制
+
+只要从一开始就将素材按照故事的演进来配置，在之后故事就可以变得更为具体
+
+另外，可以根据水平方向的%标记，辅助关于执笔量的推算
+但这只是辅助使用的东西，仅供参考，忽略掉也没关系
+
+在
+- 世界观
+- 角色
+- 主题
+里，各项目中都为你准备了输入的项目
+
+请用它们为你作品的深耕派上用场吧
+''',
+    },
+    LANGCODE_TW: {
+      'title' : '使用指南',
+      'convertPlotTitle' : '轉換',
+      'overview'  : '概要',
+      'howto'     : '使用方法',
+      'watchMovie': '看影片瞭解使用方法',
+      'memolistOverview' : '''素材本是為創作目的將自己的靈感做整理的地方
+
+- 角色的素材
+- 故事的素材
+- 鏡頭的素材
+- 其他作品的喜歡的鏡頭，好處
+等，將各種各樣對創作有用的東西寫下來吧
+''',
+
+      'memolistHowto1'    : "素材的新增可以從素材本的右下方開始操作",
+      'memolistHowto1Pc'  : "您可以從想法註釋的頂部添加新想法",
+
+      'memolistHowto2' : '''可以對素材進行
+- 輸入文章
+- 圖片
+- 標籤
+- 提醒日期
+- 資料夾
+的設定
+
+並沒有規定的使用方法
+你覺得怎麼方便就怎麼用吧！
+''',
+
+      'convertOverview' : '''使用轉換功能，可以將素材轉換為故事情節
+
+根據上方所顯示的話題，選擇在作品中想要使用的素材
+將每個話題都選上素材，故事情節就差不多完成了
+''',
+
+      'convertHowto' : '''轉換功能可以通過素材本的右下方使用
+
+在轉換功能裡會顯示
+- 話題
+- 推薦的素材數量
+- 已選擇的素材
+
+儘管推薦數量會繼續顯示，但製作出故事情節後可以進行調整
+把它忽略掉也沒關係
+''',
+
+      'plotOverview' : '''可以製作作品的故事情節
+
+你可以輸入
+- 故事情節
+- 世界觀
+- 角色（關係圖）
+- 主題
+''',
+
+      'plotHowto1' : '''故事情節也可以通過劇作本製作
+
+在故事情節中，引入了好萊塢的「三幕式結構」表現手法
+只要按照故事織機的指引編制出故事，就可以製作出充滿魅力的作品
+''',
+
+      'plotHowto2' : '''在故事情節中，有著會以
+素材 -> 梗概 -> 故事
+這樣的流程，一點一點將故事具體化的機制
+
+只要從一開始就將素材按照故事的演進來配置，在之後故事就可以變得更為具體
+
+另外，可以根據水平方向的%標記，輔助關於執筆量的推算
+但這只是輔助使用的東西，僅供參考，忽略掉也沒關係
+
+在
+- 世界觀
+- 角色
+- 主題
+裡，各項目中都為你準備了輸入的項目
+
+請用他們為你作品的深耕派上用場吧
+''',
+    },
+  },    
+
+  'memo': {
+    LANGCODE_EN: {
+      'title'           : 'Add Idea',
+      'inputidea'       : 'Write Idea...',
+
+      'tagDecoration'   : 'e.g. Title, character name, etc',
+      'noTag'           : 'No matching tags',
+
+      'dateTitle'       : 'Time limitation Setting',
+      'dateSubTitle'    : 'e.g. Character\'s birthday, preparing for the event',
+
+      'tagTitle'        : 'Tag\'s Setting',
+
+      'folderTitle'     : 'Folder\'s Setting',
+      'noneFolderName'  : 'None',
+      'folderName'      : 'Folder name : ',
+
+      'timeLimit'       : 'Reminder',
+      'recentTagUse'    : 'Recently used tags : ',
+      'selectImage'     : 'Add image',
+
+      'selectTagFromList' : 'Select from list',
+
+      'color'             : 'Idea\'s Color : ',
+
+    },
+    LANGCODE_JA: {
+      'title'           : 'ネタの追加',
+      'inputidea'       : 'ネタを入力してください...',
+
+      'tagDecoration'   : '例：作品名 キャラ名 など',
+      'noTag'           : '合致するタグがありませんでした',
+
+      'dateTitle'       : 'リマインド設定',
+      'dateSubTitle'    : '例: キャラの誕生日、コミケに向けて書き始める日',
+
+      'tagTitle'        : 'タグ設定',
+
+      'folderTitle'     : 'フォルダ設定',
+      'noneFolderName'  : 'なし',
+      'folderName'      : 'フォルダ名 : ',
+
+      'timeLimit'       : '期限',
+      'recentTagUse'    : '最近使ったタグ : ',
+      'selectImage'     : '画像の追加',
+
+      'selectTagFromList' : '一覧から選択する',
+
+      'color'             : 'ネタの色 : ',
+    },
+    LANGCODE_CH: {
+      'title'           : '素材添加',
+
+      'inputidea'       : '请输入你的素材...',
+      'tagDecoration'   : '例：作品名、角色名等',
+      'noTag'           : '没有匹配的标签',
+
+      'dateTitle'       : '提醒设置',
+      'dateSubTitle'    : '例: 角色的生日、面向展示会等活动开始写作的日子',
+
+      'tagTitle'        : '标签设置',
+
+      'folderTitle'     : '文件夹设置',
+      'noneFolderName'  : '无',
+      'folderName'      : '文件夹名 : ',
+
+      'timeLimit'       : '期限',
+      'recentTagUse'    : '最近使用的标签 : ',
+      'selectImage'     : '添加图片',
+
+      'selectTagFromList' : '从列表中选择',
+
+      'color'             : '素材的颜色 : ',
+    },
+    LANGCODE_TW: {
+      'title'           : '素材新增',
+
+      'inputidea'       : '請輸入你的素材...',
+      'tagDecoration'   : '例：作品名、角色名等',
+      'noTag'           : '沒有匹配的標籤',
+
+      'dateTitle'       : '提醒設定',
+      'dateSubTitle'    : '例: 角色的生日、面向展示會等活動開始寫作的日子',
+
+      'tagTitle'        : '標籤設定',
+
+      'folderTitle'     : '資料夾設定',
+      'noneFolderName'  : '無',
+      'folderName'      : '資料夾名 : ',
+
+      'timeLimit'       : '期限',
+      'recentTagUse'    : '最近使用的標籤 : ',
+      'selectImage'     : '新增圖片',
+
+      'selectTagFromList' : '從列表中選擇',
+
+      'color'             : '素材顏色 : ',
+    },
+  },
+  'memoDatetime': {
+    LANGCODE_EN: {
+      'confirm' : 'confirm',
+      'cancel'  : 'cancel',
+    },
+    LANGCODE_JA: {
+      'confirm' : '決定',
+      'cancel'  : 'キャンセル',
+    },
+    LANGCODE_CH: {
+      'confirm' : '确定',
+      'cancel'  : '取消',
+    },
+    LANGCODE_TW: {
+      'confirm' : '確定',
+      'cancel'  : '取消',
+    },
+  },
+  'memoDatetimeTill': {
+    LANGCODE_EN: {
+      'beforeWeekEnd' : 'before weekend',
+      'beforeEndOfMonth' : 'at end of month',
+      'beforeNextSpring' : 'before next spring',
+      'beforeNextSummer' : 'before next summer',
+      'beforeNextAutumn' : 'before next autumn',
+      'beforeNextWinter' : 'before next winter',
+      'userSet'          : 'set by yourself',
+      'none'             : 'none',
+    },
+    LANGCODE_JA: {
+      'beforeWeekEnd' : '週末前',
+      'beforeEndOfMonth' : '月の終わり頃',
+      'beforeNextSpring' : '春前',
+      'beforeNextSummer' : '夏前',
+      'beforeNextAutumn' : '秋前',
+      'beforeNextWinter' : '冬前',
+      'userSet'          : '自分で設定',
+      'none'             : 'なし',
+    },
+    LANGCODE_CH: {
+      'beforeWeekEnd' : '周末前',
+      'beforeEndOfMonth' : '月末',
+      'beforeNextSpring' : '春季前',
+      'beforeNextSummer' : '夏季前',
+      'beforeNextAutumn' : '秋季前',
+      'beforeNextWinter' : '冬季前',
+      'userSet'          : '自己设置',
+      'none'             : '无',
+    },
+    LANGCODE_TW: {
+      'beforeWeekEnd' : '週末前',
+      'beforeEndOfMonth' : '月末',
+      'beforeNextSpring' : '春季前',
+      'beforeNextSummer' : '夏季前',
+      'beforeNextAutumn' : '秋季前',
+      'beforeNextWinter' : '冬季前',
+      'userSet'          : '自己設定',
+      'none'             : '無',
+    },
+  },
+  'convertPlot': {
+    LANGCODE_EN: {
+      'setPlotParam'  : 'Choose plot setting',
+      'plotLength'    : 'Plot length : ',
+      'confirm'       : 'start to create plot',
+      'convertTitle'  : 'Select plot type',
+
+      'noIdeaLeft'    : 'No ideas left',
+      'noIdeaLeft2'   : 'Tap button and move to next',
+
+      'inputNext'     : 'Next',
+      'inputBack'     : 'Back',
+
+      'useMemoNum'    : ' (Recommended Idea Number)',
+      'history'       : 'Selected Idea',
+      'check'         : 'Check Idea',
+
+      'title'         : 'Idea to plot',
+
+      'beforeInfo'    : 'Select ',
+      'afterInfo'     : '',
+
+      'charactor'     : 'Character idea',
+      'accident'      : 'inciting incident idea',
+      'moe'           : 'idea of character\'s unexpected emotion',
+      'template'		  : 'idea of story archetype (model)',
+      'pinch'		      : 'obstacle or conflict idea',
+      'darkness'		  : 'idea for conquering obstacle or conflict',
+      'charDarkness'	: 'idea for character growth',
+      'solve'		      : 'idea to solve main problem',
+
+      'opening'		      : 'opening idea',
+      'mainStory'		    : 'main story idea',
+      'ending'		      : 'ending idea',
+
+      'subaccident'		  : 'physical obstacle idea',
+      'subsolve'		    : 'idea for solving physical obstacles',
+      'mainaccident'	  : 'theme idea',
+      'mainsolve'		    : 'idea for solving thematic obstacles',
+
+      'noIdea'		    : 'No idea is selected',
+
+      'checkTitle'	  : 'Is this the idea you want?',
+      'confirmcheck'	: 'if it\'s ok, tap check button',
+      'selectedIdea'	: 'List of selected Ideas',
+    },
+    LANGCODE_JA: {
+      'setPlotParam'  : 'プロットの設定を入力してください',
+      'plotLength'    : 'プロットの長さ：',
+      'confirm'       : 'プロットを作り始める',
+      'convertTitle'  : 'プロットの種類の選択',
+
+      'noIdeaLeft'    : '選択できるネタが残っていません',
+      'noIdeaLeft2'   : 'ボタンを押して、次に進んでください',
+
+      'inputNext'     : '次へ',
+      'inputBack'     : '戻る',
+
+      'useMemoNum'    : ' （おすすめの数）',
+      'history'       : '選択されたネタ',
+      'check'         : '確認',
+
+      'title'         : 'プロットへの変換',
+
+      'beforeInfo'    : '',
+      'afterInfo'     : ' を選んでください',
+
+      'charactor'     : 'キャラクターのネタ',
+      'accident'      : '物語の事件のネタ',
+      'moe'           : '意外な一面のネタ',
+      'template'		  : '王道展開のネタ',
+      'pinch'		      : 'ピンチのネタ',
+      'darkness'		  : 'ピンチの挽回のネタ',
+      'charDarkness'	: 'キャラ成長のネタ',
+      'solve'		      : '問題解決のネタ',
+
+      'opening'		      : 'オープニングのネタ',
+      'mainStory'		    : '話のネタ',
+      'ending'		      : 'エンディングのネタ',
+
+      'subaccident'		  : '物理的な障害のネタ',
+      'subsolve'		    : '物理的な障害の解決方法のネタ',
+      'mainaccident'	  : 'テーマのネタ',
+      'mainsolve'		    : 'テーマとなる障害の解決方法のネタ',
+
+      'checkTitle'	  : '選択したネタの確認',
+      'noIdea'		    : 'ネタが選択されていませんが大丈夫ですか？',
+      'confirmcheck'	: '問題なければ、チェックマークボタンを押してください',
+      'selectedIdea'	: '選択したネタの一覧',
+    },
+    LANGCODE_CH: {
+      'setPlotParam'  : '请输入故事情节的设定',
+      'plotLength'    : '故事情节的长度：',
+      'confirm'       : '开始制作故事情节',
+      'convertTitle'  : '选择故事情节的种类',
+
+      'noIdeaLeft'    : '已无可选素材',
+      'noIdeaLeft2'   : '按下按钮转到下一个',
+
+      'inputNext'     : '下一步',
+      'inputBack'     : '返回',
+
+      'useMemoNum'    : ' （推荐的素材数）',
+      'history'       : '選択的素材',
+      'check'         : '检查',
+
+      'title'         : '转换为故事情节',
+
+      'beforeInfo'    : '请选择 ',
+      'afterInfo'     : '',
+
+      'charactor'     : '角色的素材',
+      'accident'      : '故事事件的素材',
+      'moe'           : '意料之外的一面（角色）的素材',
+      'template'      : '王道展开的素材',
+      'pinch'         : '陷入危机的素材',
+      'darkness'      : '挽救危机的素材',
+      'charDarkness'  : '角色得以成长的素材',
+      'solve'         : '解决问题的素材',
+
+      'opening'         : '开幕的素材',
+      'mainStory'       : '主线故事的素材',
+      'ending'          : '闭幕的素材',
+
+      "subaccident"   : "身体障碍观念",
+      "subsolve"      : "解决身体障碍的想法",
+      "mainaccident"  : "主题思想",
+      "mainsolve"     : "解决主题障碍的想法",
+
+      'checkTitle'    : '检查已选素材',
+      'noIdea'        : '你没有选择素材，这样可以吗？',
+      'confirmcheck'  : '如果可以的话，就点检查键吧',
+      'selectedIdea'  : '已选素材列表',
+    },
+    LANGCODE_TW: {
+      'setPlotParam'  : '請輸入故事情節的設定',
+      'plotLength'    : '故事情節的長度：',
+      'confirm'       : '開始製作故事情節',
+      'convertTitle'  : '選擇故事情節的種類',
+
+      'noIdeaLeft'    : '已無可選素材',
+      'noIdeaLeft2'   : '按下按鈕轉到下一個',
+
+      'inputNext'     : '下一步',
+      'inputBack'     : '返回',
+
+      'useMemoNum'    : ' （推薦的素材數）',
+      'history'       : '選擇的素材',
+      'check'         : '檢查',
+
+      'title'         : '选案',
+
+      'beforeInfo'    : '請選擇 ',
+      'afterInfo'     : '',
+
+      'charactor'     : '角色的素材',
+      'accident'      : '故事事件的素材',
+      'moe'           : '意料之外的一面（角色）的素材',
+      'template'      : '王道展開的素材',
+      'pinch'         : '陷入危機的素材',
+      'darkness'      : '挽救危機的素材',
+      'charDarkness'  : '角色得以成長的素材',
+      'solve'         : '解決主要問題的素材',
+
+      'opening'         : '開幕的素材',
+      'mainStory'       : '主線故事的素材',
+      'ending'          : '閉幕的素材',
+
+      "subaccident"   : "身體障礙觀念",
+      "subsolve"      : "解決身體障礙的想法",
+      "mainaccident"  : "主題思想",
+      "mainsolve"     : "解決主題障礙的想法",
+
+      'checkTitle'    : '檢查已選素材',
+      'noIdea'        : '你沒有選擇素材，這樣可以嗎？',
+      'confirmcheck'  : '如果可以，請點擊檢查按鈕',
+      'selectedIdea'  : '已選素材列表',
+    },
+  },
+
+  'plotLengthParam': {
+    LANGCODE_EN: {
+      VERYSHORT : 'micro story',
+      SHORT     : 'short story',
+      MIDDLE    : 'middle story',
+      LONG      : 'long story',
+      VERYLONG  : 'very long story',
+      FREE      : 'free mode',
+    },
+    LANGCODE_JA: {
+      'veryShort' : '超短編',
+      'short'     : '短編',
+      'middle'    : '中編',
+      'long'      : '長編',
+      'verylong'  : '超長編',
+      'free'      : '自由',
+    },
+    LANGCODE_CH: {
+      'veryShort' : '超短篇',
+      'short'     : '短篇',
+      'middle'    : '中篇',
+      'long'      : '长篇',
+      'verylong'  : '很长篇',
+      'free'      : '自由长度',
+    },
+    LANGCODE_TW: {
+      'veryShort' : '超短篇',
+      'short'     : '短篇',
+      'middle'    : '中篇',
+      'long'      : '長篇',
+      'verylong'  : '很長篇',
+      'free'      : '自由長度',
+    },
+  },
+  'plotLengthParamDetail': {
+    LANGCODE_EN: {
+      VERYSHORT : 'comic:4p\nnovel:800 words\nmovie:5 min',
+      SHORT     : 'comic:20p\nnovel:8,000 words\nmovie:20 min',
+      MIDDLE    : 'comic:35p\nnovel:25,000 words\nmovie:60 min',
+      LONG      : 'comic:50p\nnovel:60,000 words\nmovie:100 min',
+      VERYLONG  : 'comic:200p\nnovel:150,000 words\nmovie:150 min',
+      FREE      : 'Free description mode\n\nYou can also use it\nto organize information'
+    },
+    LANGCODE_JA: {
+      'veryShort' : 'マンガ:4p\n小説:800文字\n映像:5分',
+      'short'     : 'マンガ:20p\n小説:8,000文字\n映像:20分',
+      'middle'    : 'マンガ:35p\n小説:25,000文字\n映像:60分',
+      'long'      : 'マンガ:50p\n小説:60,000文字\n映像:100分',
+      'verylong'  : 'マンガ:200p\n小説:150,000文字\n映像:150分',
+      'free'      : '長さにとらわれない\nモードです\n\nネタを羅列して\n情報整理などにも使えます'
+    },
+    LANGCODE_CH: {
+      'veryShort' : '漫画:4p\n小说:800字\n视频:5分',
+      'short'     : '漫画:20p\n小说:8,000字\n视频:20分',
+      'middle'    : '漫画:35p\n小说:25,000字\n视频:60分',
+      'long'      : '漫画:50p\n小说:60,000字\n视频:100分',
+      'verylong'  : '漫画:200p\n小说:150,000字\n视频:150分',
+      'free'      : '不受长度约束的模式\n\n也可以用于列举素材\n进行信息的整理等'
+    },
+    LANGCODE_TW: {
+      'veryShort' : '漫畫:4p\n小說:800字\n影片:5分',
+      'short'     : '漫畫:20p\n小說:8,000字\n影片:20分',
+      'middle'    : '漫畫:35p\n小說:25,000字\n影片:60分',
+      'long'      : '漫畫:50p\n小說:60,000字\n影片:100分',
+      'verylong'  : '漫畫:200p\n小說:150,000字\n影片:150分',
+      'free'      : '不受長度約束的模式\n\n也可以用於列舉素材\n進行資訊的整理等'
+    },
+  },
+  'charactorboard': {
+    LANGCODE_EN: {
+      'title'         : 'Character Settings',
+      'storytitle'    : 'Story Settings',
+      'appearancetitle'   : 'Appearance Settings',
+      'socialtitle'   : 'Social Settings',
+      'peasonaltitle' : 'Personal Settings',
+      'privatetitle'  : 'Private Settings',
+      'failAddImage'  : 'Failed to add image...',
+      'imageTitle'    : 'Character Image',
+      'imageThumbTitle'    : 'Character thumbnail image',
+
+      'selectImage'   : 'add character image',
+      'selectThumbImage'   : 'add character thumbnail image',
+      'cutThumbImage'   : 'cut thumbnail',
+
+      'imageDeletedMessage' : 'image has been deleted',
+
+      'color'             : 'Character color : ',
+
+      'tagDecoration'     : 'Birth, affiliation, status, etc',
+
+      'cropImageDone' : 'Ok',
+      'cropImageBack' : 'Back',
+    },
+    LANGCODE_JA: {
+      'title'         : 'キャラクター設定',
+      'storytitle'   : '物語の設定',
+      'appearancetitle'   : '外見の設定',
+      'socialtitle'   : '社会的設定',
+      'peasonaltitle' : '個人的設定',
+      'privatetitle'  : 'プライベート設定',
+      'failAddImage'  : '画像の追加に失敗しました',
+
+      'imageTitle'   : 'キャラクター設定画像',
+      'imageThumbTitle'    : 'アイコン画像',
+
+      'selectImage'   : 'キャラ設定画像の追加',
+      'selectThumbImage'   : 'アイコンを選択',
+      'cutThumbImage'   : 'アイコンの切り抜き',
+
+      'imageDeletedMessage' : 'キャラ画像が削除されていました',
+
+      'color'             : 'キャラの色 : ',
+
+      'tagDecoration'     : '生まれや所属、ステータスなど',
+
+      'cropImageDone' : '決定',
+      'cropImageBack' : '戻る',
+    },
+    LANGCODE_CH: {
+      'title'         : '角色的设定',
+      'storytitle'    : '故事设定',
+      'appearancetitle'   : '外观设定',
+      'socialtitle'   : '社会属性设定',
+      'peasonaltitle' : '个人状况设定',
+      'privatetitle'  : '隐私设定',
+      'failAddImage'  : '添加图片失败',
+
+      'imageTitle'   : '角色设定图片',
+      'imageThumbTitle'    : '大头贴图片',
+
+      'selectImage'   : '添加角色设定图片',
+      'selectThumbImage'   : '选择大头贴图片',
+      'cutThumbImage'   : '裁剪大头贴',
+
+      'imageDeletedMessage' : '角色图片已删除',
+
+      'color'             : '角色的颜色 : ',
+
+      'tagDecoration'     : '出生、隶属关系、身份等',
+
+      'cropImageDone' : '决定',
+      'cropImageBack' : '回去',
+    },
+    LANGCODE_TW: {
+      'title'         : '角色的設定',
+      'storytitle'    : '故事設定',
+      'appearancetitle'   : '外觀設定',
+      'socialtitle'   : '社會屬性設定',
+      'peasonaltitle' : '個人狀況設定',
+      'privatetitle'  : '隱私設定',
+      'failAddImage'  : '新增圖片失敗',
+
+      'imageTitle'   : '角色設定圖片',
+      'imageThumbTitle'    : '大頭貼圖片',
+
+      'selectImage'   : '添加角色設定圖片',
+      'selectThumbImage'   : '選擇大頭貼圖片',
+      'cutThumbImage'   : '裁切大頭貼',
+
+      'imageDeletedMessage' : '角色圖片已刪除',
+
+      'color'             : '角色的顏色 : ',
+
+      'tagDecoration'     : '出身，隸屬關係，地位等',
+
+      'cropImageDone' : '決斷',
+      'cropImageBack' : '返回',
+    },
+  },
+  'charactorlist' : {
+    LANGCODE_EN: {
+      'nonechar'        : 'None characters is exist',
+      'addfrombutton'   : 'Add character from bottom right button',
+      'addfrombuttonPc' : 'Add character from top left button',
+      'delete'          : 'Trash',
+
+      'noneCharFromSearch' : 'No character caught on search',
+    },
+    LANGCODE_JA: {
+      'nonechar'        : 'キャラクターがいません',
+      'addfrombutton'   : '右下のボタンから追加してください',
+      'addfrombuttonPc' : '左上のボタンから追加してください',
+      'delete'          : '削除',
+
+      'noneCharFromSearch' : '検索に何も引っかかりませんでした',
+    },
+    LANGCODE_CH: {
+      'nonechar'        : '没有角色',
+      'addfrombutton'   : '请通过右下方按钮添加',
+      'addfrombuttonPc' : '请通过左上方按钮添加',
+      'delete'          : '垃圾桶',
+
+      'noneCharFromSearch' : '我找不到那个人物',
+    },
+    LANGCODE_TW: {
+      'nonechar'        : '沒有角色',
+      'addfrombutton'   : '請通過右下方按鈕新增',
+      'addfrombuttonPc' : '請通過左上方按鈕新增',
+      'delete'          : '垃圾',
+
+      'noneCharFromSearch' : '找不到角色',
+    },
+  },
+  'charactorButtonlist' : {
+    LANGCODE_EN: {
+      'scrollToDialogram' : 'Move to diagram',
+      'addCharFromPlot' : 'Add From Other Plot',
+      'addCharButton'   : 'Add Character',
+    },
+    LANGCODE_JA: {
+      'scrollToDialogram' : '相関図へ移動',
+      'addCharFromPlot'   : '別プロットから追加',
+      'addCharButton'     : 'キャラの追加',
+    },
+    LANGCODE_CH: {
+      'scrollToDialogram' : '移至相关图',
+      'addCharFromPlot'   : '从其他故事情节添加',
+      'addCharButton'     : '添加',
+    },
+    LANGCODE_TW: {
+      'scrollToDialogram' : '移至相關圖',
+      'addCharFromPlot'   : '從其他故事情節新增',
+      'addCharButton'     : '新增',
+    },
+  },  
+
+  'addCharFromOtherPlot' : {
+    LANGCODE_EN: {
+      'title' : 'Add Character From Other Plot',
+    },
+    LANGCODE_JA: {
+      'title' : '別のプロットからキャラを追加',
+    },
+    LANGCODE_CH: {
+      'title' : '从其他故事情节添加角色',
+    },
+    LANGCODE_TW: {
+      'title' : '從其他故事情節新增角色',
+    },
+  },  
+  'sequenceboard' : {
+    LANGCODE_EN: {
+      'place'         : 'Place : ',
+      'timezone'      : 'Timezone : ',
+      'memo'          : 'Note : ',
+      'delete'        : 'Trash',
+
+      'idea'              : 'Idea',
+      'ideaToOutLine'     : 'Tap to write outline',
+
+      'outline'           : 'Outline',
+      'outlineToStory'    : 'Tap to write story',
+
+      'story'             : 'Writing story detail',
+
+      'selectRelation'    : 'correlation diagram',
+    },
+    LANGCODE_JA: {
+      'place'         : '場所：',
+      'timezone'      : '時間帯：',
+      'memo'          : 'メモ: ',
+      'delete'        : '削除',
+
+      'idea'              : 'ネタ',
+      'ideaToOutLine'     : 'タップし、あらすじにしましょう',
+
+      'outline'           : 'あらすじ',
+      'outlineToStory'    : 'タップし、ストーリーを書きましょう',
+
+      'story'             : 'ストーリー執筆中...',
+
+      'selectRelation'    : '相関図',
+    },
+    LANGCODE_CH: {
+      'place'         : '地点：',
+      'timezone'      : '时间段：',
+      'memo'          : '备注字:',
+      'delete'        : '垃圾桶',
+
+      'idea'              : '素材',
+      'ideaToOutLine'     : '点击它，用它们写出梗概来吧',
+
+      'outline'           : '梗概',
+      'outlineToStory'    : '点击它，用它们写出故事来吧',
+
+      'story'             : '正在写故事...',
+
+      'selectRelation'    : '角色的关系图',
+
+    },
+    LANGCODE_TW: {
+      'place'         : '地點：',
+      'timezone'      : '時段：',
+      'memo'          : '備註：',
+      'delete'        : '垃圾',
+
+      'idea'              : '素材',
+      'ideaToOutLine'     : '點選它，用它們寫出大綱來吧',
+
+      'outline'           : '大綱',
+      'outlineToStory'    : '點選它，用它們寫出故事來吧',
+
+      'story'             : '正在寫故事...',
+
+      'selectRelation'    : '角色的關係圖',
+    },
+  },
+  'sequencecard' : {
+    LANGCODE_EN: {
+      'title'          : 'Write Story',
+      'sequencetitleAfter'   : '\'s details',
+      'sequencetitleBefore'  : '',
+      'description'    : 'What happens in the story, \nhow and who solves the issue, \nand how does the story progress',
+      'descriptionSample'    : 'e.g. How their emotions change from what, give hints to solve',
+      'place'          : 'Place',
+      'memo'           : 'Notes\ne.g. foreshadowing, supplementary information, etc',
+      'color'             : 'story color : ',
+      'selectRelation' : 'link correlation diagram',
+      'timezone'       : 'Timezone',
+      'emotionchange'  : 'emotion',
+      'emotiontapmessage' : 'tap emotion',
+      'background'        : 'landscape and character position description',
+      'storycardtitle'    : 'Story Detail',
+      'dialogue'          : 'Dialogue',
+      'action'            : 'Character\'s action or event',
+      'selectChar'        : 'Select character',
+      'charMob'           : 'Mob',
+      'charHeaven'        : 'Heavenly voice',
+      'charNone'          : 'none',
+      'startDialog'       : '\'',
+      'endDialog'         : '\'',
+      'landscape'         : 'Landscape',
+      'backToOutline'     : 'Rewrite outline',
+      'scene'             : 'Scene ',
+      'cut'               : 'Act ',
+      'DELETE'            : 'Trash Mode',
+      'SORT'              : 'Order Mode',
+      'total'             : 'Total',
+      'plotlength'        : 'Plot Length',
+      'nextScene'         : 'to next\nScene',
+      'nextAction'        : 'to next\nAct',
+      'nextDialog'        : 'to next\nDialogue',
+    },
+    LANGCODE_JA: {
+      'title'             : 'ストーリー作成',    
+      'sequencetitleAfter'   : 'の詳細',
+      'sequencetitleBefore'  : '',
+ 
+      'description'       : '何が起こり、誰がどう解決し、どうストーリーが進むのか',
+      'descriptionSample'    : '例 : キャラの感情の変化、物語の解決のヒントの取得など',
+      'place'             : '場所',
+      'memo'              : 'メモ欄\n伏線や補足情報など',
+      'color'             : 'ストーリーの色 : ',
+      'selectRelation'    : '相関図の紐づけ',
+      'timezone'          : '時間帯',
+      'emotionchange'     : '感情',
+      'emotiontapmessage' : '感情をタップしてください',
+      'background'        : '風景の具体的な描写. キャラクターの立ち位置など',
+      'storycardtitle'    : 'ストーリー',
+      'dialogue'          : 'セリフ',
+      'action'            : 'キャラの行動 もしくは 出来事',
+      'selectChar'        : 'キャラ選択',
+      'charMob'           : 'モブ',
+      'charHeaven'        : '天の声',
+      'charNone'          : 'なし',
+      'startDialog'        : '「',
+      'endDialog'        : '」',
+      'landscape'         : '風景',
+      'backToOutline'     : 'あらすじを考え直す',
+      'scene'             : 'シーン ',
+      'cut'               : 'カット ',
+      'DELETE'            : '削除モード',
+      'SORT'              : '並び替えモード',
+      'total'             : '合計',
+      'plotlength'        : 'プロットの長さ',
+      'nextScene'         : '次の\nシーンへ',
+      'nextAction'        : '次の\nカットへ',
+      'nextDialog'        : '次の\nセリフへ',
+    },
+    LANGCODE_CH: {
+      'title'             : '制作故事',    
+      'sequencetitleAfter'   : '的详细内容',
+      'sequencetitleBefore'  : '',
+
+      'description'       : '发生了什么，和谁如何解决，如何推进故事',
+      'descriptionSample'    : '例：角色的感情变化，获得解决故事的提示等',
+      'place'             : '地点',
+      'memo'              : '便签本\n预示、补充资料等',
+      'color'             : '故事颜色 : ',
+      'selectRelation'    : '链接角色的关系图',
+      'timezone'          : '时间段',
+      'emotionchange'     : '感情',
+      'emotiontapmessage' : '请点击感情',
+      'background'        : '风景的具体描写，角色的站位等',
+      'storycardtitle'    : '故事',
+      'dialogue'          : '台词',
+      'action'            : '角色的行动 或身上发生的事情',
+      'selectChar'        : '角色选择',
+      'charMob'           : '路人',
+      'charHeaven'        : '上天之声(旁白)',
+      'charNone'          : '无',
+      'startDialog'       : '「',
+      'endDialog'         : '」',
+      'landscape'         : '风景',
+      'backToOutline'     : '改写梗概',
+      'scene'             : '镜头 ',
+      'cut'               : '分镜 ',
+      'DELETE'            : '垃圾桶模式',
+      'SORT'              : '秩序模式',
+      'total'             : '合计',
+      'plotlength'        : '故事情节长度',
+      'nextScene'         : '下一次\n镜头',
+      'nextAction'        : '下一次\n分镜',
+      'nextDialog'        : '下一次\n对话',
+    },
+    LANGCODE_TW: {
+      'title'             : '製作故事',    
+      'sequencetitleAfter'   : '的詳細內容',
+      'sequencetitleBefore'  : '',
+
+      'description'       : '發生了什麼，和誰如何解決，如何推進故事',
+      'descriptionSample'    : '例：角色的感情變化，獲得解決故事的提示等',
+      'place'             : '地點',
+      'memo'              : '備註字段\n提示和補充訊息等',
+      'color'             : '故事顏色 : ',
+      'selectRelation'    : '鏈接角色的關係圖',
+      'timezone'          : '時段',
+      'emotionchange'     : '感情',
+      'emotiontapmessage' : '請點選感情',
+      'background'        : '風景的具體描寫，角色的站位等',
+      'storycardtitle'    : '故事',
+      'dialogue'          : '臺詞',
+      'action'            : '角色的行動 或身上發生的事情',
+      'selectChar'        : '角色選擇',
+      'charMob'           : '路人',
+      'charHeaven'        : '上天之聲(旁白)',
+      'charNone'          : '無',
+      'startDialog'       : '「',
+      'endDialog'         : '」',
+      'landscape'         : '風景',
+      'backToOutline'     : '改寫梗概',
+      'scene'             : '鏡頭 ',
+      'cut'               : '分鏡 ',
+      'DELETE'            : '垃圾模式',
+      'SORT'              : '訂購模式',
+      'total'             : '總',
+      'plotlength'        : '故事情節長度',
+      'nextScene'         : '下一次\n鏡頭',
+      'nextAction'        : '下一次\n分鏡',
+      'nextDialog'        : '下一次\n對話',
+    },
+  },
+  'dialogueSplit' : {
+    LANGCODE_EN: {
+      'title'   : 'Do you want split it ?',
+      'yes'     : 'split!',
+      'no'      : 'no need',
+      'result'  : 'split result',
+      'select'  : 'select split pattern',
+      'splitby' : 'split by this',
+      'splitbynewline' : 'split by newline'
+    },
+    LANGCODE_JA: {
+      'title'   : '分割しますか？',
+      'yes'     : '分割',
+      'no'      : 'しない',
+      'result'  : '分割結果',
+      'select'  : '分割する文字',
+      'splitby' : 'これで分割します',
+      'splitbynewline' : '改行で分割します'
+    },
+    LANGCODE_CH: {
+      'title'   : '你想把它分开吗？',
+      'yes'     : '劈叉',
+      'no'      : '不必',
+      'result'  : '裂痕',
+      'select'  : '选择分割模式',
+      'splitby' : '以此为界',
+      'splitbynewline' : '换行'
+    },
+    LANGCODE_TW: {
+      'title'   : '您要拆分嗎？',
+      'yes'     :'分裂！',
+      'no'      :'不需要',
+      'result'  :'分割結果',
+      'select'  :'選擇分割圖案',
+      'splitby' :'被這個分割',
+      'splitbynewline':'被換行符',
+    },
+  },
+  'timezonemap' : {
+    LANGCODE_EN: {
+      'earlymorning'  : 'early morning',
+      'morning'       : 'morning',
+      'earlymoring'   : 'early morning',
+      'moring'        : 'morning',
+      'noon'          : 'noon',
+      'evening'       : 'evening',
+      'night'         : 'night',
+      'midnight'      : 'midnight',
+      'none'          : 'none',
+    },
+    LANGCODE_JA: {
+      'earlymorning'  : '早朝',
+      'morning'       : '朝',
+      'earlymoring'   : '早朝',
+      'moring'        : '朝',
+      'noon'          : '昼',
+      'evening'       : '夕方',
+      'night'         : '夜',
+      'midnight'      : '深夜',
+      'none'          : 'なし',
+    },
+    LANGCODE_CH: {
+      'earlymorning'  : '清晨',
+      'morning'       : '早上',
+      'earlymoring'   : '清晨',
+      'moring'        : '早上',
+      'noon'          : '中午',
+      'evening'       : '傍晚',
+      'night'         : '夜晚',
+      'midnight'      : '深夜',
+      'none'          : '无',
+    },
+    LANGCODE_TW: {
+      'earlymorning'  : '清晨',
+      'morning'       : '早上',
+      'earlymoring'   : '清晨',
+      'moring'        : '早上',
+      'noon'          : '中午',
+      'evening'       : '傍晚',
+      'night'         : '夜晚',
+      'midnight'      : '深夜',
+      'none'          : '无',
+    },
+  },
+
+  'selectRelation' : {
+    LANGCODE_EN: {
+      "title" : "select correlation diagram"
+    },
+    LANGCODE_JA: {
+      "title" : "相関図を選択してください"
+    },
+    LANGCODE_CH: {
+      "title" : "请选择角色的关系图"
+    },
+    LANGCODE_TW: {
+      "title" : "請選擇角色的關係圖"
+    },
+  },
+
+  'plotboard' : {
+    LANGCODE_EN: {
+      'title'  : 'Title',
+      'plot'  : 'Plot',
+      'world' : 'Setting',
+      'char'  : 'Character',
+      'logline' : 'Theme',
+      'plotSetting' : 'Tagging'
+    },
+    LANGCODE_JA: {
+      'title'  : '題名',
+      'plot'  : 'プロット',
+      'world' : '世界観',
+      'char'  : 'キャラ',
+      'logline' : 'テーマ',
+      'plotSetting' : 'タグ付け'
+    },
+    LANGCODE_CH: {
+      'title'  : '标题',
+      'plot'  : '故事情节',
+      'world' : '世界观',
+      'char'  : '角色',
+      'logline' : '主题',
+      'plotSetting' : '加标签'
+    },
+    LANGCODE_TW: {
+      'title'  : '標題',
+      'plot'  : '故事情節',
+      'world' : '世界觀',
+      'char'  : '角色',
+      'logline' : '主題',
+      'plotSetting' : '標記'
+    },
+  },
+  'char' : {
+    LANGCODE_EN: {
+      'why'              : 'What triggered it?',
+      'char_name'        : 'Name',
+      'char_memo'        : 'Extra Details',
+      'char_Charm'       : 'Charm',
+      'char_Charm-sample'       : 'Write like when you introduce to friend',
+      'char_personality' : 'Personality',
+      'char_position'    : 'Role in the story',
+      'char_position-sample'    : 'e.g. giving the protagonist an opportunity',
+      'char_situation'   : 'Current situation',
+      'char_upbringing'  : 'Upbringing',
+      'char_habit'       : 'Habit',
+      'char_importantthing' : 'Important thing than law or ethics',
+      'char_importantthing-sample'    : 'e.g. Living in peace',
+      'char_distress'         : 'What has been their most difficult hardship so far?',
+      'char_distress_why'     : 'How would they deal with this hardship?\nWould they combat it; straight-on or avoid it?',
+      'char_sex'         : 'Sex',
+      'char_age'         : 'Age',
+      'char_birth'       : 'Birth',
+      'char_call_me'     : 'What do he/she call themselves ?',
+      'char_call'        : 'Do they have any nicknames?\nWhere do these come from?',
+      'char_talk'        : 'How do they speak?',
+      'char_talk-sample'        : 'e.g. voice, accent, choice of words',
+      'char_CharacteristicGesture' : 'Do they have any peculiar behaviours?',
+      'char_CharacteristicGesture-sample' : 'e.g. when lie, sweat can be seen on nose',
+      'char_strength'  : 'Strengths',
+      'char_weekness'  : 'Weaknesses',
+      'char_complex'   : 'Complexity',
+      'char_empathy'   : 'How can readers sympathize with the character?',
+      'char_empathy_why'   : 'Sympathetic episode',
+      'char_original'  : 'Original thoughts',
+      'char_childdream': 'Ideals when he was pure, dreamed of when he was a child',
+      'char_surroundings' : 'Reputation from the surroundings',
+
+      'char_goal'             : 'Purpose, Motivation in the story',
+      'char_obstacle'         : 'What are the obstacles that prevent from achieving goals?',
+      'char_clear_obstacle'   : 'Actions to resolve obstacles',
+      'char_change'           : 'How does the character change throughout the story ?',
+      'char_change-sample'    : "Don't necessarily have to change to overcome shortcomings\ne.g. negative person becomes a positive person\nBecoming convinced of shortcomings, gaining awareness, and changing goals are also change too",
+      'story_pastEventsRelation'    : 'How does he/she relate to important events in the past?',
+      'story_pastEventsRelation-sample'    : "'important events in the past' is in Setting",
+      'story_SituationFirst'   : 'Situation, State of mind at the beginning',
+      'story_SituationMiddle'  : 'Situation, State of mind at the middle',
+      'story_SituationLast'    : 'Situation, State of mind at the end',
+
+      'appearence_race'  : 'Race and Species',
+      'appearence_race-sample'  : 'e.g. Western, Asian, Islamic, Elf, Lizard, Beast',
+      'appearence_skinColor'  : 'Skin color',
+      'appearence_eyeColor'  : 'Eye color',
+      'appearence_hairStyle'  : 'Hair style and hair color',
+      'appearence_bodyStyle'  : 'Body style, Height, Weight',
+      'appearence_firstImpressionFromOther'  : 'First impression',
+      'appearence_charmPoint'  : 'Does the character have any charming qualities ?',
+      'appearence_ordinaryClothes'  : 'What do they usually wear ?',
+      'appearence_workClothes'  : 'What do they wear to work ?',
+      'appearence_decentClothes'  : 'What are their best clothes ?',
+      'appearence_favoriteBrand'  : 'Do they have a favorite clothes brand ?',
+      'appearence_accessory'  : 'Do they wear any accessories ?',
+      'appearence_accessory-sample'  : 'e.g. glasses, jewelery, braces',
+
+      'social_whatjob'       : 'What is the character\'s occupation ?',
+      'social_anxietyjob'    : 'What does the character want to be in the company ?',
+      'social_positionjob'   : 'What is the character\'s position in the company ?',
+      'social_descriptionjob' : 'What does the character think about their work ?',
+      'social_salary'        : 'Are they satisfied with their salary ?',
+      'social_workfriend'    : 'What is their relationship with their boss, colleagues and subordinates ?',
+      'social_wherejob'      : 'Where does the character work ?',
+      'social_anxietyfuture' : 'What are their concerns regarding the future ?',
+
+      'peasonal_family_structure' : 'Family Structure',
+      'peasonal_ismarry'       : 'Is the character married ?',
+      'peasonal_islove'        : 'Are they in a romantic relationship ?\nDo they have a love interest ?',
+      'peasonal_formerpartner' : 'Do they have any ex-lovers?',
+      'peasonal_neighbor'      : 'What is their relationship with their neighbor(s) ?',
+      'peasonal_parent'        : 'What is their relationship with their parents ?',
+      'peasonal_siblings'      : 'What is their relationship with their siblings ?',
+      'peasonal_kids'          : 'What is their relationship with their children ?',
+      'peasonal_closerelative' : 'What is their relationship with any other close relatives ?',
+      'peasonal_goodfriends'   : 'What is their relationship with their best friend(s) ?',
+      'peasonal_goodfriendswhat' : 'How do the character and their friend(s) spend time together ?',
+      'peasonal_badfriends'    : 'What is their relationship with their enemy ?',
+
+      'private_whattodo'          : 'What does the character do when they\'re alone ?',
+      'private_weekendwhattodo'   : 'What do they do on the weekend?',
+      'private_importantprivate'  : 'What are their important daily habits?',
+      'private_hobby'   : 'What hobbies do they have ?',
+      'private_terror'  : 'What are they scared of ?',
+      'private_future'  : 'What does the character aspire to be in the future ?',
+
+      'is'              : '\'s ',
+      'reason'          : '. Because ',
+    },
+
+    LANGCODE_JA: {
+      'why'              : 'なにがきっかけでそうなったのか',
+      'char_name'        : '名前',
+      'char_memo'        : '詳細（ メモ欄 ）',
+      'char_Charm'       : '魅力',
+      'char_Charm-sample'       : '友人に誰かを紹介するときみたいに書いてみてください',
+      'char_position'    : '物語上の役割',
+      'char_position-sample'    : '例：主人公にきっかけを与える',
+      'char_personality' : '性格',
+      'char_situation'   : '現在の境遇',
+      'char_upbringing'  : 'これまでの生い立ち',
+      'char_habit'       : '癖',
+      'char_importantthing' : '倫理や法律よりも大事にしているもの、考え',
+      'char_importantthing-sample'    : '例：平穏に生きること',
+      'char_distress'         : 'これまでで、最も困難だった出来事は何か',
+      'char_distress_why'     : 'その困難のときにどう決断し、どう解決したのか\nどう乗り越えたのか、もしくはどう回避したのか',
+      'char_sex'         : '性別',
+      'char_age'         : '年齢',
+      'char_birth'       : '誕生日',
+      'char_talk'        : '口癖',
+      'char_talk-sample'        : '例：声色、方便、言葉遣い',
+      'char_call_me'     : '一人称',
+      'char_call'        : '周囲からの呼ばれ方、あだ名',
+      'char_CharacteristicGesture' : 'よくする仕草',
+      'char_CharacteristicGesture-sample' : '例：嘘をつくと、鼻に汗をかく',
+      'char_strength'  : '強みは何か',
+      'char_weekness'  : '弱みは何か',
+      'char_complex'   : 'コンプレックスは何か',
+      'char_empathy'   : '共感できるところはどこか',
+      'char_empathy_why'   : '共感できるエピソード',
+      'char_original'  : '独自の考え',
+      'char_childdream': '純粋だった時の気持ち、子供の時の夢は',
+      'char_surroundings' : '周囲からの評判',
+
+      'char_goal'             : '物語の中の動機, 目的',
+      'char_obstacle'         : '目的達成を妨害する障害は何か?',
+      'char_clear_obstacle'   : '障害の解決するための行動',
+      'char_change'           : '物語を通して、どう変化するのか',
+      'char_change-sample'    : "必ず欠点を克服するよう変化する必要はありません\n例：ネガティブな人がポジティブになる\n欠点に納得する、気づきを得る、目標が変える、なども変化です",
+      'story_pastEventsRelation'    : '過去に起きた重要な事件とどう関わっているのか',
+      'story_pastEventsRelation-sample'    : '\"過去に起きた重要な事件\"は世界観にあります',
+      'story_SituationFirst'   : '序盤での状況、心境、物語の立ち位置',
+      'story_SituationMiddle'  : '中盤での状況、心境、物語の立ち位置',
+      'story_SituationLast'    : '終盤での状況、心境、物語の立ち位置',
+
+      'appearence_race'  : '人種',
+      'appearence_race-sample'  : '例：西洋系 アジア系 イスラム系 エルフ トカゲ 獣系',
+      'appearence_skinColor'  : '肌の色',
+      'appearence_eyeColor'  : '目の形、色',
+      'appearence_bodyStyle'  : '体型、身長、体重',
+      'appearence_hairStyle'  : '髪色、髪型',
+      'appearence_firstImpressionFromOther'  : '第一印象',
+      'appearence_charmPoint'  : 'チャームポイント',
+      'appearence_ordinaryClothes'  : '普段の服装',
+      'appearence_workClothes'  : '仕事着',
+      'appearence_decentClothes'  : 'きちんとした場での服装',
+      'appearence_favoriteBrand'  : 'すきな恰好、ブランド',
+      'appearence_accessory'  : 'アクセサリー',
+      'appearence_accessory-sample'  : '例：眼鏡、ブレスレット、指輪',
+
+      'social_whatjob'       : '何を仕事にしているのか',
+      'social_anxietyjob'    : '会社でどうなっていきたいのか',
+      'social_positionjob'   : '会社での立場はどうなのか',
+      'social_descriptionjob' : '仕事内容に対してはどう思っているのか',
+      'social_salary'        : '仕事の評価に満足しているのか？（給料など）',
+      'social_workfriend'    : '上司、同僚、部下との関係は',
+      'social_wherejob'      : 'どこで働いているのか',
+      'social_anxietyfuture' : '将来への不安はあるか',
+
+      'peasonal_family_structure' : '家族構成',
+      'peasonal_ismarry'       : '結婚しているのか',
+      'peasonal_islove'        : '恋愛関係になりそうな相手はいるのか',
+      'peasonal_formerpartner' : '元彼、元彼女はいるのか',
+      'peasonal_neighbor'      : '隣人との関係はどうなのか',
+      'peasonal_parent'        : '親との関係はどうなのか',
+      'peasonal_siblings'      : '兄弟、姉妹との関係はどうなのか',
+      'peasonal_kids'          : '子供との関係はどうなのか',
+      'peasonal_closerelative' : '親戚との関係はどうなのか',
+      'peasonal_goodfriends'   : '仲の良い友人はいるのか',
+      'peasonal_goodfriendswhat' : '仲の良い友人とはどこで何をして遊ぶのか',
+      'peasonal_badfriends'    : '仲の悪い人はいるのか',
+
+      'private_whattodo'        : '一人のときは何をするのか',
+      'private_weekendwhattodo' : '週末は何をしているのか',
+      'private_importantprivate' : '日ごろの大切にしている習慣は何か',
+      'private_hobby'   : '何を趣味にしているのか',
+      'private_terror'  : '何を恐れているのか',
+      'private_future'  : '将来どうなりたいのか',
+
+      'is'              : 'の',
+      'reason'          : ' なぜなら、',
+    },
+    LANGCODE_CH: {
+      'why'              : '是因为什么契机导致了这样',
+      'char_name'        : '名字',
+      'char_memo'        : '详细（ 备注栏 ）',
+      "char_Charm"          : "魅力",
+      "char_Charm-sample"   : "当你介绍给朋友时就像写",
+      'char_position'    : '故事上的作用',
+      'char_position-sample'    : '例：给予主人公一个契机',
+      'char_personality' : '性格',
+      'char_situation'   : '目前的境遇',
+      'char_upbringing'  : '至今为止的成长经历',
+      'char_habit'       : '习惯',
+      'char_importantthing' : '比法律或道德重要的事情',
+      'char_importantthing-sample'    : '例：安稳的活下去',
+      'char_distress'         : '至今为止遇到过最困难的事情是什么',
+      'char_distress_why'     : '面对困难如何决断，而又如何解决, 或是如何克服，或是如何回避',
+      'char_sex'         : '性别',
+      'char_age'         : '年龄',
+      'char_birth'       : '生日',
+      'char_talk'        : '口癖',
+      'char_talk-sample' : '例：语音、口音、用词等',
+      'char_call_me'     : '第一人称代词',
+      'char_call'        : '被身边人的称呼方式，绰号',
+      'char_CharacteristicGesture' : '常有习惯动作',
+      'char_CharacteristicGesture-sample' : '例： 撒谎时，鼻子上可见汗水',
+      'char_strength'  : '强项是什么',
+      'char_weekness'  : '弱点是什么',
+      'char_complex'   : '情结 (Complex)是什么',
+      'char_empathy'   : '能在哪里感受到共性',
+      'char_empathy_why'   : '你能感受到的情节',
+      'char_original'  : '独自的思考',
+      'char_childdream': '我纯洁时的感觉，我小时候的梦想',
+      "char_surroundings"  : "周围的声誉",
+
+      'char_goal'      : '故事中的目的、动机',
+      'char_obstacle'         : '阻碍你实现目标的障碍是什么?',
+      'char_clear_obstacle'   : '解决障碍的行动',
+      'char_change'    : '通过故事如何变化',
+      'char_change-sample'    : "你不一定要改变才能克服自己的缺点.\n例：一个消极的人变成了一个积极的人\n说服自己的不足，获得认识，改变自己的目标也是一种改变!",
+      'story_pastEventsRelation'    : '这与过去的重要事件有什么关系 ?',
+      'story_pastEventsRelation-sample'    : '\"过去的重大事件\"在世界观',
+      'story_SituationFirst'   : '游戏初期的情况和感受',
+      'story_SituationMiddle'  : '场中的情况，心态',
+      'story_SituationLast'    : '最后的情况和感受',
+
+      'appearence_race'  : '人种',
+      'appearence_race-sample'  : '例：西洋系 亚洲系 伊斯兰系 精灵(Elf) 蜥蜴 兽系',
+      'appearence_skinColor'  : '肤色',
+      'appearence_eyeColor'  : '眼型、瞳色',
+      'appearence_bodyStyle'  : '体型、身高、体重',
+      'appearence_hairStyle'  : '发色、发型',
+      'appearence_firstImpressionFromOther'  : '第一印象',
+      'appearence_charmPoint'  : '魅力点',
+      'appearence_ordinaryClothes'  : '平时服装',
+      'appearence_workClothes'  : '工作服',
+      'appearence_decentClothes'  : '正式场合的服装',
+      'appearence_favoriteBrand'  : '喜欢的外形，品牌',
+      'appearence_accessory'  : '饰品',
+      'appearence_accessory-sample'  : '例：眼镜、手镯、戒指',
+
+      'social_whatjob'       : '做着什么样的工作',
+      'social_anxietyjob'    : '在公司里想成为怎样的人',
+      'social_positionjob'   : '在公司里的立场是什么',
+      'social_descriptionjob' : '如何看待工作内容',
+      'social_salary'        : '您对您的工作评价（如工资）是否满意',
+      'social_workfriend'    : '和上司、同事、下属的关系',
+      'social_wherejob'      : '在哪里工作',
+      'social_anxietyfuture' : '对将来是否有不安',
+
+      'peasonal_family_structure' : '家庭组成',
+      'peasonal_ismarry'       : '是否已婚',
+      'peasonal_islove'        : '是否有有希望发展成恋爱关系的人',
+      'peasonal_formerpartner' : '是否有前男/女朋友',
+      'peasonal_neighbor'      : '和邻居的关系如何',
+      'peasonal_parent'        : '和父母的关系如何',
+      'peasonal_siblings'      : '和兄弟姐妹的关系如何',
+      'peasonal_kids'          : '和孩子的关系如何',
+      'peasonal_closerelative' : '和亲戚的关系如何',
+      'peasonal_goodfriends'   : '是否有关系亲密的朋友',
+      'peasonal_goodfriendswhat' : '会和关系亲密的朋友在哪里玩什么',
+      'peasonal_badfriends'    : '是否有关系差的朋友',
+
+      'private_whattodo'        : '一个人的时候会做什么',
+      'private_weekendwhattodo' : '周末的时候会做什么',
+      'private_importantprivate' : '平日最重要的习惯是什么',
+      'private_hobby'   : '对什么有兴趣',
+      'private_terror'  : '对什么害怕',
+      'private_future'  : '将来想变得如何',
+
+      'is'              : '的',
+      'reason'          : ' 因为，',
+    },
+    LANGCODE_TW: {
+      'why'              : '是因為什麼契機導致了這樣',
+      'char_name'        : '名字',
+      'char_memo'        : '詳細（ 備註欄 ）',
+      "char_Charm"          : "魅力",
+      "char_Charm-sample"   : "當你介紹給朋友時就像寫",
+      'char_position'    : '故事上的作用',
+      'char_position-sample'    : '例：給予主人公一個契機',
+      'char_personality' : '性格',
+      'char_situation'   : '目前的境遇',
+      'char_upbringing'  : '至今為止的成長經歷',
+      'char_habit'       : '習慣',
+      'char_importantthing' : '比法律或道德重要的事情',
+      'char_importantthing-sample' : '例：安穩的活下去',
+      'char_distress'         : '至今為止遇到過最困難的事情是什麼',
+      'char_distress_why'     : '面對困難如何決斷，而又如何解決，或是如何克服，或是如何迴避',
+      'char_sex'         : '性別',
+      'char_age'         : '年齡',
+      'char_birth'       : '生日',
+      'char_talk'        : '口癖',
+      'char_talk-sample' : '例： 聲音、口音、用詞',
+      'char_call_me'        : '第一人稱/自稱',
+      'char_call'        : '被身邊人如何稱呼，綽號',
+      'char_CharacteristicGesture' : '常有習慣動作',
+      'char_CharacteristicGesture-sample' : '例： 撒謊時，鼻子上可見汗水',
+      'char_strength'  : '強項是什麼',
+      'char_weekness'  : '弱點是什麼',
+      'char_complex'   : '情結(Complex)是什麼',
+      'char_empathy'   : '能在哪裡感受到共鳴',
+      'char_empathy_why'   : '你能感受到的情節',
+      'char_original'  : '獨自的思考',
+      'char_childdream': '純潔的心情，童年的夢想',
+      "char_surroundings"  : "周圍的聲譽",
+
+      'char_goal'      : '目的，故事動機',
+      'char_obstacle'         : '阻礙您實現目標的障礙是什麼 ?',
+      'char_clear_obstacle'   : '解決障礙的行動',
+      'char_change'    : '通過故事如何變化',
+      'char_change-sample'    : "您無需進行更改即可克服缺點\n例：消極的人變得積極\n缺陷意識，意識，目標改變等都是改變",
+      'story_pastEventsRelation'    : '您如何參與過去發生的重要事件 ?',
+      'story_pastEventsRelation-sample'    : '世界觀上有\"過去的重要事件\"',
+      'story_SituationFirst'   : '早期情況和情緒，感覺',
+      'story_SituationMiddle'  : '中間階段的情況，感覺',
+      'story_SituationLast'    : '最後的情況和情緒，感覺',
+
+      'appearence_race'  : '種族與物種',
+      'appearence_race-sample'  : '例：西方人、亞洲人、伊斯蘭人、精靈(Elf)、蜥蜴、獸',
+      'appearence_skinColor'  : '膚色',
+      'appearence_eyeColor'  : '眼型、瞳色',
+      'appearence_bodyStyle'  : '體型、身高、體重',
+      'appearence_hairStyle'  : '髮色、髮型',
+      'appearence_firstImpressionFromOther'  : '第一印象',
+      'appearence_charmPoint'  : '魅力點',
+      'appearence_ordinaryClothes'  : '平時服裝',
+      'appearence_workClothes'  : '工作服',
+      'appearence_decentClothes'  : '正式場合的服裝',
+      'appearence_favoriteBrand'  : '喜歡的外形、服飾品牌',
+      'appearence_accessory'  : '配件',
+      'appearence_accessory-sample'  : '例：眼鏡、手鐲、戒指',
+
+      'social_whatjob'       : '做著什麼樣的工作',
+      'social_anxietyjob'    : '在公司裡想成為怎樣的人',
+      'social_positionjob'   : '在公司裡的立場是什麼',
+      'social_descriptionjob' : '如何看待工作內容',
+      'social_salary'        : '對工作評估(例：薪水)滿意嗎？',
+      'social_workfriend'    : '和上司、同事、下屬的關係',
+      'social_wherejob'      : '在哪裡工作',
+      'social_anxietyfuture' : '對將來是否不安',
+
+      'peasonal_family_structure' : '家庭組成',
+      'peasonal_ismarry'       : '是否已婚',
+      'peasonal_islove'        : '是否有有希望發展成戀愛關係的人',
+      'peasonal_formerpartner' : '是否有前男/女朋友',
+      'peasonal_neighbor'      : '和鄰居的關係如何',
+      'peasonal_parent'        : '和父母的關係如何',
+      'peasonal_siblings'      : '和兄弟姊妹的關係如何',
+      'peasonal_kids'          : '和孩子的關係如何',
+      'peasonal_closerelative' : '和親戚的關係如何',
+      'peasonal_goodfriends'   : '是否有關係親密的朋友',
+      'peasonal_goodfriendswhat' : '會和關係親密的朋友在哪裡玩什麼',
+      'peasonal_badfriends'    : '是否有關係差的朋友',
+
+      'private_whattodo'        : '一個人的時候會做什麼',
+      'private_weekendwhattodo' : '週末的時候會做什麼',
+      'private_importantprivate' : '平日最重要的習慣是什麼',
+      'private_hobby'   : '對什麼有興趣',
+      'private_terror'  : '對什麼害怕',
+      'private_future'  : '將來想變得如何',
+
+      'is'              : '的',
+      'reason'          : ' 因為，',
+    },
+  },
+  'logline' : {
+    LANGCODE_EN: {
+      'theme'         : 'Theme',
+      'theme-sample'  : 'e.g. Hard work is better than anything else.\nThe appearance that the character is sad is attractive',
+      'interestThemePoint' : 'What\'s the interesting point of this theme?\nWhat points did you find interesting?',
+      'howshowtheme'  : 'How to express the theme and communicate it to the reader',
+      'mainstory'     : 'Problem of main story',
+      'mainstory-sample'  : 'Emotional problem is popular\ne.g.Vague insecurities, unrealistic longings etc.',
+      'substory'          : 'Problem of substory',
+      'substory-sample'   : 'Physical problem is popular\ne.g.meet your girlfriend\'s father, a meteorite is falling, etc.',
+      'howToSolve'      : 'How does the problem get solved ?',
+      'reader_interest' : 'which point will interest the reader most ?',
+      'reader_impressed': 'What reader(or character) will be impressed ?',
+      'reader_impressed-sample' : 'Do the readers know something new ?\nDo the readers know new interpretations ?\nWill the reader be free from anything ?',
+      'whatYouWantToWrite'      : 'What you like, what you\'re good at, and what you have a deep knowledge of',
+      'concept'             : 'Concept of the story',
+      'concept-sample'      : 'e.g. a cursed boy aims to become the most powerful ninja in the world',
+      'howMainCharChange'   : 'How the protagonist changes throughout the story ?',
+      'howOtherCharChange'  : 'How the characters around protagonist, including the mob, change throughout the story',
+      'howMainCharChange-sample'   : 'e.g. Realize that the reason people around you don\'t empathize with you is because of the way you communicate',
+      'howOtherCharChange-sample'  : "e.g. empathize with the protagonist\'s courage and stand up for freedom",
+    },
+    LANGCODE_JA: {
+      'theme'               : 'テーマ、読者に伝えたいこと',
+      'theme-sample'        : '例：努力は何事にも勝る、推しの悲しんでいる姿が輝く',
+      'interestThemePoint'  : 'このテーマの面白いポイントは？\nあなたが興味を持ったポイントは？',
+      'howshowtheme'        : 'テーマをどのように表現して、読者に伝えるのか',
+      'mainstory'           : 'メインで解決すべきこと',
+      'mainstory-sample'    : '感情的な問題な事が多いです\n漠然とした不安、現実を知らない憧れなど',
+      'substory'            : 'サブで解決すべきこと',
+      'substory-sample'     : '物理的な障害な事が多いです\n恋人の父親に会わなきゃいけない、隕石が降ってくるなど',
+      'howToSolve'          : 'どうやって解決するのか',
+      'reader_interest'     : '読者が興味を持つポイントはどこか？',
+      'reader_impressed'    : '読者（もしくはキャラ）は何に感動するのか？',
+      'reader_impressed-sample' : '読者は何か新しく知るのか？\n新たな解釈を知れるのか？\n何かから解放されるか？',
+      'whatYouWantToWrite'  : 'あなたが好きなもの、得意なもの、深い知識を持っているもの',
+      'concept'             : '物語のコンセプト',
+      'concept-sample'      : '例：呪われた少年が最強の忍者になることを目指す',
+      'howMainCharChange'   : '物語を通して、主人公はどのように変化するか',
+      'howOtherCharChange'  : '物語を通して、モブを含む周囲のキャラクターはどのように変化するか',
+      'howMainCharChange-sample'   : '例 : 周囲が共感してくれないのは、自分の伝え方が問題であることに気付く',
+      'howOtherCharChange-sample'  : '例 : 主人公の勇気に共感し、自由のために立ち上がる',
+    },
+    LANGCODE_CH: {
+      'theme'               : '主题，想要告诉读者的事',
+      'theme-sample'        : '例：努力胜过一切, 人物悲伤的容貌迷人',
+      'interestThemePoint'  : '这个主题的有趣之处是什么？\n你对哪一点有兴趣？',
+      'howshowtheme'        : '如何表现主题，将其传递给读者呢',
+      'mainstory'           : '主要的要解决的事情',
+      'mainstory-sample'    : '这往往是一个情感问题\n模糊的不安全感，不切实际的渴望等',
+      'substory'            : '次要的要解决的事情\n例：打倒进攻的山贼',
+      'substory-sample'     : '这往往是一种身体上的障碍\n我必须看到我女朋友的父亲，陨石落在我身上等等',
+      'howToSolve'          : '如何解决',
+      'reader_interest'     : '读者感兴趣的是哪一个点？',
+      'reader_impressed'    : '读者（或者是角色）被什么感动？',
+      'reader_impressed-sample' : '读者能学到什么新知识？\n能知道什么新的解释？\n从什么当中得到解放？',
+      'whatYouWantToWrite'  : '你喜欢什么，你擅长什么，你对什么有深刻的认识？',
+      'concept'             : '故事的概念',
+      'concept-sample'      : '例：一个被诅咒的男孩的, 目标是成为世界上最强大的忍者',
+      'howMainCharChange'   : '主人公在整个故事中是如何变化的',
+      'howOtherCharChange'  : '在整个故事中，你身边的人物，包括黑帮，是如何变化的？',
+      'howMainCharChange-sample'   : '例：意识到周围的人不同情你的原因，是因为你的沟通方式',
+      'howOtherCharChange-sample'  : '例：同情英雄的勇气，为自由而站出来',
+    },
+    LANGCODE_TW: {
+      'theme'               : '主題，想要告訴讀者的事',
+      'theme-sample'        : '例：努力工作比什麼都重要,人物悲傷的容貌迷人',
+      'interestThemePoint'  : '這個主題的有趣之處是什麼？\n你對哪一點有興趣？',
+      'howshowtheme'        : '如何表現主題，將其傳遞給讀者呢',
+      'mainstory'           : '主要要解決的事情',
+      'mainstory-sample'    : '情感上的問題很受歡迎\n隱約的心神不定、不切實際的渴望等等',
+      'substory'            : '次要要解決的事情',
+      'substory-sample'     : '身體上有很多障礙\n遇見女朋友的父親、隕石墜落等等',
+      'howToSolve'          : '如何解決',
+      'reader_interest'     : '讀者感興趣的是哪一個點？',
+      'reader_impressed'    : '讀者（或者是角色）被什麼感動？',
+      'reader_impressed-sample' : '讀者能學到什麼新知識？\n能知道什麼新的解釋？\n從什麼當中得到解放？',
+      'whatYouWantToWrite'  : '您喜歡什麼，擅長什麼以及對什麼有深刻的了解',
+      'concept'             : '故事概念',
+      'concept-sample'      : '例：一個被詛咒的男孩旨, 在成為世界上最強大的忍者',
+      'howMainCharChange'   : '英雄如何通過故事發生變化',
+      'howOtherCharChange'  : '周圍人物（包括小怪）如何在整個故事中發生變化',
+      'howMainCharChange-sample'   : '例：如果人們不支持您，您將意識到您的溝通方式是一個問題',
+      'howOtherCharChange-sample'  : '例：同情主角的勇氣，捍衛自由',
+    },
+  },
+
+  'world' : {
+    LANGCODE_EN: {
+      'era'         : 'When does the story take place ?',
+      'era-sample'  : 'e.g. modern, medieval, near future, fantasy',
+      'worldview'   : 'What\'s the history of this setting ?',
+      'stage'       : 'In what places does the story progress ?',
+      'originalty'  : 'Your original elements from story archetype',
+      'mechanism'   : 'Optional components of the places',
+      'mechanism-sample'   : "e.g.'PLANET OF THE APES' was the earth",
+      'originalWord' : 'What terms or phrases are used in this world ?',
+      'originalWord-sample' : 'e.g. Chakra : Energy of human body and spirit',
+      "pastEvent"   : 'Overview of important incidents that have occurred in the past',
+    },
+    LANGCODE_JA: {
+      'era'         : '時代',
+      'era-sample'  : '例： 現代, 中世, 近未来, ファンタジー',
+      'worldview'   : '世界観',
+      'stage'       : '舞台',
+      'originalty'  : '舞台の王道な要素以外に追加したあなたのオリジナル要素',
+      'mechanism'   : '（もしある場合は）舞台にしかけられている仕掛け',
+      'mechanism-sample'   : '例：猿の惑星の惑星は地球だった',
+      'originalWord' : '設定の用語',
+      'originalWord-sample' : 'チャクラ：人体と精神のエネルギー',
+      "pastEvent"   : '過去に起きた重要な事件の概要',
+    },
+    LANGCODE_CH: {
+      'era'         : '时代',
+      'era-sample'  : '例：现代、中世、近未来、幻想世界',
+      'worldview'   : '世界观',
+      'stage'       : '故事进展在哪些地方？',
+      'originalty'  : '除了舞台的王道要素以外，你添加的独创要素',
+      'mechanism'   : '（如果有的话）舞台背后的机关',
+      'mechanism-sample'   : '例：人猿星球的那颗星球本身实际上是地球',
+      'originalWord' : '设定的原创用语',
+      'originalWord-sample' : '查克拉：人体和精神的能量',
+      "pastEvent"   : '过去发生的重要事件概述',
+    },
+    LANGCODE_TW: {
+      'era'         : '時空',
+      'era-sample'  : '例：現代、中世紀、近未來、幻想世界',
+      'worldview'   : '世界觀',
+      'stage'       : '故事在什麼地方進行？',
+      'originalty'  : '除了王道要素以外，你新增的獨創要素',
+      'mechanism'   : '（如果有的話）舞臺背後的機關',
+      'mechanism-sample'   : '例：人猿星球的那顆星球本身實際上是地球',
+      'originalWord' : '設定的原創用語',
+      'originalWord-sample' : '查克拉：人體和精神的能量',
+      "pastEvent"   : '過去發生的重要事件的摘要',
+    },
+  },
+  'memoCategoryMap' : {
+    LANGCODE_EN: {
+      'canUseIdea'  : 'not used Idea',
+      'usedIdea'    : 'used Idea',
+      'endIdea'     : 'expire idea',
+
+      'dateNearlyEnd'     : 'Soon to finished',
+      'dateNoDate'        : 'No date idea',
+      'dateOther'         : 'idea ahead',
+      'dateAfter'         : 'Finished idea',
+
+      'noTag'             : 'no tag',
+    },
+    LANGCODE_JA: {
+      'canUseIdea'  : '未使用',
+      'usedIdea'    : '使用済み',
+      'endIdea'     : '期限切れ',
+
+      'dateNearlyEnd'     : 'そろそろ終わるネタ',
+      'dateNoDate'        : '日付なし',
+      'dateOther'         : 'まだ先のネタ',
+      'dateAfter'         : '終わったネタ',
+
+      'noTag'             : 'タグなし',
+    },
+    LANGCODE_CH: {
+      'canUseIdea'  : '未使用',
+      'usedIdea'    : '已使用',
+      'endIdea'     : '已过期',
+
+      'dateNearlyEnd'     : '是时候要完成的素材',
+      'dateNoDate'        : '没有日期',
+      'dateOther'         : '更晚的素材',
+      'dateAfter'         : '结束了的素材',
+
+      'noTag'             : '无标签',
+    },
+    LANGCODE_TW: {
+      'canUseIdea'  : '未使用',
+      'usedIdea'    : '已使用',
+      'endIdea'     : '已過期',
+
+      'dateNearlyEnd'     : '是時候要完成的素材',
+      'dateNoDate'        : '沒有日期',
+      'dateOther'         : '更晚的素材',
+      'dateAfter'         : '結束了的素材',
+
+      'noTag'             : '無標籤',
+    },
+  },    
+  'addchar' : {
+    LANGCODE_EN: {
+      'mainchar'                : 'Main Character/Protagonist',
+      'maincharDescription'     : '''A character who readers can sympathize with and generally want to cheer on. 
+
+This character will face conflict and work to solve it
+
+If this character is a bad person and it's difficult to sympathize with them, you can make a villain for them to go against, so the readers will support the character''',
+
+      'supportchar'             : 'Support Character',
+      'supportcharDescription'  : '''The character who leads the main character's conflict to a solution
+
+Sometime, They can have an opposite opinion with the Main Character and stimulates the main character and the story, but serve to support the main character's story
+
+They can sometimes be a heroine, a partner, a villain or anything else''',
+
+      'enemychar'             : 'Protagonist\'s clone',
+      'enemycharDescription'  : """Who could not achieve the theme
+Through this character, protagonist looks back on the theme.
+
+In the case of an Villain/Antagonist, the most sympathetic person.
+By the end of the story, it's completely conquered'""",
+
+      'addchar'             : 'Character',
+    },
+    LANGCODE_JA: {
+      'mainchar'                : '主人公',
+      'maincharDescription'     : '''共感でき、応援したくなる人物
+
+なにかしらの葛藤する部分をかかえており、それを解決するために動く
+
+主人公が悪い奴で共感が得られにくい場合は、敵としてより悪いやつを出したり、好感を得られるシーンを入れることで応援したい人物にできる''',
+
+      'supportchar'             : '主人公を導く人',
+      'supportcharDescription'  : '''主人公の葛藤を解決に導く人
+
+主人公とは対極の意見をもっており、主人公や物語中に刺激を与える
+
+ヒロインだったり、相棒だったり、敵役だったりする''',
+
+      'enemychar'             : '主人公の映し鑑',
+      'enemycharDescription'  : '''テーマを達成しきれなかった人
+このキャラクターを通して、主人公はテーマについて振り返る.
+
+敵役の場合は、最も同情できない人.
+物語の終わりには完膚なきまでボコボコにされている''',
+
+      'addchar'             : 'キャラ',
+    },
+    LANGCODE_CH: {
+      'mainchar'                : '主人公',
+      'maincharDescription'     : '''能感受到共性，会希望给他加油的人物
+
+拥有着为什么东西而纠结的部分，为了解决这个问题而行动
+
+如果主人公是坏家伙，难以令人感受到共性的话，
+可以让更坏的敌方人物登场，
+通过能够提升好感的镜头将其转变为会希望支持的人物''',
+
+      'supportchar'             : '引导主人公的人',
+      'supportcharDescription'  : '''引导解决主人公的纠结的人物
+
+和主人公有着正相反的意见，给主人公或是在故事中起到刺激作用
+
+可以是女主角，或是伙伴，或承担敌方的角色''',
+
+      'enemychar'             : '主角的克隆',
+      'enemycharDescription'  : '''谁无法实现主题
+主角用这个人来回忆主题
+
+如果您是反派/对手，那么您就是最无情的人
+故事结束时被彻底击败''',
+
+      'addchar'             : '角色',
+    },
+    LANGCODE_TW: {
+      'mainchar'                : '主人公',
+      'maincharDescription'     : '''能使讀者產生共鳴並想要為他加油的角色
+
+擁有著為什麼東西而糾結的部分，為了解決這個問題而行動
+
+如果主人公是壞傢伙，難以令人感受到共鳴的話，
+可以讓更壞的敵對角色登場，
+通過能夠提升好感的鏡頭將其轉變為會希望支援的人物''',
+
+      'supportchar'             : '配角',
+      'supportcharDescription'  : '''引導解決主人公的糾結的人物
+
+和主人公有著正相反的意見，給主人公或是在故事中起到刺激作用
+
+可以是女主角、夥伴或敵對角色等等''',
+
+      'enemychar'             : '主角的克隆',
+      'enemycharDescription'  : '''誰無法實現主題
+主角用這個人來回憶主題
+
+如果您是反派/對手，那麼您就是最無情的人
+故事結束時被徹底擊敗''',
+
+      'addchar'             : '角色',
+    },
+  },
+
+  'storyTemplate' : {
+    LANGCODE_EN: {
+      UNIT_OPENING   : 'e.g. Interesting depiction of the story setting',
+      UNIT_SETUP     : 'e.g. Introducing world setting and relationships between characters. Character features and causative actions are also introduced',
+      UNIT_THINKING  : 'e.g. Intimacy with the person protagonist admire, Self-reflection, Recalling trauma, Persecution from a distorted theme person',
+      UNIT_TURNING1  : 'e.g. Protagonist is involved in an incident and the story suddenly develops in an unexpected direction',
+      UNIT_SUBSTORY  : 'e.g. Theme-related content. Looking back on the character\'s self, recalling trauma, failure related to the theme of the person who will be protagonist alter ego, etc',
+      UNIT_FUN       : 'e.g. Story archetype such as action scenes with Buddy. Relationships between characters develop. At the same time, main story also progress',
+      UNIT_MIDPOINT  : 'e.g. Danger level rises more and more, such as a break with a friend or a counterattack by villain',
+      UNIT_DARKNESS  : 'e.g. Main Character gets a new notice and chance to solve the case',
+      UNIT_TURNING2  : 'e.g. Everything begins to move toward resolution',
+      UNIT_FINALE    : 'e.g. Episode after the case is resolved and calm. Show the changed appearance of the Main Character',
+
+      VERYSHORT_SETUP      : '', 
+      VERYSHORT_TURNING    : '', 
+      VERYSHORT_FUN        : '', 
+
+      UNIT_VERYLONG_TURNING1 			  : """e.g. Pattern 1. Occurrence of the original incident
+Pattern 2. The protagonist gets involved in a small incident and will be resolved""",
+      UNIT_VERYLONG_TURNING1_2 		  : """e.g. Pattern 1. The protagonist gets involved in an incident and works to solve an essential problem
+Pattern 2. The incident begins to move in an unexpected direction""",
+      UNIT_VERYLONG_DEVRELATION 		: 'e.g. Story archetype such as action scenes with Buddy. Relationships between characters develop. At the same time, main story also progress',
+
+      UNIT_VERYLONG_SUB_PROGRESS 		: 'e.g. Falls into a light pinch, but it solves it. It also pretends to be a deeper difficulty',
+      UNIT_VERYLONG_MAIN_PROGRESS 	: 'e.g. Theme-related content. Looking back on the character\'s self, recalling trauma, failure related to the theme of the person who will be protagonist alter ego, etc',
+
+      UNIT_VERYLONG_SUB_MIDPOINT 		: 'e.g. Fall into a physical pinch. Invasion of stronger enemies than protagonist',
+      UNIT_VERYLONG_SUB_DARKNESS 		: 'e.g. Wit and hints solve the problem',
+      UNIT_VERYLONG_SUB_SOLVE 		  : 'e.g. Escape a crisis and gain safety',
+
+      UNIT_VERYLONG_MAIN_MIDPOINT 	: "e.g. The safety zone is invaded and psychologically cornered, or a desperate future expected",
+      UNIT_VERYLONG_MAIN_DARKNESS 	: 'e.g. Weigh important things to solve a problem. The protagonist gets a new awareness and gets a chance to solve the case',
+      UNIT_VERYLONG_MAIN_SOLVE 		  : 'e.g. Everything starts to resolve the case',
+
+      UNIT_COMMON    : '',
+      UNIT_MAINSTORY : '',
+    },
+    LANGCODE_JA: {
+      UNIT_OPENING   : '例：印象に残る世界観の描写',
+      UNIT_SETUP     : '例：世界観、キャラクター同士の関係性などが紹介される、キャラクターの特徴や原因となる行動も明らかになる',
+      UNIT_THINKING  : '例：憧れの人との親密化, 自身の振り返り, トラウマの想起, 歪んでテーマを表している人物からの迫害',
+      UNIT_TURNING1  : '例：主人公が事件に巻き込まれ、思いがけない方向へと話は急展開する',
+      UNIT_SUBSTORY  : '例：テーマに関連した内容. 自身の振り返り, トラウマの想起, 自分の分身となる人物のテーマにまつわる失敗など',
+      UNIT_FUN       : '例：アクションシーンなどお約束の演出. キャラクター同士の関係性が進展する. 同時にメインストーリーの問題も進行する',
+      UNIT_MIDPOINT  : '例：仲間との決裂や敵の逆襲など、どんどん危険度が上がっていく',
+      UNIT_DARKNESS  : '例：主人公は新しい気付きを得て、事件解決へのきっかけを得る',
+      UNIT_TURNING2  : '例：すべてが事件解決に向けて、動き出す',
+      UNIT_FINALE    : '例：事件が解決し、平穏になった後のエピソード. 主人公の変化した姿を見せる',
+
+      VERYSHORT_SETUP      : '', 
+      VERYSHORT_TURNING    : '', 
+      VERYSHORT_FUN        : '', 
+
+      UNIT_VERYLONG_TURNING1 			  : """例：パターン1. 大元となる事件の発生
+パターン2. 主人公がちょっとした事件に巻き込まれて、解決することになる""",
+      UNIT_VERYLONG_TURNING1_2 		  : """例：パターン1. 主人公が事件に巻き込まれて、本質的な問題を解決するために働くことになる
+パターン2. 事件が予想外の方向へと動き出す""",
+      UNIT_VERYLONG_DEVRELATION 		: '例：アクションシーンなどお約束の演出. キャラクター同士の関係性が進展する. 同時にメインストーリーの問題も進行する',
+
+      UNIT_VERYLONG_SUB_PROGRESS 		: '例：軽くピンチに陥るが、解決する. より深い困難への前フリともなる',
+      UNIT_VERYLONG_MAIN_PROGRESS 	: '例：テーマに関連した内容. 自身の振り返り, トラウマの想起, 自分の分身となる人物のテーマにまつわる失敗など',
+      UNIT_VERYLONG_SUB_MIDPOINT 		: '例：物理的なピンチに陥る. 格上の襲来',
+      UNIT_VERYLONG_SUB_DARKNESS 		: '例：機転や伏線によって解決の糸口を得る',
+      UNIT_VERYLONG_SUB_SOLVE 		  : '例：一旦の危機を脱出し、安全を得る',
+      UNIT_VERYLONG_MAIN_MIDPOINT 	: '例：安全圏が侵され、心理的に追いつめられていく. もしくは予想される絶望的な未来',
+      UNIT_VERYLONG_MAIN_DARKNESS 	: '例：問題の解決のため、大事なことを天秤にかけることになる. 究極の2択, 分の悪い賭け. 主人公は新しい気付きを得て、事件解決へのきっかけを得る',
+      UNIT_VERYLONG_MAIN_SOLVE 		  : '例：すべてが事件解決に向けて、動き出す',
+
+      UNIT_COMMON    : '',
+      UNIT_MAINSTORY : '',
+    },
+    LANGCODE_CH: {
+      UNIT_OPENING   : '例：留下印象的世界观的描写',
+      UNIT_SETUP     : '例：介绍世界观、角色间关系性等，表明角色的特征或成为原因的行动',
+      "thinking"     : "例：与主角的亲密感，自我反省，回想创伤，遭受扭曲的主题人物的迫害",
+      UNIT_TURNING1  : '例：主人公被卷入事件，故事朝着没想到的方向急速展开',
+      UNIT_SUBSTORY  : '例：与主题相关的内容. 回顾角色的自我，回忆创伤，与主角改变自我的人相关的失败等',
+      UNIT_FUN       : '例：动作戏等等的约定俗成的演出. 角色之间的关系发展. 同时，主要故事也在进步',
+      UNIT_MIDPOINT  : '例：与伙伴决裂或敌人的逆袭等，危险度逐渐上升',
+      UNIT_DARKNESS  : '例：主人公得到新的醒悟，得到导向解决事件的契机',
+      UNIT_TURNING2  : '例：一切为了解决事件而开始行动',
+      UNIT_FINALE    : '例：事件解决，变得安稳后的故事段落. 能够看见主人公改变后的样子',
+
+      VERYSHORT_SETUP      : '', 
+      VERYSHORT_TURNING   : '', 
+      VERYSHORT_FUN        : '', 
+
+      "verylong_turning_1"  : """例：模式1.原始事件的发生
+模式2. 主角卷入小事件，将得到解决""",
+      "verylong_turning_2"  : """例：模式1.主角卷入事件并努力解决一个基本问题
+模式2. 事件开始向意外方向移动""",
+      "verylong_develop_relation" : "例：动作戏等等的约定俗成的演出. 角色之间的关系发展. 同时，主要故事也在进步",
+      "verylong_sub_progress"  : "例：掉进一小撮，但解决了。它也伪装成更深层次的困难",
+      "verylong_main_progress"  : "例：与主题相关的内容。回顾角色的自我，回忆创伤，与主角改变自我的人相关的失败等",
+      "verylong_sub_midpoint"  : "例：陷入身体紧张。比主角入侵更强大的敌人",
+      "verylong_sub_darkness"  : "例：机智和提示解决问题",
+      "verylong_sub_solve"  : "例：逃避危机并获得安全",
+      "verylong_main_midpoint"  : "例：安全区遭到入侵并在心理上陷入困境，或者预见到了绝望的未来",
+      "verylong_main_darkness"  : "例：权衡解决问题的重要事情。主角有了新的认识，并有机会解决案件",
+      "verylong_main_solve"  : "例：一切开始解决案件",
+
+      UNIT_COMMON    : '',
+      UNIT_MAINSTORY : '',
+    },
+    LANGCODE_TW: {
+      UNIT_OPENING   : '例：留下印象的世界觀描寫',
+      UNIT_SETUP     : '例：介紹世界觀、角色間關係性等，表明角色特徵或成為原因的行動',
+      "thinking"     : "例：與主角的親密感，自我反省，回想創傷，遭受扭曲的主題人物的迫害",
+      UNIT_TURNING1  : '例：主人公被捲入事件，故事朝著沒想到的方向急速展開',
+      UNIT_SUBSTORY  : '例：與主題相關的內容. 回顧角色的自我，回憶創傷，與主角改變自我的人相關的失敗等',
+      UNIT_FUN       : '例：動作戲等的約定俗成演出. 角色之間的關係發展. 同時，主要故事也在進步',
+      UNIT_MIDPOINT  : '例：與夥伴決裂或敵人的逆襲等，危險度逐漸上升',
+      UNIT_DARKNESS  : '例：主人公得到新的醒悟，得到導向解決事件的契機',
+      UNIT_TURNING2  : '例：一切為了解決事件而開始行動',
+      UNIT_FINALE    : '例：事件解決，變得安穩後的故事段落. 能夠看見主人公改變後的樣子',
+
+      VERYSHORT_SETUP      : '', 
+      VERYSHORT_TURNING   : '', 
+      VERYSHORT_FUN        : '', 
+
+      "verylong_turning_1"      : """例：模式1.原始事件的發生
+模式2. 主角捲入小事件，將得到解決""",
+      "verylong_turning_2"      : """例：模式1.主角捲入事件並努力解決一個基本問題
+模式2. 事件開始向意外方向移動""",
+      "verylong_develop_relation"  : "例：動作戲等的約定俗成演出. 角色之間的關係發展. 同時，主要故事也在進步",
+      "verylong_sub_progress"  : "例：掉進一小撮，但解決了。它也偽裝成更深層次的困難",
+      "verylong_main_progress"  : "例：與主題相關的內容。回顧角色的自我，回憶創傷，與主角改變自我的人相關的失敗等",
+      "verylong_sub_midpoint"  : "例：陷入身體緊張。比主角入侵更強大的敵人",
+      "verylong_sub_darkness"  : "例：機智和提示解決問題",
+      "verylong_sub_solve"  : "例：逃避危機並獲得安全",
+      "verylong_main_midpoint"  : "例：安全區遭到入侵並在心理上陷入困境，或者預見到了絕望的未來",
+      "verylong_main_darkness"  : "例：權衡解決問題的重要事情。主角有了新的認識，並有機會解決案件",
+      "verylong_main_solve"  : "例：一切開始解決案件",
+
+      UNIT_COMMON    : '',
+      UNIT_MAINSTORY : '',
+    },
+  },
+
+  'sequenceUnitTitle' : {
+    LANGCODE_EN: {
+      UNIT_OPENING   : 'Opening',
+      UNIT_SETUP     : 'Character introduction',
+      UNIT_THINKING  : 'Thoughts on the theme',
+      UNIT_TURNING1  : 'Inciting incident',
+      UNIT_SUBSTORY  : 'Support story',
+      UNIT_FUN       : 'Genre-appropriate elements and Relationship development',
+      UNIT_MIDPOINT  : 'Problem becomes more serious or surfaced',
+      UNIT_DARKNESS  : 'Awareness, decision and growth',
+      UNIT_TURNING2  : 'Begin to Solve Problem',
+      UNIT_FINALE    : 'Ending',
+
+      VERYSHORT_SETUP      : 'Introduction of relationship between scene and character', 
+      VERYSHORT_TURNING    : 'Minor incident occurs and solve', 
+      VERYSHORT_FUN        : 'Finish with character\'s unexpected side',
+
+      UNIT_VERYLONG_TURNING1 			  : 'Occurrence of the original incident',
+      UNIT_VERYLONG_TURNING1_2 		  : 'Get involved in an incident',
+      UNIT_VERYLONG_DEVRELATION 		: 'Genre-appropriate elements and Relationship development',
+
+      UNIT_VERYLONG_SUB_PROGRESS 		: 'Sub-story progress',
+      UNIT_VERYLONG_SUB_MIDPOINT 		: 'Aggravation of sub-story problems',
+      UNIT_VERYLONG_SUB_DARKNESS 		: 'Wit and decision in the sub-story',
+      UNIT_VERYLONG_SUB_SOLVE 		  : 'Sub-story resolution',
+
+      UNIT_VERYLONG_MAIN_PROGRESS 	: 'Main-story progress',
+      UNIT_VERYLONG_MAIN_MIDPOINT 	: 'Problem of the main story becomes more serious or surfaced',
+      UNIT_VERYLONG_MAIN_DARKNESS 	: 'Awareness and decision of the main-story',
+      UNIT_VERYLONG_MAIN_SOLVE 		  : 'Main-story resolution',
+
+      UNIT_COMMON    : 'Added Chapter',
+      UNIT_MAINSTORY : 'Main Story',
+    },
+    LANGCODE_JA: {
+      UNIT_OPENING   : 'オープニング', 
+      UNIT_SETUP     : 'キャラや関係性の紹介',
+      UNIT_THINKING  : 'テーマについての考え',
+      UNIT_TURNING1  : '事件発生',
+      UNIT_SUBSTORY  : 'サポートストーリー',
+      UNIT_FUN       : '王道演出と関係の進展',
+      UNIT_MIDPOINT  : '問題の深刻化, 表面化',
+      UNIT_DARKNESS  : '気づきと決断と成長',
+      UNIT_TURNING2  : '問題解決',
+      UNIT_FINALE    : 'エンディング',
+
+      VERYSHORT_SETUP      : '舞台とキャラクターの関係性の紹介', 
+      VERYSHORT_TURNING   : 'ちょっとしたハプニング発生し、解決する', 
+      VERYSHORT_FUN        : 'キャラの意外な一面を出してオチ', 
+
+      UNIT_VERYLONG_TURNING1 			  : '大元の事件の発生',
+      UNIT_VERYLONG_TURNING1_2 		  : '事件に巻き込まれる',
+      UNIT_VERYLONG_DEVRELATION 		: '王道演出と関係の進展',
+      UNIT_VERYLONG_SUB_PROGRESS 		: 'サブストーリーの進行',
+      UNIT_VERYLONG_SUB_MIDPOINT 		: 'サブストーリーの問題の深刻化',
+      UNIT_VERYLONG_SUB_DARKNESS 		: 'サブストーリーでの機転と決断',
+      UNIT_VERYLONG_SUB_SOLVE 		  : 'サブストーリーの解決',
+      UNIT_VERYLONG_MAIN_PROGRESS 	: 'メインストーリーの進行',
+      UNIT_VERYLONG_MAIN_MIDPOINT 	: 'メインストーリーの問題の深刻化, 表面化',
+      UNIT_VERYLONG_MAIN_DARKNESS 	: 'メインストーリーの気づきと決断',
+      UNIT_VERYLONG_MAIN_SOLVE 		  : 'メインストーリーの解決',
+
+      UNIT_COMMON    : '追加した章',
+      UNIT_MAINSTORY : 'メインストーリー',
+    },
+    LANGCODE_CH: {
+      UNIT_OPENING   : '开幕', 
+      UNIT_SETUP     : '角色或关系性的介绍',
+      "thinking"     : "关于主题的思考",
+      UNIT_TURNING1  : '发生事件',
+      "substory"     : "支持故事",
+      UNIT_FUN       : '王道演出和关系发展',
+      UNIT_MIDPOINT  : '问题变得更加严重或浮出水面',
+      UNIT_DARKNESS  : '意识，决策与成长',
+      UNIT_TURNING2  : '解决问题',
+      UNIT_FINALE    : '闭幕',
+
+      VERYSHORT_SETUP      : '介绍舞台和角色的关系性', 
+      VERYSHORT_TURNING   : '发生小事情并解决', 
+      VERYSHORT_FUN        : '表现出角色令人意外的一面收尾', 
+
+      "verylong_turning_1"  : "原始事件的发生",
+      "verylong_turning_2"  : "参与事件",
+      "verylong_develop_relation"  : "王道演出和关系发展",
+
+      UNIT_VERYLONG_SUB_PROGRESS 		: '次故事进度',
+      UNIT_VERYLONG_MAIN_PROGRESS 		: '主要故事进度',
+      "verylong_sub_midpoint"   : "子故事问题的恶化",
+      "verylong_sub_darkness"   : "子故事中的机智和决定",
+      "verylong_sub_solve"      : "解決子故事",
+      "verylong_main_midpoint"  : "主要故事的问题变得更加严重或浮出水面",
+      "verylong_main_darkness"  : "主要故事的意识和决定",
+      "verylong_main_solve"     : "解決主要故事",
+
+      UNIT_COMMON    : '增加的章节',
+      UNIT_MAINSTORY : '主线故事',
+    },
+    LANGCODE_TW: {
+      UNIT_OPENING   : '開幕', 
+      UNIT_SETUP     : '角色或關係性的介紹',
+      "thinking"     : "關於主題的思考",
+      UNIT_TURNING1  : '發生事件',
+      "substory"     : "支持故事",
+      UNIT_FUN       : '王道演出和關係發展',
+      UNIT_MIDPOINT  : '問題變得更加嚴重或浮出水面',
+      UNIT_DARKNESS  : '醒悟與成長',
+      UNIT_TURNING2  : '解決問題',
+      UNIT_FINALE    : '閉幕',
+
+      VERYSHORT_SETUP      : '介紹舞臺和角色的關係性', 
+      VERYSHORT_TURNING   : '發生小事情並解決', 
+      VERYSHORT_FUN        : '表現出角色令人意外的一面收尾', 
+
+      "verylong_turning_1"    : "原始事件的發生",
+      "verylong_turning_2"    : "參與事件",
+      "verylong_develop_relation"  : "王道演出和關係發展",
+
+      UNIT_VERYLONG_SUB_PROGRESS 		: '子故事進度',
+      UNIT_VERYLONG_MAIN_PROGRESS   : '主要故事進度',
+      "verylong_sub_midpoint"  : "子故事問題的惡化",
+      "verylong_sub_darkness"  : "子故事中的機智和決定",
+      "verylong_sub_solve"     : "解決子故事",
+      "verylong_main_midpoint" : "主要故事的問題變得更加嚴重或浮出水面",
+      "verylong_main_darkness" : "主要故事的意識和決定",
+      "verylong_main_solve"    : "解决主要故事",
+
+      UNIT_COMMON    : '新增章節',
+      UNIT_MAINSTORY : '主線故事',
+    },
+  },
+  'sequenceUnitCaution' : {
+    LANGCODE_EN: {
+      UNIT_OPENING   : 'Lots of referrals that can confuse readers',
+      UNIT_SETUP     : 'There are many things to introduce and readers may not be able to remember',
+      UNIT_THINKING  : 'Main character thinks for too long and readers may get bored',
+      UNIT_TURNING1  : 'Incident may occur slowly and the reader may think it is slow to develop',
+      UNIT_SUBSTORY  : 'Substory may be too long and seem to have derailed',
+      UNIT_FUN       : 'The story is too long and readers may get bored',
+      UNIT_MIDPOINT  : 'The dark development may be too continuous for the reader to read',
+      UNIT_DARKNESS  : 'It may take too long to notice and the character may seem indecisive',
+      UNIT_TURNING2  : 'Problem solving takes too long and readers may get bored',
+      UNIT_FINALE    : 'The story is too long and readers may get bored',
+
+      VERYSHORT_SETUP      : 'Lots of referrals that can confuse readers', 
+      VERYSHORT_TURNING    : 'Incident may occur slowly and the reader may think it is slow to develop', 
+      VERYSHORT_FUN        : 'The story is too long and readers may get bored',
+
+      UNIT_VERYLONG_TURNING1 			  : 'Incident may occur slowly and the reader may think it is slow to develop',
+      UNIT_VERYLONG_TURNING1_2 		  : 'Incident may occur slowly and the reader may think it is slow to develop',
+      UNIT_VERYLONG_DEVRELATION 		: 'The story is too long and readers may get bored',
+
+      UNIT_VERYLONG_SUB_PROGRESS 		: 'The story is too long and readers may get bored',
+      UNIT_VERYLONG_MAIN_PROGRESS 	: 'The story is too long and readers may get bored',
+      UNIT_VERYLONG_SUB_MIDPOINT 		: 'The dark development may be too continuous for the reader to read',
+      UNIT_VERYLONG_MAIN_MIDPOINT 	: 'The dark development may be too continuous for the reader to read',
+      UNIT_VERYLONG_SUB_DARKNESS 		: 'It may take too long to notice and the character may seem indecisive',
+      UNIT_VERYLONG_MAIN_DARKNESS 	: 'It may take too long to notice and the character may seem indecisive',
+      UNIT_VERYLONG_SUB_SOLVE 		  : 'Problem solving takes too long and readers may get bored',
+      UNIT_VERYLONG_MAIN_SOLVE 		  : 'Problem solving takes too long and readers may get bored',
+
+      UNIT_COMMON    : 'Is the story too long?',
+      UNIT_MAINSTORY : '',
+      'sequenceEmptyMessage'    : 'add chapter from bottom right button',
+      'sequenceEmptyMessagePc'  : 'add chapter from top left button',
+
+      'unitCautionHide' : 'hide advice',
+      'unitCautionShow' : 'display advice',
+
+    },
+    LANGCODE_JA: {
+      UNIT_OPENING   : '紹介するものが多く、読者が混乱する可能性があります',
+      UNIT_SETUP     : '紹介するものが多く、読者が覚えきれない可能性があります',
+      UNIT_THINKING  : '主人公が考えている時間が長く、読者が飽きてしまう可能性があります',
+      UNIT_TURNING1  : '事件が緩やか発生し、展開が遅いと読者に思われる可能性があります',
+      UNIT_SUBSTORY  : 'サブストーリーが長すぎて、話が脱線したと思われる可能性があります',
+      UNIT_FUN       : '長すぎて、話が冗長になっている可能性があります',
+      UNIT_MIDPOINT  : '暗い展開が続きすぎて、読者が読むのがつらくなっている可能性があります',
+      UNIT_DARKNESS  : '気付きに時間がかかりすぎて、主人公が優柔不断と思われる可能性があります',
+      UNIT_TURNING2  : '問題解決に時間がかかりすぎて、読者が読み飽きてしまう可能性があります',
+      UNIT_FINALE    : '長すぎて、話が冗長になっている可能性があります',
+
+      VERYSHORT_SETUP      : '紹介するものが多く、読者が混乱する可能性があります', 
+      VERYSHORT_TURNING    : '事件が緩やか発生し、展開が緩いと読者に思われる可能性があります', 
+      VERYSHORT_FUN        : '長すぎて、オチとして冗長になっている可能性があります', 
+
+      UNIT_VERYLONG_TURNING1 			  : '事件が緩やか発生し、展開が遅いと読者に思われる可能性があります',
+      UNIT_VERYLONG_TURNING1_2 		  : '事件が緩やか発生し、展開が遅いと読者に思われる可能性があります',
+      UNIT_VERYLONG_DEVRELATION 		: '長すぎて、話が冗長になっている可能性があります',
+
+      UNIT_VERYLONG_SUB_PROGRESS 		: '長すぎて、話が冗長になっている可能性があります',
+      UNIT_VERYLONG_MAIN_PROGRESS 	: '長すぎて、話が冗長になっている可能性があります',
+      UNIT_VERYLONG_SUB_MIDPOINT 		: '暗い展開が続きすぎて、読者が読むのがつらくなっている可能性があります',
+      UNIT_VERYLONG_MAIN_MIDPOINT 	: '暗い展開が続きすぎて、読者が読むのがつらくなっている可能性があります',
+      UNIT_VERYLONG_SUB_DARKNESS 		: '気付きに時間がかかりすぎて、主人公が優柔不断と思われる可能性があります',
+      UNIT_VERYLONG_MAIN_DARKNESS 	: '気付きに時間がかかりすぎて、主人公が優柔不断と思われる可能性があります',
+      UNIT_VERYLONG_SUB_SOLVE 		  : '問題解決に時間がかかりすぎて、読者が読み飽きてしまう可能性があります',
+      UNIT_VERYLONG_MAIN_SOLVE 		  : '問題解決に時間がかかりすぎて、読者が読み飽きてしまう可能性があります',
+
+      UNIT_COMMON    : '長すぎるかもしれません',
+      UNIT_MAINSTORY : '',
+      'sequenceEmptyMessage'    : '右下のボタンから\n「章」を追加してください',
+      'sequenceEmptyMessagePc'  : '左上のボタンから\n「章」を追加してください',
+
+      'unitCautionHide' : '忠告の非表示',
+      'unitCautionShow' : '忠告の表示',
+    },
+    LANGCODE_CH: {
+      UNIT_OPENING   : '介绍的事情很多，有可能导致读者感觉混乱',
+      UNIT_SETUP     : '介绍的事情很多，有可能导致读者记不完',
+      UNIT_THINKING  : '主人公思考的时间过长，有可能导致读者厌倦',
+      UNIT_TURNING1  : '事件慢悠悠地发生，有可能导致读者感觉展开太慢',
+      UNIT_SUBSTORY  : '支线故事过长，有可能导致读者感觉话头脱线',
+      UNIT_FUN       : '内容过长，有可能导致故事变得冗长',
+      UNIT_MIDPOINT  : '阴暗面的展开持续太久，有可能导致读者难以继续阅读',
+      UNIT_DARKNESS  : '醒悟所需的时间过长，有可能导致主人公被认为是优柔寡断的性格',
+      UNIT_TURNING2  : '问题解决所需的时间过长，有可能导致读者读得厌倦',
+      UNIT_FINALE    : '内容过长，有可能导致故事变得冗长',
+
+      VERYSHORT_SETUP      : '介绍的事情很多，有可能导致读者感觉混乱', 
+      VERYSHORT_TURNING    : '事件慢悠悠地发生，有可能导致读者感觉展开很慢', 
+      VERYSHORT_FUN        : '内容过长，有可能导致收尾变得冗长', 
+
+      UNIT_VERYLONG_TURNING1 			  : '事件慢悠悠地发生，有可能导致读者感觉展开太慢',
+      UNIT_VERYLONG_TURNING1_2 		  : '事件慢悠悠地发生，有可能导致读者感觉展开太慢',
+      UNIT_VERYLONG_DEVRELATION 		: '内容过长，有可能导致故事变得冗长',
+
+      UNIT_VERYLONG_SUB_PROGRESS 		: '内容过长，有可能导致故事变得冗长',
+      UNIT_VERYLONG_MAIN_PROGRESS 	: '内容过长，有可能导致故事变得冗长',
+      UNIT_VERYLONG_SUB_MIDPOINT 		: '阴暗面的展开持续太久，有可能导致读者难以继续阅读',
+      UNIT_VERYLONG_MAIN_MIDPOINT 	: '阴暗面的展开持续太久，有可能导致读者难以继续阅读',
+      UNIT_VERYLONG_SUB_DARKNESS 		: '醒悟所需的时间过长，有可能导致主人公被认为是优柔寡断的性格',
+      UNIT_VERYLONG_MAIN_DARKNESS 	: '醒悟所需的时间过长，有可能导致主人公被认为是优柔寡断的性格',
+      UNIT_VERYLONG_SUB_SOLVE 		  : '问题解决所需的时间过长，有可能导致读者读得厌倦',
+      UNIT_VERYLONG_MAIN_SOLVE 		  : '问题解决所需的时间过长，有可能导致读者读得厌倦',
+
+      UNIT_COMMON    : '可能有点太长了',
+      UNIT_MAINSTORY : '',
+      'sequenceEmptyMessage'    : '从右下角的按钮中添加一章',
+      'sequenceEmptyMessagePc'  : '从左上角的按钮中添加一章',
+
+      'unitCautionHide' : '隐藏建议',
+      'unitCautionShow' : '显示建议',
+    },
+    LANGCODE_TW: {
+      UNIT_OPENING   : '介紹的事情很多，有可能導致讀者感覺混亂',
+      UNIT_SETUP     : '介紹的事情很多，有可能導致讀者記不住',
+      UNIT_THINKING  : '主人公思考的時間過長，有可能導致讀者厭倦',
+      UNIT_TURNING1  : '事件慢悠悠地發生，有可能導致讀者感覺展開太慢',
+      UNIT_SUBSTORY  : '支線故事過長，有可能導致讀者感覺話頭脫線',
+      UNIT_FUN       : '內容過長，有可能導致故事變得冗長',
+      UNIT_MIDPOINT  : '陰暗面的展開持續太久，有可能導致讀者難以繼續閱讀',
+      UNIT_DARKNESS  : '醒悟所需的時間過長，有可能導致主人公被認為是優柔寡斷的性格',
+      UNIT_TURNING2  : '問題解決所需的時間過長，有可能導致讀者讀得厭倦',
+      UNIT_FINALE    : '內容過長，有可能導致故事變得冗長',
+
+      VERYSHORT_SETUP      : '介紹的事情很多，有可能導致讀者感覺混亂', 
+      VERYSHORT_TURNING    : '事件慢悠悠地發生，有可能導致讀者感覺展開很慢', 
+      VERYSHORT_FUN        : '內容過長，有可能導致收尾變得冗長', 
+
+      UNIT_VERYLONG_TURNING1 			  : '事件慢悠悠地發生，有可能導致讀者感覺展開太慢',
+      UNIT_VERYLONG_TURNING1_2 		  : '事件慢悠悠地發生，有可能導致讀者感覺展開太慢',
+      UNIT_VERYLONG_DEVRELATION 		: '內容過長，有可能導致故事變得冗長',
+      UNIT_VERYLONG_SUB_PROGRESS 		: '內容過長，有可能導致故事變得冗長',
+      UNIT_VERYLONG_MAIN_PROGRESS 	: '內容過長，有可能導致故事變得冗長',
+      UNIT_VERYLONG_SUB_MIDPOINT 		: '陰暗面的展開持續太久，有可能導致讀者難以繼續閱讀',
+      UNIT_VERYLONG_MAIN_MIDPOINT 	: '陰暗面的展開持續太久，有可能導致讀者難以繼續閱讀',
+      UNIT_VERYLONG_SUB_DARKNESS 		: '醒悟所需的時間過長，有可能導致主人公被認為是優柔寡斷的性格',
+      UNIT_VERYLONG_MAIN_DARKNESS 	: '醒悟所需的時間過長，有可能導致主人公被認為是優柔寡斷的性格',
+      UNIT_VERYLONG_SUB_SOLVE 		  : '問題解決所需的時間過長，有可能導致讀者讀得厭倦',
+      UNIT_VERYLONG_MAIN_SOLVE 		  : '問題解決所需的時間過長，有可能導致讀者讀得厭倦',
+
+      UNIT_COMMON    : '可能有點太長了',
+      UNIT_MAINSTORY : '',
+      'sequenceEmptyMessage'    : '單擊右下角的按鈕添加章節',
+      'sequenceEmptyMessagePc'  : '單擊左上角的按鈕添加章節',
+
+      'unitCautionHide' : '隱藏建議',
+      'unitCautionShow' : '顯示建議',
+    },
+  },
+  'sequenceUnitEditer' : {
+    LANGCODE_EN: {
+      'alertTitle'  : 'edit Chapter',
+      'title'       : 'title',
+      'description' : 'description',
+
+      'addFirst' : 'added Chapter to the beginning',
+      'addBefore' : 'add after ',
+      'addAfter'  : '',
+
+      'zoomIn'  : 'zoom in',
+      'zoomOut' : 'zoom out',
+      'addSequenceUnit' : 'add Chapter',
+
+      'addStory' : 'add Idea',
+    },
+    LANGCODE_JA: {
+      'alertTitle'  : '見出し変更',
+      'title'       : '見出し',
+      'description' : '詳細',
+
+      'addFirst' : '見出しを先頭に追加しました',
+      'addBefore' : '',
+      'addAfter'  : ' の後ろに追加しました',
+
+      'zoomIn'  : '拡大',
+      'zoomOut' : '縮小',
+      'addSequenceUnit' : '見出しの追加',
+
+      'addStory' : 'ネタの追加',
+    },
+    LANGCODE_CH: {
+      'alertTitle'  : '更改章',
+      'title'       : '章题',
+      'description' : '详细',
+
+      'addFirst' : '章已添加到开头',
+      'addBefore' : '已添加到 ',
+      'addAfter'  : ' 的后部',
+
+      'zoomIn'  : '扩张',
+      'zoomOut' : '收缩',
+      'addSequenceUnit' : ' 添加章',
+
+      'addStory' : '添加素材',
+    },
+    LANGCODE_TW: {
+      'alertTitle'  : '更改章節題',
+      'title'       : '章題',
+      'description' : '詳細',
+
+      'addFirst' : '章節已新增到開頭',
+      'addBefore' : '已新增到 ',
+      'addAfter'  : ' 的後部',
+
+      'zoomIn'  : '擴張',
+      'zoomOut' : '收縮',
+      'addSequenceUnit' : ' 新增章節',
+
+      'addStory' : '添加素材',
+    },
+  },
+  'emotion' : {
+    LANGCODE_EN: {
+      'none': 'none',
+      'selected' : 'Now selecting : ',
+      'plzselect' : 'Tap an emotion from the circle',
+      'plzselect2' : 'You can also drag and choose',
+
+      'ecstasy' : 'ecstasy',
+      'joy'     : 'joy',
+      'calm'    : 'calm',
+
+      'vigilance' : 'vigilance',
+      'expect'    : 'expectation',
+      'interest'  : 'interest',
+
+      'grief'     : 'grief',
+      'sadness'   : 'sadness',
+      'pensive'   : 'pensive',
+
+      'amaze'     : 'amazement',
+      'surprise'  : 'surprise',
+      'distract'  : 'distracted',
+
+      'terror'    : 'terror',
+      'fear'      : 'fear',
+      'anxious'   : 'anxious',
+
+      'warship'   : 'worshipful',
+      'trust'     : 'trusting',
+      'approval'  : 'approval',
+
+      'loath'   : 'loathing',
+      'hate'    : 'hate',
+      'boredom' : 'boredom',
+
+      'rage'    : 'rage',
+      'anger'   : 'anger',
+      'annoy'   : 'annoyance',
+
+      'love'        : 'love',
+      'submission'  : 'submission',
+      'awe'         : 'awe',
+      'disapprove'  : 'disapproval',
+      'remorse'     : 'remorse',
+      'insult'      : 'insult',
+      'aggressive'  : 'aggressive',
+      'optimism'    : 'optimism',
+    },
+    LANGCODE_JA: {
+      'none': '未選択',
+      'selected' : '選択中の感情は : ',
+      'plzselect' : '円をタップし、感情を選択してください',
+      'plzselect2' : 'ドラッグしながら選択も出来ます',
+
+      'ecstasy' : '恍惚',
+      'joy'     : '喜び',
+      'calm'    : '平穏',
+
+      'vigilance' : '警戒',
+      'expect'    : '期待',
+      'interest'  : '関心',
+
+      'amaze'     : '驚嘆',
+      'surprise'  : '驚き',
+      'distract'  : '放心',
+
+      'grief'     : '悲嘆',
+      'sadness'   : '悲しみ',
+      'pensive'   : '哀愁',
+
+      'terror'  : '恐怖',
+      'fear'    : '恐れ',
+      'anxious' : '不安',
+
+      'warship'   : '敬愛',
+      'trust'     : '信頼',
+      'approval'  : '容認',
+
+      'loath'   : '憎しみ',
+      'hate'    : '嫌悪',
+      'boredom' : 'うんざり',
+
+      'rage'  : '激怒',
+      'anger' : '怒り',
+      'annoy' : 'いらだち',
+
+      'love'        : '愛',
+      'submission'  : '服従',
+      'awe'         : '畏怖',
+      'disapprove'  : '拒絶',
+      'remorse'     : '後悔',
+      'insult'      : '軽蔑',
+      'aggressive'  : '攻撃',
+      'optimism'    : '楽観',
+    },
+    LANGCODE_CH: {
+      'none': '未选择',
+      'selected' : '已选定的感情 : ',
+      'plzselect' : '请点击圆形选择感情',
+      'plzselect2' : '你也可以拖动和选择',
+
+      'ecstasy' : '狂喜',
+      'joy'     : '快乐',
+      'calm'    : '平静',
+
+      'vigilance' : '警惕',
+      'expect'    : '期待',
+      'interest'  : '关心',
+
+      'amaze'     : '惊叹',
+      'surprise'  : '惊讶',
+      'distract'  : '错乱',
+
+      'grief'     : '悲痛',
+      'sadness'   : '悲伤',
+      'pensive'   : '忧伤',
+
+      'terror'  : '恐惧',
+      'fear'    : '害怕',
+      'anxious' : '不安',
+
+      'warship'   : '敬佩',
+      'trust'     : '信任',
+      'approval'  : '接受',
+
+      'loath'   : '厌恶',
+      'hate'    : '讨厌',
+      'boredom' : '厌倦',
+
+      'rage'  : '愤怒',
+      'anger' : '生气',
+      'annoy' : '恼火',
+
+      'love'        : '爱',
+      'submission'  : '顺从',
+      'awe'         : '敬畏',
+      'disapprove'  : '反对',
+      'remorse'     : '懊悔',
+      'insult'      : '蔑视',
+      'aggressive'  : '进攻性',
+      'optimism'    : '乐观',
+    },
+    LANGCODE_TW: {
+      'none': '未選擇',
+      'selected' : '已選定的感情 : ',
+      'plzselect' : '請點選圓形選擇感情',
+      'plzselect2' : '您也可以在拖動時選擇',
+
+      'ecstasy' : '狂喜',
+      'joy'     : '快樂',
+      'calm'    : '平靜',
+
+      'vigilance' : '警惕',
+      'expect'    : '期待',
+      'interest'  : '關心',
+
+      'amaze'     : '驚歎',
+      'surprise'  : '驚訝',
+      'distract'  : '錯亂',
+
+      'grief'     : '悲痛',
+      'sadness'   : '悲傷',
+      'pensive'   : '憂傷',
+
+      'terror'  : '恐懼',
+      'fear'    : '害怕',
+      'anxious' : '不安',
+
+      'warship'   : '敬佩',
+      'trust'     : '信任',
+      'approval'  : '接受',
+
+      'loath'   : '厭惡',
+      'hate'    : '討厭',
+      'boredom' : '厭倦',
+
+      'rage'  : '憤怒',
+      'anger' : '生氣',
+      'annoy' : '惱火',
+
+      'love'        : '愛',
+      'submission'  : '順從',
+      'awe'         : '敬畏',
+      'disapprove'  : '反對',
+      'remorse'     : '懊悔',
+      'insult'      : '蔑視',
+      'aggressive'  : '進攻性',
+      'optimism'    : '樂觀',
+    },
+  },
+  'hamburger' : {
+    LANGCODE_EN: {
+      'menu'             : 'main menu',
+      'privacyPolicy'    : 'Privacy Policy',
+      'term'             : 'Terms of Service',
+      'request'          : 'Send Request',
+      'garbage'          : 'Trash box',
+      'screenlock'       : 'Set Password',
+      'screenlockOn'     : 'Current: On',
+      'screenlockOff'    : 'Current: Off',
+      'changeModel'      : 'Data migration for change phone',
+      'appUpdate'        : 'What\'s New',
+      'license'          : 'License',
+      'howto'            : 'How to Use StoryPlotter',
+      'memoSetting'      : 'Idea Display Setting',
+      'plotSetting'      : 'Plot Display Setting',
+      'lang'             : 'Fix Translate',
+    },
+    LANGCODE_JA: {
+      'menu'             : 'メインメニュー',
+      'privacyPolicy'    : 'プライバシー ポリシー',
+      'term'             : '利用規約',
+      'request'          : '改善・ご要望を送る',
+      'garbage'          : 'ゴミ箱',
+      'screenlock'       : 'パスワード設定',
+      'screenlockOn'     : '現在:オン',
+      'screenlockOff'    : '現在:オフ',
+      'changeModel'      : '機種変更のためのデータ移行',
+      'appUpdate'        : 'アプリ更新情報',
+      'license'          : 'ライセンス',
+      'howto'            : 'ストーリープロッターの使い方',
+      'memoSetting'      : 'ネタの表示設定',
+      'plotSetting'      : 'プロットの表示設定',
+      'lang'             : '',
+    },
+    LANGCODE_CH: {
+      'menu'             : '选项设置',
+      'privacyPolicy'    : '隐私政策',
+      'term'             : '使用条约',
+      'request'          : '提改进意见/建议',
+      'garbage'          : '垃圾桶',
+      'screenlock'       : '密码设置',
+      'screenlockOn'     : '目前:开',
+      'screenlockOff'    : '目前:关',
+      'changeModel'      : '设备更换之数据迁移',
+      'appUpdate'        : '应用更新信息',
+      'license'          : '许可协议',
+      'howto'            : '故事织机的使用方法',
+      'memoSetting'      : '素材的显示设置',
+      'plotSetting'      : '故事情节的显示设置',
+      'lang'             : '改进翻译',
+    },
+    LANGCODE_TW: {
+      'menu'             : '选项设置',
+      'privacyPolicy'    : '隱私政策',
+      'term'             : '使用條約',
+      'request'          : '提改進意見/建議',
+      'garbage'          : '垃圾桶',
+      'screenlock'       : '密碼設定',
+      'screenlockOn'     : '目前:開',
+      'screenlockOff'    : '目前:關',
+      'changeModel'      : '裝置更換之資料遷移',
+      'appUpdate'        : '應用更新資訊',
+      'license'          : '許可協議',
+      'howto'            : '故事織機的使用方法',
+      'memoSetting'      : '素材的顯示設定',
+      'plotSetting'      : '故事情節的顯示設定',
+      'lang'             : '改進翻譯',
+    },
+  },
+
+  'groupRelationShip' : {
+    LANGCODE_EN: {
+      "title" : "Character Group Setting",
+      "firstMessage" : "Tap This and Add Group",
+
+      "selectAddType" : "Select the type want to Add",
+      "group"       : "Group",
+      "char"        : "Character",
+      "noneGroupName" : "None",
+
+      "selectTitle" : "Add group or character",
+      "groupColor"  : "Group Color",
+      "groupName"   : "Group Name",
+
+      "deleteCharTitle" : "Remove the character from the group?",
+      "deleteCharYes"   : "Remove",
+
+      "selectPosTitle"          : "Group Name Position",
+      GROUPTITLE_POS_TOPLEFT    : "top left", 
+      GROUPTITLE_POS_TOPCENTER  : "top center",
+      GROUPTITLE_POS_TOPRIGHT   : "top right", 
+      GROUPTITLE_POS_BOTTOMLEFT   : "bottom left", 
+      GROUPTITLE_POS_BOTTOMCENTER : "bottom center", 
+      GROUPTITLE_POS_BOTTOMRIGHT  : "bottom right", 
+
+      "groupListFromDownload"     : "Group List",
+      "groupRelationFromDownload" : "Group Relation",
+      "charRelationFromDownload"  : "Character Relation",
+
+      "selectChar": "Select Character",
+    },
+    LANGCODE_JA: {
+      "title" : "グループ設定",
+      "firstMessage" : "タップして、グループを追加しましょう！",
+
+      "selectAddType" : "追加したい種類の選択",
+      "group"       : "グループ",
+      "char"        : "キャラ",
+      "noneGroupName" : "なし",
+
+      "selectTitle" : "グループ、キャラの追加",
+      "groupColor"  : "グループの色",
+      "groupName"   : "グループの名前",
+
+      "deleteCharTitle" : "キャラをグループから外しますか？",
+      "deleteCharYes"   : "外す",
+
+      "selectPosTitle"          : "グループ名の位置",
+      GROUPTITLE_POS_TOPLEFT    : "左上", 
+      GROUPTITLE_POS_TOPCENTER  : "中央上",
+      GROUPTITLE_POS_TOPRIGHT   : "右上", 
+      GROUPTITLE_POS_BOTTOMLEFT   : "左下", 
+      GROUPTITLE_POS_BOTTOMCENTER : "中央下", 
+      GROUPTITLE_POS_BOTTOMRIGHT  : "右下", 
+
+      "groupListFromDownload"     : "グループ一覧",
+      "groupRelationFromDownload" : "グループの関係性",
+      "charRelationFromDownload"  : "キャラクターの関係性",
+
+      "selectChar": "キャラの選択",
+
+    },
+    LANGCODE_CH: {
+      "title" : "角色组设置",
+      "firstMessage" : "点击添加组",
+
+      "selectAddType" : "选择您要添加的类型",
+      "group"       : "组",
+      "char"        : "角色",
+      "noneGroupName" : "无",
+
+      "selectTitle" : "添加一个组或角色",
+      "groupColor"  : "组颜色",
+      "groupName"   : "组的名称",
+
+      "deleteCharTitle" : "你想把你的角色从群里删除吗？",
+      "deleteCharYes"   : "解开",
+
+      "selectPosTitle"          : "组名称的位置",
+      GROUPTITLE_POS_TOPLEFT    : "左上", 
+      GROUPTITLE_POS_TOPCENTER  : "中上层",
+      GROUPTITLE_POS_TOPRIGHT   : "右上", 
+      GROUPTITLE_POS_BOTTOMLEFT   : "左下", 
+      GROUPTITLE_POS_BOTTOMCENTER : "中下部", 
+      GROUPTITLE_POS_BOTTOMRIGHT  : "右下", 
+
+      "groupListFromDownload"     : "组别列表",
+      "groupRelationFromDownload" : "組关系",
+      "charRelationFromDownload"  : "角色关系",
+
+      "selectChar": "选择角色",
+
+    },
+    LANGCODE_TW: {
+      "title" : "角色組設定",
+      "firstMessage" : "點擊添加組！",
+
+      "selectAddType" : "選擇您要添加的類型",
+      "group"       : "組",
+      "char"        : "角色",
+      "noneGroupName" : "沒有",
+
+      "selectTitle" : "添加組和角色",
+      "groupColor"  : "組色",
+      "groupName"   : "組的名字",
+
+      "deleteCharTitle" : "您要從群組中刪除角色嗎？",
+      "deleteCharYes"   : "去掉",
+
+      "selectPosTitle"          : "組名位置",
+      GROUPTITLE_POS_TOPLEFT    : "左上", 
+      GROUPTITLE_POS_TOPCENTER  : "中心上",
+      GROUPTITLE_POS_TOPRIGHT   : "右上", 
+      GROUPTITLE_POS_BOTTOMLEFT   : "左下", 
+      GROUPTITLE_POS_BOTTOMCENTER : "中心下", 
+      GROUPTITLE_POS_BOTTOMRIGHT  : "右下", 
+
+      "groupListFromDownload"     : "組清單",
+      "groupRelationFromDownload" : "組關係",
+      "charRelationFromDownload"  : "角色關係",
+
+      "selectChar": "選擇角色",
+    },
+  },  
+  'relationShip' : {
+    LANGCODE_EN: {
+      'title'               : 'character\'s correlation diagram',
+      'relationShipFirst'   : '',
+      'relationShipMid'   : '\'s impression of ',
+      'relationShipEnd'   : '',
+
+      'save'              : 'save',
+
+      'addRelation'       : 'tap to add impression',
+      'deleteRelation'    : 'tap to trash impression',
+
+      'longPress'     : 'move mode',
+      'scalePress'    : 'scale mode',
+
+      'confirm'   : 'back',
+      'default'   : 'respect',
+
+      'clear' : 'clear icon position',
+
+      'tapAndChangeArrow' : 'tap Arrow to change type',
+
+      'arrowColorSet'     : 'set tag to arrow color',
+      'addRelationMap'    : 'add diagram',
+      'addRelationMapTitle'    : 'diagram name',
+      'defaultTitle'      : 'main diagram',
+
+      'controller_title'  : 'Operating range : ',
+      'controller_all'    : 'all',
+      'controller_iconMove' : 'icon select/move',
+      'controller_groupMove' : 'group select',
+      'controller_boardMove' : 'whole move',
+      'controller_boardScale' : 'scale',
+
+      'hideCharacater' : 'Hide character settings',
+      'hideCharacaterTitle' : 'Select the character to display',
+
+      'groupRelationButton' : 'Group Setting',
+
+      'linkStory' : 'link story',
+      'editTitleToolTip' : "rename diagram",
+
+      'zoomin'  : 'zoom in',
+      'zoomout' : 'zoom out',
+    },
+    LANGCODE_JA: {
+      'title'    : 'キャラの相関図',
+      'relationShipFirst'   : '',
+      'relationShipMid'     : ' から ',
+      'relationShipEnd'     : 'への印象',
+
+      'save'              : '保存する',
+
+      'addRelation'       : 'タップして関係性の追加',
+      'deleteRelation'    : 'タップして関係性の削除',
+
+      'longPress'     : '移動モード',
+      'scalePress'    : '拡大縮小モード',
+
+      'confirm'   : '戻る',
+      'default'   : '尊敬',
+
+      'clear' : '配置の初期化',
+
+      'tapAndChangeArrow' : '矢印をタップすると、種類を変えられます',
+
+      'arrowColorSet'     : '矢印の色に タグ をつける',
+      'addRelationMap'    : '相関図の追加',
+      'addRelationMapTitle'    : '相関図の題名',
+      'defaultTitle'      : 'メインの相関図',
+
+      'controller_title'  : '操作範囲 : ',
+      'controller_all' : '全て',
+      'controller_iconMove' : 'アイコン選択・移動',
+      'controller_groupMove' : 'グループ選択',
+      'controller_boardMove' : '全体移動',
+      'controller_boardScale' : '拡大縮小',
+
+      'hideCharacater' : 'キャラの非表示設定',
+      'hideCharacaterTitle' : '表示したいキャラを選んでください',
+
+      'groupRelationButton' : 'グループ設定',
+
+      'linkStory' : '紐づいているエピソード',
+      'editTitleToolTip' : "相関図の名前変更",
+
+      'zoomin'  : '拡大',
+      'zoomout' : '縮小',
+    },
+    LANGCODE_CH: {
+      'title'    : '角色的关系图',
+      'relationShipFirst'   : '',
+      'relationShipMid'     : ' 对 ',
+      'relationShipEnd'     : '的印象',
+
+      'save'              : '保存',
+
+      'addRelation'       : '点击添加关系性',
+      'deleteRelation'    : '点击垃圾桶关系性',
+
+      'longPress'     : '移动模式',
+      'scalePress'    : '放大缩小模式',
+
+      'confirm'   : '返回',
+      'default'   : '尊敬',
+
+      'clear' : '初始化配置',
+
+      'tapAndChangeArrow' : '点击箭头可以改变种类',
+
+      'arrowColorSet'     : '对箭头颜色设置标签',
+      'addRelationMap'    : '添加角色的关系图',
+      'addRelationMapTitle'    : '角色的关系图的标题',
+      'defaultTitle'      : '主要角色的关系图',
+
+      'controller_title'  : '工作范围 : ',
+      'controller_all' : '所有',
+      'controller_iconMove' : '图标选择/移动',
+      'controller_groupMove' : '组选',
+      'controller_boardMove' : '整体移动',
+      'controller_boardScale' : '放大缩小',
+
+      'hideCharacater' : '角色隐藏设置',
+      'hideCharacaterTitle' : '选择你要显示的字符',
+
+      'groupRelationButton' : '组别设置',
+
+      'linkStory' : '故事链接',
+      'editTitleToolTip' : "重命名图",
+
+      'zoomin'  : '扩张',
+      'zoomout' : '收缩',
+
+    },
+    LANGCODE_TW: {
+      'title'    : '角色關係圖',
+      'relationShipFirst'   : '',
+      'relationShipMid'     : ' 對 ',
+      'relationShipEnd'     : '的印象',
+
+      'save'              : '儲存',
+
+      'addRelation'       : '點選新增關係',
+      'deleteRelation'    : '點選刪除關係',
+
+      'longPress'     : '移動模式',
+      'scalePress'    : '放大縮小模式',
+
+      'confirm'   : '返回',
+      'default'   : '尊敬',
+
+      'clear' : '初始化配置',
+
+      'tapAndChangeArrow' : '點選箭頭可以改變種類',
+
+      'arrowColorSet'     : '對箭頭顏色設定標籤',
+      'addRelationMap'    : '角色關係圖添加',
+      'addRelationMapTitle'    : '關聯圖標題',
+      'defaultTitle'      : '主要關聯圖',
+
+      'controller_title'  : '工作範圍 : ',
+      'controller_all' : '所有',
+      'controller_iconMove' : '圖標選擇/移動',
+      'controller_groupMove' : '組選擇',
+      'controller_boardMove' : '整體移動',
+      'controller_boardScale' : '放大縮小',
+
+      'hideCharacater' : '隱藏角色設定',
+      'hideCharacaterTitle' : '請選擇您要顯示的角色',
+
+      'groupRelationButton' : '組設置',
+
+      'linkStory' : '鏈接故事',
+      'editTitleToolTip' : "重命名圖",
+
+      'zoomin'  : '擴張',
+      'zoomout' : '收縮',
+    },
+  },
+  'notification' : {
+    LANGCODE_EN: {
+      'tillstart'     : '',
+      'tillafter'     : ' ideas are about to expire',
+
+      'purchaseCautionAndroid' : 'free trial will be finish tomorrow\nIf you don\'t use termination from GooglePlayStore',
+      'purchaseCautionIos' : 'free trial will be finish tomorrow\nIf you don\'t use termination from App Store',
+    },
+    LANGCODE_JA: {
+      'tillstart'     : '期限が近いネタが',
+      'tillafter'     : '件あります',
+
+      'purchaseCautionAndroid' : '明日、無料期間が終了します\nもし有料版を使用しないのであれば、GooglePlayStoreより解約をしてください',
+      'purchaseCautionIos' : '明日、無料期間が終了します\nもし有料版を使用しないのであれば、App Storeより解約をしてください',
+    },
+    LANGCODE_CH: {
+      'tillstart'     : '有',
+      'tillafter'     : '件即将到期的素材',
+
+      'purchaseCautionAndroid' : '明天您的免费试用将结束\n如果您不使用收费版，请于Google Play Store取消订阅',
+      'purchaseCautionIos' : '明天您的免费试用将结束\n如果您不使用收费版，请于App Store取消订阅',
+    },
+    LANGCODE_TW: {
+      'tillstart'     : '有',
+      'tillafter'     : '件即將到期的素材',
+
+      'purchaseCautionAndroid' : '明天您的免費試用將結束\n如果您不使用收費版，請於Google Play Store取消訂閱',
+      'purchaseCautionIos' : '明天您的免費試用將結束\n如果您不使用收費版，請於App Store取消訂閱',
+    },
+  },    
+  'ideaToOutline' : {
+    LANGCODE_EN: {
+      'title'       : 'idea to outline',
+
+      'preIdeaTitle'    : 'previous idea',
+      'postIdeaTitle'   : 'next idea',
+
+      'preOutlineTitle'    : 'previous outline',
+      'postOutlineTitle'   : 'next outline',
+
+      'beforeIdea'  : 'let\'s make \' ',
+      'afterIdea'   : ' \'\'s outline',
+
+      'save' : 'confirm outline',
+
+      'backToIdea'  : 'rewrite idea',
+      'useIdea'     : 'use Idea for Outline',
+    },
+    LANGCODE_JA: {
+      'title' : 'ネタ から あらすじに',
+
+      'preIdeaTitle'    : '前のネタ',
+      'postIdeaTitle'   : '次のネタ',
+
+      'preOutlineTitle'    : '前のあらすじ',
+      'postOutlineTitle'   : '次のあらすじ',
+
+      'beforeIdea'  : '',
+      'afterIdea'   : ' から話のあらすじを作りましょう',
+
+      'save' : 'あらすじを保存する',
+
+      'backToIdea'  : 'ネタを考え直す',
+      'useIdea'     : 'ネタをあらすじにする',
+    },
+    LANGCODE_CH: {
+      'title' : '从素材转为梗概',
+
+      'preIdeaTitle'    : '上一个素材',
+      'postIdeaTitle'   : '下一个素材',
+
+      'preOutlineTitle'    : '上一个梗概',
+      'postOutlineTitle'   : '下一个梗概',
+
+      'beforeIdea'  : '从 ',
+      'afterIdea'   : ' 制作出故事的梗概吧',
+
+      'save' : '保存梗概',
+
+      'backToIdea'  : '改写素材',
+      'useIdea'     : '将素材转为梗概',
+    },
+    LANGCODE_TW: {
+      'title' : '從素材轉為梗概',
+
+      'preIdeaTitle'    : '上一個素材',
+      'postIdeaTitle'   : '下一個素材',
+
+      'preOutlineTitle'    : '上一個梗概',
+      'postOutlineTitle'   : '下一個梗概',
+
+      'beforeIdea'  : '從 ',
+      'afterIdea'   : ' 製作出故事的梗概吧',
+
+      'save' : '儲存梗概',
+
+      'backToIdea'  : '改寫素材',
+      'useIdea'     : '將素材轉為梗概',
+    },
+  },
+  
+  'ideaToOutlineInput' : {
+    LANGCODE_EN: {
+      'charIntro'       : 'What is character trying to do ?',
+      'relationIntro'   : 'How do other characters react ?',
+      'charIntroAfter'  : 'How does the character respond ?',
+
+      'whatHappen'  : 'What\'s happening ?',
+      'whatHappen-sample'   : 'Is it a mental or physical problem for the character ?',
+      'howDilemma'     : 'What kind of dilemma will occur',
+      'howDilemma-sample'   : 'Ultimate two choices, bad bets, etc',
+      'who'         : 'Who does it concern ?',
+      'howSolve'    : 'How do they solve the problem ?',
+      'end'         : 'How does the story progress ?',
+      'end-sample'  : 'What has progressed ?\nHas the problem move towards resolution ?',
+      'endChar'     : 'How character\'s emotion or relationship changed ?',
+      'failedCase'        : 'What will happen to the character if it fails',
+      'failedCase-sample' : 'e.g. A situation where it is better to die, a level of pain that you absolutely want to avoid',
+
+      'whoDo'             : 'What surprises were shown ?',
+      'otherReaction'     : 'How do the other characters react ?',
+
+      'storyCheck'        : 'How does the main character check the main problem has been fixed ?',
+      'reaction'          : 'How does the main character look back at their previous self ?',
+
+      'worldSetting'  : 'What kind of setting is it ?',
+      'whatProblem'   : 'What kind of problems is the world experiencing ?',
+
+      'worldQues'   : 'What kind of questions do the characters have ?',
+      'think'       : 'What do the characters think at this point ?',
+      'think2'      : 'What is the gap they are feeling ?',
+    },
+    LANGCODE_JA: {
+      'charIntro'       : 'キャラが何をしようとし',
+      'relationIntro'   : '他のキャラからはどう反応され',
+      'charIntroAfter'  : 'どう反応を返すか',
+
+      'whatHappen'  : '何が起き',
+      'whatHappen-sample'   : 'キャラの内面の問題なのか？\n物理的な障害なのか？',
+      'howDilemma'     : 'どういうジレンマが発生し',
+      'howDilemma-sample'   : '究極の二択, 分の悪い賭けなど',
+      'who'         : '誰と誰が',
+      'howSolve'    : 'どういう対応をし',
+      'end'         : 'どう話が進むのか',
+      'end-sample'  : '事件が解決へと前進したか？',
+      'endChar'     : 'キャラクターの感情、関係性はどう変化するか',
+      'failedCase'        : '失敗した場合、キャラクターはどういうことになるのか',
+      'failedCase-sample' : '例：死んだ方がマシな状況、絶対避けたいと思うレベルの痛み',
+
+      'whoDo'             : 'どういう意外性を見せ、',
+      'otherReaction'     : 'どう反応されるか',
+
+      'storyCheck'        : '主人公がどういう方法で、困難を乗り越えた結果を確認し',
+      'reaction'          : '主人公は成長をどう振り返るか',
+
+      'worldSetting'  : 'どういう世界観で',
+      'whatProblem'   : 'どういう問題を抱えているのか',
+
+      'worldQues'   : 'キャラクター達は、どういう疑問を抱き',
+      'think'       : '現時点ではどう考えているのか',
+      'think2'      : '腑に落ちていないことはなんなのか',
+    },
+    LANGCODE_CH: {
+      'charIntro'       : '角色要做什么',
+      'relationIntro'   : '其他的角色如何反应',
+      'charIntroAfter'  : '角色如何回应',
+
+      'whatHappen'  : '发生了什么',
+      'who'         : '是谁和谁',
+      'howSolve'    : '如何解决',
+      'end'         : '如何推进故事',
+
+      'whatHappen-sample'   : '是角色内心面的问题？ 还是物理性的障碍？',
+      "end-sample"  : """进展如何？
+问题朝着解决方向发展了吗？""",
+      "endChar"  : "角色的情感或关系如何变化？",
+
+      "howDilemma"  : "会出现什么样的困境",
+      "howDilemma-sample"  : "终极两种选择，下注等",
+      "failedCase"  : "如果角色失败，将会发生什么？",
+      "failedCase-sample"  : """例：最好死的情况，
+您绝对希望避免的痛苦程度""",
+
+      'whoDo'             : '能看到怎样的意外性，',
+      'otherReaction'     : '其他人如何反应',
+
+      'storyCheck'        : '主人公通过何种方法，确认到克服困难后的结果',
+      'reaction'          : '主人公如何回顾成长',
+
+      'worldSetting'  : '是在怎样的世界观里',
+      'whatProblem'   : '怀抱着什么样的问题',
+
+      'worldQues'   : '角色怀抱着什么样的疑问',
+      'think'       : '此时人物在想什么？',
+      "think2"      : "他们感到的差距是什么？",
+    },
+    LANGCODE_TW: {
+      'charIntro'       : '角色要做什麼',
+      'relationIntro'   : '其他的角色如何反應',
+      'charIntroAfter'  : '角色如何回應',
+
+      'whatHappen'  : '發生了什麼',
+      'who'         : '是誰和誰',
+      'howSolve'    : '如何解決',
+      'end'         : '如何推進故事',
+
+      'whatHappen-sample'   : '是角色內心面的問題？ 還是物理性的障礙？',
+      "end-sample"  : """進展如何？ 問題是否已解決？""",
+      "endChar"  : "角色的情感或關係如何變化？",
+
+      "howDilemma"  : "會出現什麼樣的困境",
+      "howDilemma-sample"  : "終極兩種選擇，下注等",
+      "failedCase"  : "如果角色失敗，將會發生什麼？",
+      "failedCase-sample"  : """例：最好死的情況，您絕對希望避免的痛苦程度""",
+
+      'whoDo'             : '能看到怎樣的意外性，',
+      'otherReaction'     : '其他人如何反應',
+
+      'storyCheck'        : '主人公通過何種方法，確認到克服困難後的結果',
+      'reaction'          : '主人公如何回顧成長',
+
+      'worldSetting'  : '是在怎樣的世界觀裡',
+      'whatProblem'   : '懷抱著什麼樣的問題',
+
+      'worldQues'   : '角色懷抱著什麼樣的疑問',
+      'think'       : '此時人物在想什麼？',
+      "think2"      : "他們感到的差距是什麼？",
+    },
+  },
+  'selectIdea' : {
+    LANGCODE_EN: {
+      'title'           : 'write Idea',
+      'inputMessage'    : 'write idea or select idea from bottom list',
+      'moveToCharPage'  : 'If you can\'t have any Idea with it, let\'s deepen the character',
+    },
+    LANGCODE_JA: {
+      'title' : 'ネタの設定',
+      'inputMessage'    : 'ここにネタを書くか、下からネタを選んでください',
+      'moveToCharPage'  : '思い浮かばない場合は、キャラを深堀しましょう',
+    },
+    LANGCODE_CH: {
+      'title' : '素材的设置',
+      'inputMessage'    : '在这里可以写下素材，或从列表中选择素材',
+      'moveToCharPage'  : '如果你暂时没有灵感，不妨去深耕一下角色设定吧',
+    },
+    LANGCODE_TW: {
+      'title' : '素材的設定',
+      'inputMessage'    : '在這裡可以寫下素材，或從列表中選擇素材',
+      'moveToCharPage'  : '如果你暫時沒有靈感，不妨去深耕一下角色設定吧',
+    },
+  },    
+  'categoryOnly' : {
+    LANGCODE_EN: {
+      'nothing' : 'add idea or outline',
+    },
+    LANGCODE_JA: {
+      'nothing' : 'ネタかあらすじを追加してください',
+    },
+    LANGCODE_CH: {
+      'nothing' : '请添加素材或梗概',
+    },
+    LANGCODE_TW: {
+      'nothing' : '請新增素材或梗概',
+    },
+  },
+  'changeModel' : {
+    LANGCODE_EN: {
+      'write' : 'export',
+      'read'  : 'import',
+      'title' : 'StoryPlotter_BackUp_',
+      'writeDetail' : 'if this phone is old, press \'export\' button and upload data\n※ picture is excluded(character\'s image, Idea image)',
+      'readDetail'  : 'if this phone is new, press \'import\' button and select uploaded data',
+      'reading' : 'reading...',
+
+      'modalTitle' : 'backup file',
+      'beforeTime' : 'file will create after ',
+      'afterTime'  : 'secounds',
+      'failed'     : 'this is not backup file\nplease select the correct one'
+    },
+    LANGCODE_JA: {
+      'write' : 'データの出力',
+      'read'  : 'データの読み込み',
+      'title' : 'ストーリープロッター_機種変更_',
+      'writeDetail' : '古い端末の場合、「データの出力」を押し、データをアップロードしてください\n※ 画像は移行されません（キャラ画像やネタの画像など）',
+      'readDetail'  : '新しい端末の場合、「データの読み込み」を押し、アップロードしたデータを選んでください',
+      'reading' : '読み込み中...',
+
+      'modalTitle' : '機種変更用',
+      'beforeTime' : 'ファイルは ',
+      'afterTime'  : '秒後に作成されます',
+      'failed'     : 'バックアップファイルでないため、失敗しました\nバックアップファイルを選択してください'
+    },
+    LANGCODE_CH: {
+      'write' : '数据输出',
+      'read'  : '数据读取',
+      'title' : '故事织机_数据迁移_',
+      'writeDetail' : '老设备请选择「数据输出」上传数据\n※ 图片不会被迁移（角色图片或素材图片等）',
+      'readDetail'  : '新设备请选择「数据读取」选择已上传的数据',
+      'reading' : '读取中...',
+
+      'modalTitle' : '设备更换用',
+      'beforeTime' : '该文件将在',
+      'afterTime'  : '秒内创建',
+      'failed'     : '这不是备份文件\n请选择正确的'
+    },
+    LANGCODE_TW: {
+      'write' : '資料輸出',
+      'read'  : '資料讀取',
+      'title' : '故事織機_資料遷移_',
+      'writeDetail' : '老裝置請選擇「資料輸出」上傳資料\n※ 圖片不會被遷移（角色圖片或素材圖片等）',
+      'readDetail'  : '新裝置請選擇「資料讀取」選擇已上傳的資料',
+      'reading' : '讀取中...',
+
+      'modalTitle' : '裝置更換用',
+      'beforeTime' : '文件將在',
+      'afterTime'  : '秒鐘內創建',
+      'failed'     : '這不是備份文件\n請選擇正確的一個'
+    },
+  },
+  'sampleMemo' : {
+    LANGCODE_EN: {
+      'advice'  : "Advice",
+
+      'intro0'  : 'Let\'s make a piece of story!',
+      'intro1'  : 'Characters is one of the important item of story',
+      'intro2'  : 'Your \'I like!\' is an important story',
+      'intro3'  : 'Idea is always close to you',
+      'intro4'  : 'Story needs spices...!',
+      'intro5'  : 'Gathers Idea, then story will be more clear!',
+
+      'support0'  : 'What\'s your favorite movie, manga, or novel scene?',
+      'support1'  : 'What your favorite characters characteristics?',
+      'support2'  : 'What is your favorite story development?',
+      'support3'  : 'Do you have questions or upsets about something?',
+      'support4'  : 'What are your interesting events or incidents?',
+      'support5'  : 'Please add more and more Idea in this condition!',
+
+      'howtoUse'  : 'If you want to know StoryPlotter can do, click here',
+    },
+    LANGCODE_JA: {
+      'advice'  : "アドバイス",
+
+      'intro0'  : 'ストーリーのピースとなるネタを作りましょう！',
+      'intro1'  : 'キャラクターは創作で、大事な要素の１つです',
+      'intro2'  : 'あなたの「好き！」は大事なネタです',
+      'intro3'  : 'いつだって身近な所に、ネタはあります',
+      'intro4'  : 'ストーリーには、スパイスが必要ですね...！',
+      'intro5'  : 'ネタが集まれば、ストーリーが浮かび上がってくるはずです！',
+
+      'support0'  : '映画、マンガ、小説の好きなシーンはなんですか？',
+      'support1'  : '好きなキャラクターの特徴、関係性はなんですか？',
+      'support2'  : '好きな話の展開はなんですか？',
+      'support3'  : '日頃、疑問に思う事、むかつくことなどありますか？',
+      'support4'  : '興味、関心のある出来事、事件はなんですか？',
+      'support5'  : 'この調子でどんどんネタを追加してください！',
+
+      'howtoUse'  : 'ストーリープロッターでできることが知りたい人は こちらをご覧ください',
+    },
+    LANGCODE_CH: {
+      'advice'  : "咨询",
+
+      'intro0'  : '从日常生活中制作出编织故事的丝线——素材吧！',
+      'intro1'  : '角色在创作之中也是重要的要素之一',
+      'intro2'  : '你「喜欢！」的地方就是重要的素材',
+      'intro3'  : '无论何时，身边都会有素材',
+      'intro4'  : '故事，是需要调味的...！',
+      'intro5'  : '只要收集好素材，你就可以朦胧看见故事的样貌',
+
+      'support0'  : '电影、漫画、小说里，你喜欢的镜头是哪些？',
+      'support1'  : '喜爱的角色的特征、关系性是什么呢？',
+      'support2'  : '喜欢的故事的展开是怎样的呢？',
+      'support3'  : '平日里，会有感觉到有疑问或是生气的事情吗？',
+      'support4'  : '有兴趣，会留心的变故、事件又是怎样的呢？',
+      'support5'  : '保持节奏多多充实你的素材本吧！',
+
+      'howtoUse'  : '如果你想知道 "故事织机" 可以做什么，请点击这里',
+    },
+    LANGCODE_TW: {
+      'advice'  : "諮詢",
+      
+      'intro0'  : '從日常生活中製作出編織故事的絲線——素材吧！',
+      'intro1'  : '角色在創作之中也是重要的要素之一',
+      'intro2'  : '你「喜歡！」的地方就是重要的素材',
+      'intro3'  : '無論何時，身邊都會有素材',
+      'intro4'  : '故事，是需要調味的...！',
+      'intro5'  : '只要收集好素材，你就可以朦朧看見故事的樣貌',
+
+      'support0'  : '電影、漫畫、小說裡，你喜歡的鏡頭是哪些？',
+      'support1'  : '喜愛的角色的特徵、關係性是什麼呢？',
+      'support2'  : '喜歡的故事的展開是怎樣的呢？',
+      'support3'  : '平日裡，會有感覺到有疑問或是生氣的事情嗎？',
+      'support4'  : '有興趣，會留心的變故、事件又是怎樣的呢？',
+      'support5'  : '保持節奏多多充實你的素材本吧！',
+
+      'howtoUse'  : '如果您想知道 "故事織機" 可以做到，請單擊此處',
+    },
+  },
+  'download' : {
+    LANGCODE_EN: {
+      'storyBefore' : '',
+      'storyAfter'  : '\'s plot',
+      'charBefore'  : '',
+      'charAfter'   : '\'s character setting',
+
+      'charImageBefore' : '',
+      'charImageAfter'  : ' image',
+      'charIconBefore'  : '',
+      'charIconAfter'   : ' icon',
+      'charImageIs' : '\'s ',
+
+      'relation'    : 'correlation diagram',
+      'iosMessage'  : 'select \'Save to Files\'',
+      
+      'startdownload'  : 'creating files...',
+    },
+    LANGCODE_JA: {
+      'storyBefore' : '',
+      'storyAfter'  : 'のプロット',
+      'charBefore'  : '',
+      'charAfter'   : 'のキャラ設定 一覧',
+
+      'charImageBefore' : '',
+      'charImageAfter'  : ' 設定画像',
+      'charIconBefore'  : '',
+      'charIconAfter'   : 'アイコン',
+      'charImageIs' : 'の',
+
+      'relation'    : '相関図',        
+      'iosMessage'  : '\'ファイルに保存\' を選んでください',
+
+      'startdownload'  : 'ファイル作成中...',
+    },
+    LANGCODE_CH: {
+      'storyBefore' : '',
+      'storyAfter'  : '的故事情节',
+      'charBefore'  : '',
+      'charAfter'   : '的角色设定 列表',
+
+      'charImageBefore' : '',
+      'charImageAfter'  : ' 设定图片',
+      'charIconBefore'  : '',
+      'charIconAfter'   : '大头贴',
+      'charImageIs' : '的',
+
+      'relation'    : '关系图',        
+      'iosMessage'  : '请选择\'保存到文件\'',
+
+      'startdownload'  : '制作文件...',
+    },
+    LANGCODE_TW: {
+      'storyBefore' : '',
+      'storyAfter'  : '的故事情節',
+      'charBefore'  : '',
+      'charAfter'   : '的角色設定 列表',
+
+      'charImageBefore' : '',
+      'charImageAfter'  : ' 設定圖片',
+      'charIconBefore'  : '',
+      'charIconAfter'   : '大頭貼',
+      'charImageIs' : '的',
+
+      'relation'    : '關係圖',        
+      'iosMessage'  : '請選擇\'儲存到檔案\'',
+
+      'startdownload'  : '正在建立檔案...',
+    },
+  },
+  'deletedialog' : {
+    LANGCODE_EN: {
+      'title'   : 'Move to trash box?',
+      'yes'     : 'trash it!',
+      'no'      : 'wait',
+
+      'titleDelete' : 'Want to delete it?',
+      'yesDelete'   : 'delete',
+    },
+    LANGCODE_JA: {
+      'title'   : 'ゴミ箱に入れますか？',
+      'yes'     : 'ゴミ箱に移動！',
+      'no'      : 'しない',
+
+      'titleDelete' : '本当に削除しますか？',
+      'yesDelete' : '削除',
+    },
+    LANGCODE_CH: {
+      'title'   : '移到垃圾箱？',
+      'yes'     : '扔了吧！',
+      'no'      : '不删除',
+
+      'titleDelete' : '你确定要删除它吗？',
+      'yesDelete' : '删减',
+    },
+    LANGCODE_TW: {
+      'title'   : '移至垃圾箱？',
+      'yes'     : '垃圾吧！',
+      'no'      : '不刪除',
+
+      'titleDelete' : '您真的要刪除它嗎？',
+      'yesDelete' : '刪除',
+    },
+  },
+  'imageDetail' : {
+    LANGCODE_EN: {
+      'title'   : 'image detail',
+    },
+    LANGCODE_JA: {
+      'title'   : '画像の詳細',
+    },
+    LANGCODE_CH: {
+      'title'   : '图片的详细',
+    },
+    LANGCODE_TW: {
+      'title'   : '圖片的詳細',
+    },
+  },
+  'convertPLotLength' : {
+    LANGCODE_EN: {
+      'title'         : 'change plot length',
+      'description'   : 'when you reduce the plot length, \nthe chapter will combine into another one',
+      'success'       : 'change length',
+    },
+    LANGCODE_JA: {
+      'title'         : 'プロットの長さの変更',
+      'description'   : '長さを減らす場合は\nネタを別の章に結合します',
+      'success'       : '長さを変える',
+    },
+    LANGCODE_CH: {
+      'title'         : '故事情节的长度变更',
+      'description'   : '减少长度的情况素材将与其他章结合',
+      'success'       : '改变长度',
+    },
+    LANGCODE_TW: {
+      'title'         : '故事情節的長度變更',
+      'description'   : '減少長度的情況素材將與其他章節結合',
+      'success'       : '改變長度',
+    },
+  },
+  'newFeature' : {
+    LANGCODE_EN: {
+      'title'         : 'What\'s New',
+    },
+    LANGCODE_JA: {
+      'title'         : 'アップデート内容',
+    },
+    LANGCODE_CH: {
+      'title'         : '更新内容',
+    },
+    LANGCODE_TW: {
+      'title'         : '更新內容',
+    },
+  },
+  'pcBar' : {
+    LANGCODE_EN: {
+      'yes'           : 'Done'
+    },
+    LANGCODE_JA: {
+      'yes'           : '完了'
+    },
+    LANGCODE_CH: {
+      'yes'           : '完成'
+    },
+    LANGCODE_TW: {
+      'yes'           : '完成了'
+    },
+  },
+
+  'help' : {
+    LANGCODE_EN: {
+      'title'         : 'Help',
+    },
+    LANGCODE_JA: {
+      'title'         : 'ヘルプ',
+    },
+    LANGCODE_CH: {
+      'title'         : '帮助',
+    },
+    LANGCODE_TW: {
+      'title'         : '幫助',
+    },
+  },
+  'permission' : {
+    LANGCODE_EN: {
+      'title'         : 'To be able to do',
+      'yes'           : 'not now',
+      'open'          : 'Change Setting',
+      'android'       : 'move to \'Permission\' \nand then tap \'Storage\' to be on',
+      'ios'           : 'move to \'Photos\' \nand change to \'Read and Write\'',
+    },
+    LANGCODE_JA: {
+      'title'         : 'できるようになるために',
+      'yes'           : 'しない',
+      'open'          : '設定の変更をする',
+      'android'       : '「ストレージ」に移動し\n権限の付与を行ってください',
+      'ios'           : '「写真」に移動し\n「読み込み/書き込み」に\n変更してください',
+    },
+    LANGCODE_CH: {
+      'title'         : '为了能够做到这一点',
+      'yes'           : '暂不',
+      'open'          : '修改设置',
+      'android'       : '需要您前往「储存空间」一列\n授予相应权限',
+      'ios'           : '需要您前往「照片」一列\n将其变更为「读取/写入」',
+    },
+    LANGCODE_TW: {
+      'title'         : '有能力去',
+      'yes'           : '暫不',
+      'open'          : '修改設定',
+      'android'       : '需要您前往「儲存空間」一列\n授予相應權限',
+      'ios'           : '需要您前往「照片」一列\n將其變更為「讀取/寫入」',
+    },
+  },
+  'newPlotName' : {
+    LANGCODE_EN: {
+      'title'         : 'new title',
+      'cancel'        : 'cancel',
+      'yes'           : 'ok',
+      'label'         : 'plot title'
+    },
+    LANGCODE_JA: {
+      'title'         : '新規ファイル名',
+      'cancel'        : 'キャンセル',
+      'yes'           : '確定',
+      'label'         : 'プロット名'
+    },
+    LANGCODE_CH: {
+      'title'         : '保存名称',
+      'cancel'        : '取消',
+      'yes'           : '确定',
+      'label'         : '故事情节名'
+    },
+    LANGCODE_TW: {
+      'title'         : '儲存名稱',
+      'cancel'        : '取消',
+      'yes'           : '確定',
+      'label'         : '故事情節名'
+    },
+  },
+  'color' : {
+    LANGCODE_EN: {
+      'title'         : 'Dark Mode',
+    },
+    LANGCODE_JA: {
+      'title'         : 'ダークモード',
+    },
+    LANGCODE_CH: {
+      'title'         : '黑暗模式',
+    },
+    LANGCODE_TW: {
+      'title'         : '黑暗模式',
+    },
+  },
+  'silent' : {
+    LANGCODE_EN: {
+      'buttonName'  : 'Show all',
+      'buttonPos'   : '\'Show all\' button at the bottom',
+    },
+    LANGCODE_JA: {
+      'buttonName'  : 'すべて表示する',
+      'buttonPos'   : '一番下に再表示するボタンがあります',
+    },
+    LANGCODE_CH: {
+      'buttonName'  : '显示所有',
+      'buttonPos'   : '在最下方有重新显示的按钮',
+    },
+    LANGCODE_TW: {
+      'buttonName'  : '顯示所有',
+      'buttonPos'   : '在最下方有重新顯示的按鈕',
+    },
+  },
+  'selectIdeaForCommon' : {
+    LANGCODE_EN: {
+      'title'           : 'Select Idea',
+      'buttonCaution'   : 'Select from Idea Note'
+    },
+    LANGCODE_JA: {
+      'title' : 'ネタの選択',
+      'buttonCaution'   : 'ネタ帳から選ぶ'
+    },
+    LANGCODE_CH: {
+      'title' : '素材选择',
+      'buttonCaution'   : '从素材本中选择'
+    },
+    LANGCODE_TW: {
+      'title' : '素材選擇',
+      'buttonCaution'   : '從素材本中選擇'
+    },
+  },
+
+  'editTag' : {
+    LANGCODE_EN: {
+      'title'              : 'Edit tag',
+      'noTags'             : 'No tag is exist',
+      'addTags'            : 'Add Tag to Idea',
+
+      'editTagName'        : 'rename',
+      'deleteTag'          : 'delete',
+      'deleteTagColor'     : 'clear color',
+      'changeColor'        : 'change color',
+    },
+    LANGCODE_JA: {
+      'title'              : 'タグの編集',
+      'noTags'             : 'タグが存在しません',
+      'addTags'            : 'タグをネタに追加してください',
+
+      'editTagName'        : '名前の変更',
+      'deleteTag'          : '削除',
+      'deleteTagColor'     : '色の削除',
+      'changeColor'        : '色の変更',
+    },
+    LANGCODE_CH: {
+      'title'              : '编辑标签',
+      'noTags'             : '没有标签',
+      'addTags'            : '请将标签添加至素材',
+
+      'editTagName'        : '重命名',
+      'deleteTag'          : '删去',
+      'deleteTagColor'     : '脱色',
+      'changeColor'        : '变色',
+    },
+    LANGCODE_TW: {
+      'title'              : '編輯標籤',
+      'noTags'             : '沒有標籤',
+      'addTags'            : '請將標籤新增至素材',
+
+      'editTagName'        : '更換名字',
+      'deleteTag'          : '刪除',
+      'deleteTagColor'     : '去除顏色',
+      'changeColor'        : '換顏色',
+    },
+  },
+  'screenLock' : {
+    LANGCODE_EN: {
+      'lockTitle'         : 'Enter App Passcode',
+      'setPassCodeTitle'  : 'Set PassCode',
+      'delete'            : 'Delete',
+      'cancel'            : 'Cancel',
+
+      "emailValidation"   : "Please enter a valid email",
+
+      'resetModalTitle'   : 'Reset Passcode',
+      'resetModalSentenceForm' : 'If you do "Contact developer to reset", we will be processed as soon as we are noticed\nThis may take some time\nThank you for your understanding',
+      'resetModalSentenceMail' : 'If you did not receive the email, please press "Contact developer to reset"\n\nHowever, we will be processed as soon as we are noticed\nSo, it may take some time\nThank you for your understanding',
+      'resetbyMail'       : 'Reissue',
+      'resetbyDevMan'     : 'Contact developer to reset',
+
+      'emailTitle'        : 'Register your email address for password reissue',
+      'emailDescription'  : 'If the email address is blank, it will be issued as soon as the developer noticed, which will take some time',
+      'sendMail'          : 'Test sending email',
+      'emailAddress'      : 'Enter your email address',
+      'emailCheckTitle'   : 'Check your email address',
+      'emailCheckBody'    : 'This will be a test of sending an email from StoryPlotter',
+      'emailConfirmTitle' : 'You have been set as the email address for password reissue',
+      'emailConfirmBody'  : 'You have been set as the shipping address for the reissue password for the StoryPlotter',
+
+      'emailPasswordResetTitle' : 'Reissue the password for the StoryPlotter',
+      'emailPasswordResetBodyPre'   : 'It can be unlocked by<br>',
+      'emailPasswordResetBodyPost'  : """
+<br>
+Please note that the password changes every time the version is upgraded or the date is changed<br>
+<br>
+After unlocking the password, please change it to a password that you know from within the application<br>
+<br>
+If you are unable to do so, please contact us again<br>
+<br>
+Thank you for your cooperation<br>
+""",
+
+    },
+    LANGCODE_JA: {
+      'lockTitle'         : 'パスワードを入力してください',
+      'setPassCodeTitle'  : 'パスワードを設定してください',
+      'delete'            : '削除',
+      'cancel'            : 'キャンセル',
+
+      "emailValidation"   : "無効なメールアドレスです",
+
+      'resetModalTitle'   : 'パスワードの再発行',
+      'resetModalSentenceForm' : '「開発者にお願い」をした場合、気づき次第しだいの処理になります\nそのため、時間がかかることがあります\nご了承ください',
+      'resetModalSentenceMail' : 'メールが届かなかった場合、「開発者にお願い」をしてください\n\nしかし、気づき次第しだいの処理になります\nそのため、時間がかかることがあります\nご了承ください',
+      'resetbyMail'       : '再発行する',
+      'resetbyDevMan'     : '開発者にお願いする',      
+
+      'emailTitle'        : 'パスワード再発行メールアドレスの登録',
+      'emailDescription'  : 'メールアドレスは空欄の場合は、問い合わせに気づき次第の発行になるため、時間がかかります',
+      'sendMail'          : 'メールの送信テスト',
+      'emailAddress'      : 'メールアドレスの入力',
+      'emailCheckTitle'   : 'メールアドレスの確認',
+      'emailCheckBody'    : '<p>ストーリープロッターからのメールの送信テストになります</p>',
+      'emailConfirmTitle' : 'パスワード再発行用のメールアドレスに設定されました',
+      'emailConfirmBody'  : '<p>ストーリープロッターの再発行パスワードの発送先として設定されました</p>',
+
+      'emailPasswordResetTitle' : 'ストーリープロッターのパスワードの再発行',
+      'emailPasswordResetBodyPre'   : '',
+      'emailPasswordResetBodyPost'  : """
+で解除可能です<br>
+<br>
+なにかあれば、ご連絡ください<br>
+<br>
+なお、パスワードは<br>
+バージョンアップ、日付ごとに変わるため、<br>
+お気を付けください<br>
+<br>
+パスワード解除後は、<br>
+アプリの内部よりご自身の把握している<br>
+パスワードに変更お願いいたします<br>
+<br>
+もし、だめだった場合は再度ご連絡ください<br>
+<br>
+よろしくお願いいたします
+""",
+    },
+    LANGCODE_CH: {
+      'lockTitle'         : '请输入密码',
+      'setPassCodeTitle'  : '请设置密码',
+      'delete'            : '删除',
+      'cancel'            : '取消',
+      
+      "emailValidation"   : "请输入有效的电子邮件",
+
+      'resetModalTitle'   : '要初始化密码吗',
+      'resetModalSentenceForm' : '如果你做了 "联系开发商重置"，我们一经发现，就会立即处理\n这可能需要一些时间\n谢谢你的理解',
+      'resetModalSentenceMail' : '如果您没有收到邮件，请按 "联系开发商重置"\n\n但是，我们一经发现，就会尽快处理\n所以，可能需要一些时间\n谢谢你的理解',
+      'resetbyMail'       : '重发',
+      'resetbyDevMan'     : '联系开发商重置',
+
+      'emailTitle'        : '注册您的电子邮件地址，以便重发密码',
+      'emailDescription'  : '如果电子邮件地址是空白的，将在开发商注意到后尽快发出，这需要一些时间. ',
+      'sendMail'          : '测试发送邮件',
+      'emailAddress'      : '请输入您的电子邮件地址',
+      'emailCheckTitle'   : '检查您的电子邮件地址',
+      'emailCheckBody'    : '这将是一个从故事织机发送电子邮件的测试',
+      'emailConfirmTitle' : '您已被设置为重新发送密码的电子邮件地址',
+      'emailConfirmBody'  : '您已被设定为故事织机的补发密码的送货地址',
+
+      'emailPasswordResetTitle' : '重新发出故事织机的密码',
+      'emailPasswordResetBodyPre'   : '',
+      'emailPasswordResetBodyPost'  : """
+<br>
+请注意，每个版本和日期都会更改密码<br>
+<br>
+解锁密码后，请将密码改成自己在应用里面知道的密码<br>
+<br>
+如果不能，请您再联系我们<br>
+<br>
+谢谢您的合作
+""",
+    },
+    LANGCODE_TW: {
+      'lockTitle'         : '請輸入密碼',
+      'setPassCodeTitle'  : '請設定密碼',
+      'delete'            : '刪除',
+      'cancel'            : '取消',
+
+      "emailValidation"   : "請輸入有效電子郵件",
+
+
+      'resetModalTitle'   : '要初始化密碼嗎',
+      'resetModalSentenceForm' : '如果您選擇 "與開發人員聯繫以重置" ，我們將在收到通知後立即處理我們\n這可能要花點時間\n謝謝您的諒解',
+      'resetModalSentenceMail' : '如果您沒有收到電子郵件，請按 "與開發人員聯繫以重置"\n\n但是，我們會在接到通知後立即處理\n因此，可能需要一些時間\n謝謝您的諒解',
+      'resetbyMail'       : '補發',
+      'resetbyDevMan'     : '與開發人員聯繫以重置',
+
+      'emailTitle'        : '註冊您的電子郵件地址以重新發出密碼',
+      'emailDescription'  : '如果電子郵件地址為空，則會在開發人員注意到後立即發出，這將需要一些時間',
+      'sendMail'          : '測試發送電子郵件',
+      'emailAddress'      : '輸入你的電子郵箱地址',
+      'emailCheckTitle'   : '檢查您的電子郵件地址',
+      'emailCheckBody'    : '這將是從故事織機發送電子郵件的測試',
+      'emailConfirmTitle' : '您已設置為重新發出密碼的電子郵件地址',
+      'emailConfirmBody'  : '已將您設置為故事織機重新發行密碼的收貨地址',
+
+      'emailPasswordResetTitle' : '重新發出故事織機的密碼',
+      'emailPasswordResetBodyPre'   : '',
+      'emailPasswordResetBodyPost'  : """
+<br>
+請注意，密碼隨每個版本升級和日期而變化<br>
+<br>
+取消密碼後，請將其更改為您在應用程序內部知道的密碼<br>
+<br>
+如果不起作用，請再次與我們聯繫<br>
+<br>
+謝謝
+""",
+    },
+  },  
+  'login' : {
+    LANGCODE_EN: {
+      'login'       : 'Sync Data in Multi Device and Cloud Backup',
+      'pageTitle'   : 'Device Synchronize',
+      'pageTitleLogout'   : 'Sign Out',
+      'pageCaution' : 'Can Sync Data by logging same account',
+      'google'      : '',
+      'twitter'     : '',
+      'facebook'    : '',
+      'apple'       : '',
+      'preLoginMessage'  : 'Sign in with ',
+      'postLoginMessage' : '',
+      'logout'      : 'Sign Out',
+      'cancel'      : 'cancel',
+      'paymentCaution' : 'This features is \$3.5 per month\n(First week free)',
+      'paymentDetail'  : 'reason for pay',
+
+      'writing'     : '(other device writing)',
+
+      'problem'           : 'subscription is failed',
+
+      'continueUse'      : 'continue subscription',
+      'continueUseNot'   : 'stop subscription',
+      'checkRequest'     : 'Request for investigation of purchase defects',
+
+      'cancelTitle'     : 'stop device sync?',
+      'cancelSentence'  : 'don\'t forget to stop Subscription too!!',
+      'cancelSentenceDetail'  : 'see information from here',
+      'cancelYes'       : 'stop device sync',
+
+      'loginError'      : 'sign in error',
+
+      'purchaseLoading' : 'check purchase...',
+      'backupLoading1'  : 'creating backup data...',
+      'backupLoading2'        : 'please save file, Because there might be problems when moving data to the cloud !!',
+      'backupLoading2local'   : 'please save file, Because there might be problems when moving data to the local !!',
+      'loginLoading'    : 'SignIning...',
+      'uploadLoading'   : 'uploading file...',
+      'cancelLoading'   : 'downloading file...',
+      'processing'      : 'processing...',
+      'notClosePage1'   : 'Please do not close the app',
+      'notClosePage2'   : 'and keep it open',
+
+      'subscriptionAppendix'  : 'Appendix',
+      'subscriptionPeriod'    : 'This feature is available for \$3.5 per month\n\nTo cancel subscribe, reopen this dialog and press \'Sign Out\'',
+
+      'iosFirstPurchaseButtontext'  : 'purchase Device Synchronize',
+      'iosFirstPurchasedButtontext' : 'restore purchase',
+      'iosAfterPurchase'            : 'Enable after Purchase',
+
+      'loginOnlyTitle'        : 'Sign in',
+      'loginOnlyDescription'  : 'Sign in information expired\nPlease login again',
+    },
+    LANGCODE_JA: {
+      'login'       : '複数端末で データ同期する & バックアップ',
+      'pageTitle'   : '複数端末で データ同期する',
+      'pageTitleLogout'   : 'サインアウト',
+      'pageCaution' : '同じアカウントで サインインすることで データ同期ができます',
+      'google'      : 'Googleでサインイン',
+      'twitter'     : 'Twitterでサインイン',
+      'facebook'    : 'Facebookでサインイン',
+      'apple'       : 'Appleでサインイン',
+      'preLoginMessage'  : '',
+      'postLoginMessage' : 'でサインイン中',
+      'logout'      : 'サインアウト',
+      'cancel'      : 'キャンセル',
+      'paymentCaution' : '月額400円で利用できます\n(初回一週間無料)',
+      'paymentDetail'  : '有料の理由',
+
+      'writing'     : '(別デバイス執筆中)',
+
+      'problem'           : '購入状態に不具合がありました',
+
+      'continueUse'      : '継続して 利用する',
+      'continueUseNot'   : '継続しないで 利用する',
+      'checkRequest'     : '購入不具合の調査依頼',
+
+      'cancelTitle' : 'データ同期をやめますか？',
+      'cancelSentence'  : '購入のキャンセルを忘れずに！',
+      'cancelSentenceDetail'  : '手順はこちらを見てください',
+      'cancelYes'   : '同期をやめる',
+
+      'loginError'      : 'サインインエラー',
+
+      'purchaseLoading' : '購入状態確認中...',
+      'loginLoading'    : 'サインイン処理中...',
+      'uploadLoading'   : 'ファイルのアップロード中...',
+      'cancelLoading'   : 'ファイルのダウンロード中...',
+      'processing'      : '進行中...',
+      'notClosePage1'    : 'アプリを閉じずに',
+      'notClosePage2'    : 'このまま開いていてください',
+      'backupLoading1'  : 'バックアップファイルの作成中...',
+      'backupLoading2'        : '必ず保存してください！ クラウドにデータ移行時に問題が発生するかもしれません！',
+      'backupLoading2local'   : '必ず保存してください！ 端末にデータ移行時に問題が発生するかもしれません！',
+
+      'subscriptionAppendix' : '補足',
+      'subscriptionPeriod' : '本機能は月額400円でご利用できます\n\nやめたい場合は、再度この画面を開き、\'サインアウト\'を選択してください',
+
+      'iosFirstPurchaseButtontext'  : '「デバイス同期機能」の購入',
+      'iosFirstPurchasedButtontext' : '購入状態の復元',
+      'iosAfterPurchase'            : '購入後に利用できます',
+
+      'loginOnlyTitle'        : 'サインイン',
+      'loginOnlyDescription'  : 'サインイン情報が切れました\n再度サインインしてください',
+    },
+    LANGCODE_CH: {
+      'login'       : '同步多个设备上的数据并进行备份',
+      'pageTitle'   : '于复数设备同步数据',
+      'pageTitleLogout'   : '注销',
+      'pageCaution' : '以同一账号登录即可同步数据',
+      'google'      : '使用Google登录',
+      'twitter'     : '使用Twitter登录',
+      'facebook'    : '使用Facebook登录',
+      'apple'       : '使用Apple登录',
+      'preLoginMessage'  : '正以 ',
+      'postLoginMessage' : ' 身份登录',
+      'logout'      : '注销',
+      'cancel'      : '取消',
+      'paymentCaution' : '月费USD \$3.5/月即可使用\n（实际收取货币与价格依商店区域而不同）\n(初次使用一周内免费)',
+      'paymentDetail'  : '收费的理由',
+
+      'writing'     : '(正在其他设备里执笔)',
+
+      'problem'           : '您的购买状态有些问题',
+
+      'continueUse'      : '继续续费使用',
+      'continueUseNot'   : '不续费使用',
+      'checkRequest'     : '要求调查采购缺陷',
+
+      'cancelTitle' : '要取停止据同步吗？',
+      'cancelSentence'  : '不要忘记停止购买哦！',
+      'cancelSentenceDetail'  : '操作步骤请看这里',
+      'cancelYes'   : '停止同步',
+
+      'loginError'      : '登录错误',
+
+      'purchaseLoading' : '正在确认购买状态...',
+      'loginLoading'    : '登录处理中...',
+      'uploadLoading'   : '文件上传中...',
+      'cancelLoading'   : '文件下载中...',
+      'processing'      : '进行中...',
+      'notClosePage1'   : '在不关闭应用的情况下',
+      'notClosePage2'   : '请保持开放',
+      'backupLoading1'  : '建立备份数据...',
+      'backupLoading2'        : '请保存文件，因为在将数据转移到云端时可能会出现问题.  !!',
+      'backupLoading2local'   : '请保存文件，因为在移动数据到本地时可能会出现问题.  !!',
+
+      'subscriptionAppendix' : '补充',
+      'subscriptionPeriod' : '本功能的使用需要收取月费USD \$3.5/月\n（实际收取货币与价格依商店区域而不同）\n\n如需取消，请再次打开此画面，并选择\'注销\'',
+
+      'iosFirstPurchaseButtontext'  : '购买 \"设备同步\"',
+      'iosFirstPurchasedButtontext' : '恢复购买状态',
+      'iosAfterPurchase'            : '购买后可使用',
+
+      'loginOnlyTitle'        : '登录',
+      'loginOnlyDescription'  : '我丢失了我的登录信息\n请重新登录',
+
+    },
+    LANGCODE_TW: {
+      'login'       : '同步多台設備上的數據並備份',
+      'pageTitle'   : '於複數裝置同步資料',
+      'pageTitleLogout'   : '登出',
+      'pageCaution' : '以同一賬號登入即可同步資料',
+      'google'      : '使用Google登入',
+      'twitter'     : '使用Twitter登入',
+      'facebook'    : '使用Facebook登入',
+      'apple'       : '使用Apple登入',
+      'preLoginMessage'  : '正以 ',
+      'postLoginMessage' : ' 身份登入',
+      'logout'      : '登出',
+      'cancel'      : '取消',
+      'paymentCaution' : '月費USD \$3.5/月即可使用\n（實際收取貨幣與價格依商店區域而不同）\n(初次使用一週內免費)',
+      'paymentDetail'  : '收費的理由',
+
+      'writing'     : '(正在其他裝置裡執筆)',
+
+      'problem'           : '您的購買狀態有些問題',
+
+      'continueUse'      : '繼續續費使用',
+      'continueUseNot'   : '不續費使用',
+      'checkRequest'     : '購買缺陷調查請求',
+
+      'cancelTitle' : '要停止資料同步嗎？',
+      'cancelSentence'  : '不要忘記停止購買喔！',
+      'cancelSentenceDetail'  : '操作步驟請看這裡',
+      'cancelYes'   : '停止同步',
+
+      'loginError'      : '登入錯誤',
+
+      'purchaseLoading' : '正在確認購買狀態...',
+      'loginLoading'    : '登入處理中...',
+      'uploadLoading'   : '檔案上傳中...',
+      'cancelLoading'   : '檔案下載中...',
+      'processing'      : '進行中...',
+      'notClosePage1'   : '無需關閉應用程序',
+      'notClosePage2'   : '請這樣打開',
+      'backupLoading1'  : '創建備份數據...',
+      'backupLoading2'        : '請保存文件，因為將數據移至雲時可能會出現問題 !!',
+      'backupLoading2local'   : '請保存文件，因為將數據移至本地時可能會出現問題 !!',
+
+      'subscriptionAppendix' : '補充',
+      'subscriptionPeriod' : '本功能的使用需要收取月費USD \$3.5/月\n（實際收取貨幣與價格依商店區域而不同）\n\n如需取消，請再次開啟此畫面，並選擇\'登出\'',
+
+      'iosFirstPurchaseButtontext'  : '購買 \"設備同步\"',
+      'iosFirstPurchasedButtontext' : '恢復購買狀態',
+      'iosAfterPurchase'            : '購買後可用',
+
+      'loginOnlyTitle'        : '登錄',
+      'loginOnlyDescription'  : '登錄信息已過期\n請重新登錄',
+    },
+  },
+  'tagArrowColor' : {
+    LANGCODE_EN: {
+      'title'           : 'Set Tag',
+      'inputTagTitle'   : 'Input Tag',
+      'cancel'          : 'cancel',
+      'yes'             : 'ok',
+      'label'           : 'tag name'
+    },
+    LANGCODE_JA: {
+      'title'           : 'タグの追加',
+      'inputTagTitle'   : 'タグの入力',
+      'cancel'          : 'キャンセル',
+      'yes'             : '確定',
+      'label'           : 'タグ名'
+    },
+    LANGCODE_CH: {
+      'title'           : '添加标签',
+      'inputTagTitle'   : '输入标签',
+      'cancel'          : '取消',
+      'yes'             : '确定',
+      'label'           : '标签名'
+    },
+    LANGCODE_TW: {
+      'title'           : '新增標籤',
+      'inputTagTitle'   : '輸入標籤',
+      'cancel'          : '取消',
+      'yes'             : '確定',
+      'label'           : '標籤名'
+    },
+  },
+  'purchaseReason' : {
+    LANGCODE_EN: {
+      'title'           : 'Reason for pay',
+      'reason'          : '''
+There are two main reasons
+
+1. The usage-based billing function is used in the technology that this function uses 
+2. Create an environment that developer can continuously and focus on developing this app
+
+I will write about each in detail
+
+Also, some people are worried that giving data to the cloud will make it accessible to everyone
+I want to explain this at the end
+
+----
+
+1. The usage-based billing function is used in the technology that this function uses 
+
+To sync data between device is need to 
+- Store and manage data in the cloud
+- When data is updated, notify update to all devices
+and mainly here costs. 
+
+Previous it wasn't cost because everything was inside the device. 
+However, this feature is expensive because managing the data on the operation side. 
+
+----
+
+2. Create an environment that developer can continuously and focus on developing this app
+
+It's my own story, but for various reasons, I'm not working now and I'm focusing on developing this app. 
+
+There is an choice to work, but if I choice that I can only be developed on Saturdays and Sundays, So the development speed will drop sharply. 
+
+I really like this app and I hope to be able to focus on supporting your creative activities if it is possible. 
+
+I considered the method of 'advertising' as a means to make a fee, but I avoided it because the significance of 'supporting creation' collapsed when the advertisement was conscious of 'showing advertisement'
+
+- Amount that does not burden you
+- The amount I can live
+For that reason, we set the price
+
+-----
+
+Conclusion
+
+- There is a cost to maintain the function itself
+- Amount that does not burden you
+For this reason, it became like this
+
+It is a poor sentence, but thank you for reading
+
+If you have anything, please feel free to contact us from 'Send Request'
+
+I look forward to support with you
+
+
+----
+
+Concerns about giving data to the cloud
+
+Data is protected in the following ways:
+1. In principle, only data creators can access
+2. Data is being processed, it can be seen but not understood
+
+The mean of \'principle\' is share function that can be done in the future. 
+However, anyone cannotable to access unless you allow sharing.
+
+Please see the image below for data processing
+As you can see, it's stored as an unknown state''',
+    },
+    LANGCODE_JA: {
+      'title'           : '有料の理由',
+      'reason'          : '''
+主な理由としては2つあります
+
+1. この機能を利用する技術に、従量課金機能が使われている
+2. このアプリを継続的かつ注力して開発できる環境を整える
+
+それぞれについて詳しく書いていきます
+
+また、データをクラウドにあげることで、誰でも見られる状態になることを不安に思う方もいると思います
+これについては、最後に説明したいと思います
+
+----
+
+1. この機能を利用する技術に、従量課金機能が使われている
+
+端末間でデータを同期するために
+- データをクラウド上で保存 および 管理
+- データが更新したら、別端末にすべての端末に更新通知を行う
+が必要で、主にここに費用がかかっています
+
+いままでは、すべて端末の中に収まっていたため、費用はかかっていませんでした
+この機能により、データを運用側で管理するため、費用がかかるようになりました
+
+----
+
+2. このアプリを継続的かつ注力して開発できる環境を整える
+
+これは私個人の話になってしまいますが、諸事情があり、現在働かずに、このアプリの開発に集中しています
+
+働くという選択肢もあるのですが、それだと土日でしか開発ができず、開発速度ががっつり落ちてしまいます
+
+私としても、このアプリはすごく好きですし、できれば皆様の創作活動の応援することに集中できればと考えています
+
+有料にする手段として「広告」という方法も考えましたが、広告だと「広告を見せる」ことを意識した瞬間に「創作を応援する」という意義が崩壊するため、避けました
+
+そのため、
+- 皆様に負担の掛からない範囲の金額
+- 私が生活できそうな金額
+として、値段設定をさせていただきました
+
+-----
+
+まとめ
+
+- 機能自体の維持に費用が発生している
+- 皆様の無理の範囲の金額
+という理由から、このような形になりました
+
+拙い文章ですが、読んでいただきありがとうございます
+
+なにかありましたら、気軽に「改善・ご要望」からご連絡ください
+
+今後もアプリ共々、よろしくお願いいたします
+
+
+----
+
+クラウドにデータをあげることの懸念
+
+データは下記の方法を取って保護しています
+1. アクセスできるのを原則的にデータ作成者のみにしている
+2. データを加工しているので、みられるもわからない状態になっている
+
+原則的、としたのは今後できるシェア機能のためです
+しかし、利用者の方からシェアを許可しない限りは、アクセスできる状態になりません
+
+データの加工については、下記の画像をご覧ください
+見てわかるように、何がなんだがわからない状態として保存されています''',
+    },
+    LANGCODE_CH: {
+      'title'           : '支付的原因',
+      'reason'          : '''
+这主要有两个原因. 
+
+1. 在使用该功能的技术中，使用的是现收现付功能. 
+2. 为本应用的持续、集中开发创造一个环境. 
+
+我将逐一写出详细的内容. 
+
+有些人还担心把自己的数据放到云端，让大家都能看到. 
+我想在最后解释一下. 
+
+----
+
+1. 在使用该功能的技术中，使用的是现收现付功能. 
+
+为了实现终端之间的数据同步
+- 在云端存储和管理您的数据
+- 当数据更新时，更新通知会发送到不同设备上的所有设备上. 
+这就是主要成本的来源. 
+
+直到现在，一切都在终端，所以没有任何成本. 
+这个功能使得操作端数据管理的成本更高了. 
+
+----
+
+2. 为本应用的持续、集中开发创造一个环境. 
+
+这是我个人的故事，但由于各种原因，我目前没有工作，专注于这个APP的开发. 
+
+可以选择工作，但那只能让我在周末的时候发展，这样会拖慢我的发展速度. 
+
+我和下一个人一样喜欢这款APP，希望能专注于支持你的创新事业!
+
+我曾想过用 "广告 "的方式让其付费，但我避而不谈，因为在你意识到 "展示广告 "的那一刻，"支持创作 "的意义就崩溃了. 
+
+因此
+- 一个不会给你带来负担的金额
+- 这就是我的生存之道. 
+我们将价格定为
+
+-----
+
+总结
+
+- 维护功能本身是有成本的. 
+- 的钱，你买不起. 
+所以才会变成这样. 
+
+感谢您阅读此文!
+
+如果您有任何疑问，请通过 "改进/请求 "栏目与我们联系. 
+
+感谢您一直以来对该应用的支持. 
+
+
+----
+
+关于将您的数据放在云端的担忧
+
+数据的保护方法如下
+原则上，只有数据的创造者才能访问它. 
+数据的处理，让人看不清、看不懂. 
+
+原则上说，这是因为未来有能力分担
+但是，除非你允许用户分享，否则你将无法访问它. 
+
+有关数据处理的更多信息，请看下面的图片. 
+如你所见，它是以不知道是什么的状态存储的''',
+    },
+    LANGCODE_TW: {
+      'title'           : '付款原因',
+      'reason'          : '''
+有兩個主要原因
+
+1.使用此功能的技術使用按使用付費功能
+2.為持續不斷地開發此應用程序準備一個環境
+
+我將詳細介紹每個
+
+另外，我認為有些人擔心通過將數據上傳到雲，每個人都可以看到它. 
+我想最後解釋一下
+
+----
+
+1.使用此功能的技術使用按使用付費功能
+
+在設備之間同步數據
+-在雲中存儲和管理數據
+-當數據被更新時，更新通知被發送到所有終端到另一個終端
+是需要的，主要是這裡的成本
+
+實際上，一切都在終端中，因此沒有成本
+此功能使在操作端管理數據變得昂貴
+
+----
+
+2.為持續不斷地開發此應用程序準備一個環境
+
+這是我的個人故事，但是由於種種原因，我目前不在工作，而是專注於此應用程序的開發. 
+
+還有一個工作選項，但在這種情況下，只能在星期六和星期日進行開發，並且開發速度會急劇下降. 
+
+我非常喜歡這個應用程序，希望我可以專注於支持您的創意活動. 
+
+我也考慮過“廣告”作為一種付款方式，但是我避免了，因為當我意識到“展示廣告”時，“支持創作”的含義就消失了. 
+
+是因為，
+-不負擔所有人的金額
+-我可以住的錢
+結果，我們設定了價格
+
+-----
+
+摘要
+
+-維護功能本身會產生成本
+-每個人的錢不合理
+因此，它變成這樣
+
+文字不佳，但謝謝您的閱讀
+
+如有任何疑問，請隨時通過“改進/要求”與我們聯繫. 
+
+感謝您今後的支持. 
+
+
+----
+
+有關將數據提交到雲的擔憂
+
+數據受以下方法保護
+1.原則上，只有數據創建者可以訪問
+2.我正在處理數據，因此處於我看不見的狀態
+
+原則上，原因是因為將來可以完成共享功能. 
+但是，除非用戶允許共享，否則將無法訪問. 
+
+參見下圖進行數據處理
+如您所見，它以未知狀態存儲''',
+    },    
+  },
+  'checkUploadedData' : {
+    LANGCODE_EN: {
+      'title'           : 'Data has already been uploaded',
+      'sentence'        : 'upload local data too?',
+      'yes'             : 'upload!',
+      'cancel'          : 'no need',
+    },
+    LANGCODE_JA: {
+      'title'           : 'すでにデータがアップロードされています',
+      'sentence'        : '手元にあるデータもアップロードしますか？',
+      'yes'             : 'アップロードする',
+      'cancel'          : 'しない',
+    },
+    LANGCODE_CH: {
+      'title'           : '数据已经上传了',
+      'sentence'        : '你是否也想把你手头的数据上传到手头？',
+      'yes'             : '上传',
+      'cancel'          : '不',
+    },
+    LANGCODE_TW: {
+      'title'           : '數據已上傳',
+      'sentence'        : '您是否要上傳已有的數據？',
+      'yes'             : '上載',
+      'cancel'          : '不要做',
+    },
+  },
+  'okdialog' : {
+    LANGCODE_EN: {
+      'ok'      : 'ok',
+      'cancel'  : 'cancel',
+    },
+    LANGCODE_JA: {
+      'ok'      : 'する',
+      'cancel'  : 'しない',
+    },
+    LANGCODE_CH: {
+      'ok'      : '确定',
+      'cancel'  : '取消',
+    },
+    LANGCODE_TW: {
+      'ok'      : '確定',
+      'cancel'  : '取消',
+    },
+  },
+  'silentCheck' : {
+    LANGCODE_EN: {
+      'title'      : 'Do you hide it?',
+      'sentence'   : 'Sentence is Inputed : \n',
+    },
+    LANGCODE_JA: {
+      'title'      : '非表示にしてもよいですか？',
+      'sentence'   : '文章 : \n',
+    },
+    LANGCODE_CH: {
+      'title'      : '你要进行隐藏吗？',
+      'sentence'   : '文章 : \n',
+    },
+    LANGCODE_TW: {
+      'title'      : '你要進行隱藏嗎？',
+      'sentence'   : '文章 : \n',
+    },
+  },
+  'errorPayment' : {
+    LANGCODE_EN: {
+      'title'      : 'Error in purchase',
+      'androidSentence'   : '''1. Tap \'Subscriptions\' at Google Play Store
+2. Select \'Story Plotter\' 
+3. Tap \'Cancel subscription\' 
+4. Tap Login button in Story Plotter Again''',
+      'iosSentence'       : '''1. Open \'Settings\' App and Tap your name
+2. Tap \'Subscriptions\'
+3. Select \'Story Plotter\' and Tap \'Cancel Subscription\' 
+4. Tap Login button in Story Plotter Again''',
+      'androidLink'       : 'https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=en',
+      'iosLink'           : 'https://support.apple.com/en-us/HT202039#iOS',
+      'ok'    : 'ok',
+      'link'  : 'detail info',
+    },
+    LANGCODE_JA: {
+      'title'      : '購入手続きのエラー',
+      'androidSentence'   : '1. \nGoogle Play Storeの「定期購入」から\n\n2. \n「ストーリープロッター」を選択し、\n\n3. \n「定期購入を解約」を行い、\n\n4. \n再度アプリのログインボタンを押してください',
+      'iosSentence'       : '1. \n「設定」アプリから 自分の名前をタップし\n\n2. \n「サブスクリプション」をタップ\n\n3. \nストーリープロッターの「サブスクリプションをキャンセルする」を行い\n\n4. \n再度アプリのログインボタンを押してください',
+      'androidLink'       : 'https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=ja',
+      'iosLink'           : 'https://support.apple.com/ja-jp/HT202039#iOS',
+      'ok'    : '確認',
+      'link'  : '詳細手順',
+    },
+    LANGCODE_CH: {
+      'title'      : '购买过程中的错误',
+      'androidSentence'   : '1.\n来自Google Play Store上的 "订阅"\n\n2.\n选择 "故事织机"，然后点击\n\n3.\n取消正常购买并\n\n4.\n请再次按下APP的登录按钮',
+      'iosSentence'       : '1. \n在 "设置 "应用中点选你的名字\n\n2.\n点选 "订阅"\n\n3.\n在故事织机中选择 "取消订阅"，然后点击\n\n4.\n请再次按下APP的登录按钮\n\n',
+      'androidLink'       : 'https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=zh-Hans',
+      'iosLink'           : 'https://support.apple.com/zh-cn/HT202039#iOS',
+      'ok'    : '证实',
+      'link'  : '详细程序',
+    },
+    LANGCODE_TW: {
+      'title'      : '購買程序錯誤',
+      'androidSentence'   : '1.\n來自Google Play商店的"訂閱"\n\n2.\n選擇"故事織機"\n\n3.\n"取消訂閱"\n\n4.\n再次按應用程序登錄按鈕',
+      'iosSentence'       : '1.\n在"設置"應用中點擊您的名字\n\n2.\n點擊"訂閱"\n\n3.\n在故事織機中執行"取消訂閱"\n\n4.\n再次按應用程序登錄按鈕',
+      'androidLink'       : 'https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=zh-Hant',
+      'iosLink'           : 'https://support.apple.com/zh-tw/HT202039#iOS',
+      'ok'    : '確認書',
+      'link'  : '詳細程序',
+    },
+  },
+  'connectWifi' : {
+    LANGCODE_EN: {
+      'cannotUse'       : 'Please use this after connecting to the Internet',
+      'notConnection'   : 'data is not sync, because not connect to wifi\nafter connect to wifi, data will be sync',
+    },
+    LANGCODE_JA: {
+      'cannotUse'       : 'この機能は、ネットに接続してからご利用ください',
+      'notConnection'   : 'ネットに繋がっていないため、データ同期がされません\nネットに繋がり次第、同期されます',
+    },
+    LANGCODE_CH: {
+      'cannotUse'       : '请在连接到互联网后才能使用此功能. ',
+      'notConnection'   : '由于没有连接到互联网，所以数据没有同步\n一旦上线，就会同步',
+    },
+    LANGCODE_TW: {
+      'cannotUse'       : '連接到互聯網後，請使用此功能',
+      'notConnection'   : '數據未同步，因為您未連接到互聯網\n一旦連接到網絡，它將被同步',
+    },
+  },
+  'memolistSetting' : {
+    LANGCODE_EN: {
+      'title' : 'Idea Note Display Setting',
+      'ok'    : 'back',
+
+      'changeShortSetting'        : 'Idea Size',
+      'changeShortSettingSecound' : 'max 4 lines',
+
+      'changeWordLengthSetting'   : 'Words Count',
+      'remindSetting'             : 'Reminder',
+      'plotUsedSetting'           : 'Plots Used',
+
+      'isMemolistInitTitle'       : 'Initial Open the List',
+      'memoTitle'                 : 'Display Setting of Idea',
+
+      MEMO_SORT_DATETIME  : 'Date Order',
+      MEMO_SORT_USED      : 'Used Order',
+      MEMO_SORT_TAG       : 'Tag Order',
+
+      "deleteDirectionTitle" : "Deletion direction",
+      IDEA_DELETE_DIRECTION_BOTH : "both side",
+      IDEA_DELETE_DIRECTION_LEFT_TO_RIGHT : "left to right",
+      IDEA_DELETE_DIRECTION_RIGHT_TO_LEFT : "right to left",
+      IDEA_DELETE_DIRECTION_NONE : "none",
+    },
+    LANGCODE_JA: {
+      'title' : 'ネタ帳の表示設定',
+      'ok'    : '戻る',
+
+      'changeShortSetting'        : 'ネタの大きさ',
+      'changeShortSettingSecound' : '最大4行にする',
+
+      'changeWordLengthSetting'   : '文字数',
+      'remindSetting'             : 'リマインダー',
+      'plotUsedSetting'           : 'プロット使用',
+
+      'isMemolistInitTitle'       : '一覧を最初に開くか',
+      'memoTitle'                 : 'ネタの表示設定',
+
+      MEMO_SORT_DATETIME  : '期日順',
+      MEMO_SORT_USED      : '使用済順',
+      MEMO_SORT_TAG       : 'タグ順',
+
+      "deleteDirectionTitle" : "ネタの削除方向",
+      IDEA_DELETE_DIRECTION_BOTH : "両方向",
+      IDEA_DELETE_DIRECTION_LEFT_TO_RIGHT : "左から右のみ",
+      IDEA_DELETE_DIRECTION_RIGHT_TO_LEFT : "右から左のみ",
+      IDEA_DELETE_DIRECTION_NONE : "なし",
+    },
+    LANGCODE_CH: {
+      'title' : '素材本显示设定',
+      'ok'    : '返回',
+
+      'changeShortSetting'        : '素材的大小',
+      'changeShortSettingSecound' : '最大4行',
+
+      'changeWordLengthSetting'   : '文字数',
+      'remindSetting'             : '提醒',
+      'plotUsedSetting'           : '故事情节使用',
+
+      'isMemolistInitTitle'       : '要从一开始打开列表吗',
+      'memoTitle'                 : '素材的显示设置',
+
+      MEMO_SORT_DATETIME  : '日期顺序',
+      MEMO_SORT_USED      : '已使用顺序',
+      MEMO_SORT_TAG       : '标签顺序',
+
+      "deleteDirectionTitle" : "删除提示的方向",
+      IDEA_DELETE_DIRECTION_BOTH : "双向的",
+      IDEA_DELETE_DIRECTION_LEFT_TO_RIGHT : "从左到右",
+      IDEA_DELETE_DIRECTION_RIGHT_TO_LEFT : "从右到左",
+      IDEA_DELETE_DIRECTION_NONE : "没有",
+
+    },
+    LANGCODE_TW: {
+      'title' : '素材本顯示設定',
+      'ok'    : '返回',
+
+      'changeShortSetting'        : '素材的大小',
+      'changeShortSettingSecound' : '最大4行',
+
+      'changeWordLengthSetting'   : '文字數',
+      'remindSetting'             : '提醒',
+      'plotUsedSetting'           : '故事情節使用',
+
+      'isMemolistInitTitle'       : '要從一開始開啟列表嗎',
+      'memoTitle'                 : '素材的顯示設定',
+
+      MEMO_SORT_DATETIME  : '日期順序',
+      MEMO_SORT_USED      : '已使用順序',
+      MEMO_SORT_TAG       : '標籤順序',
+
+      "deleteDirectionTitle" : "刪除提示的方向",
+      IDEA_DELETE_DIRECTION_BOTH : "雙向的",
+      IDEA_DELETE_DIRECTION_LEFT_TO_RIGHT : "從左到右",
+      IDEA_DELETE_DIRECTION_RIGHT_TO_LEFT : "從右到左",
+      IDEA_DELETE_DIRECTION_NONE : "沒有",
+
+    },
+  },
+  'plotlistSetting' : {
+    LANGCODE_EN: {
+      'title' : 'Plot Display Setting',
+      'ok'    : 'back',
+
+      'caution'     : 'Caution Initial Value',
+      'charOption'  : 'show Detail at Character list',
+
+      'isPlotlistInitTitle'       : 'Initial Open the List',
+      'plotTitle'                 : 'Display Setting of Plot',
+
+      PLOT_SORT_TAG       : 'Tag Order',
+
+      "wordShowTitle"     : "Character display",
+      PLOT_WORDSHOW       : 'when writing plot',
+      PLOT_STORYWORDSHOW  : 'when writing story',
+    },
+    LANGCODE_JA: {
+      'title' : 'プロットの表示設定',
+      'ok'    : '戻る',
+
+      'caution' : '注意の初期設定',
+      'charOption'  : 'キャラ一覧のメモ表示',
+
+      'isPlotlistInitTitle'       : '一覧を最初に開くか',
+      'plotTitle'                 : 'プロットの表示設定',
+
+      PLOT_SORT_TAG       : 'タグ順',
+
+      "wordShowTitle"     : "文字表示",
+      PLOT_WORDSHOW       : 'プロット表示時',
+      PLOT_STORYWORDSHOW  : 'ストーリー執筆時',
+    },
+    LANGCODE_CH: {
+      'title' : '故事情节的显示设置',
+      'ok'    : '返回',
+
+      'caution' : '注意提示的初始化',
+      'charOption'  : '角色列表的备注显示',
+
+      'isPlotlistInitTitle'       : '要从一开始打开列表吗',
+      'plotTitle'                 : '故事情节的显示设置',
+
+      PLOT_SORT_TAG       : '标签顺序',
+
+      "wordShowTitle"     : "字符显示",
+      PLOT_WORDSHOW       : '情节中',
+      PLOT_STORYWORDSHOW  : '写字时',
+    },
+    LANGCODE_TW: {
+      'title' : '故事情節的顯示設定',
+      'ok'    : '返回',
+
+      'caution' : '注意提示的初始化',
+      'charOption'  : '角色列表的備註顯示',
+
+      'isPlotlistInitTitle'       : '要從一開始開啟列表嗎',
+      'plotTitle'                 : '故事情節的顯示設定',
+
+      PLOT_SORT_TAG       : '標籤順序',
+
+      "wordShowTitle"     : "字符顯示",
+      PLOT_WORDSHOW       : '情節時',
+      PLOT_STORYWORDSHOW  : '書寫時',
+    },
+  },
+  'freeInput' : {
+    LANGCODE_EN: {
+      'buttonName' : 'Adding new setting',
+      'addItem'    : 'Name of Setting',
+      'editItem'   : 'Renaming Setting',
+
+      'silentToolTip' : "Hide",
+
+      'selectColorHistory' : 'history : ',
+      'showMore'   : "show more",
+      'colorPickTitle'    : 'Select Color',
+    },
+    LANGCODE_JA: {
+      'buttonName' : '新しい設定の追加',
+      'addItem'    : '設定の名前',
+      'editItem'   : '設定名の変更',
+
+      'silentToolTip' : "非表示",
+
+      'selectColorHistory' : '履歴 : ',
+      'showMore'   : "もっとみる",
+      'colorPickTitle'    : '色を選択',
+    },
+    LANGCODE_CH: {
+      'buttonName' : '添加新设定',
+      'addItem'    : '设定的名字',
+      'editItem'   : '设定名的更改',
+
+      'silentToolTip' : "隐蔽",
+
+      'selectColorHistory' : '历史 : ',
+      'showMore'   : "显示更多",
+      'colorPickTitle'    : '选择颜色',
+    },
+    LANGCODE_TW: {
+      'buttonName' : '新增新設定',
+      'addItem'    : '設定的名字',
+      'editItem'   : '設定名的更改',
+
+      'silentToolTip' : "隱藏",
+
+      'selectColorHistory' : '歷史 : ',
+      'showMore'   : "顯示更多",
+      'colorPickTitle'    : '選擇顏色',
+    },
+  },
+
+  'garbage' : {
+    LANGCODE_EN: {
+      "title"   : "Trash box",
+      "type"    : "type",
+      "folder"  : "folder",
+      "deleteDateBefore" : "trashed at ",
+      "deleteDateAfter"  : "",
+
+      "deleteDialogTooltip" : "delete all",
+
+      "deleteDialogTitle" : "delete all Trash data",
+      "empty" : "Nothing is Trash",
+      "empty2" : "if you trash something, data will come here",
+
+      "plotname" : "plot name : ",
+
+      "revival" : "Trash Undo",
+      "type_category" : "By Type",
+      "date_category" : "By Date",
+
+      "memo"  : "idea",
+      "plot"  : "plot",
+      "char"  : "character",
+      "relationShip" : "impression arrow",
+      "relationShipDetail" : "relation diagram",
+      "unit"    : "chapter",
+      "card"    : "story",
+      "scene"   : "scene",
+      "cut"     : "action",
+      "dialog"  : "dialogue",
+
+      "today"     : "today", 
+      "yesterday" : "yesterday", 
+      "twodays"   : "two days ago", 
+      "threedays" : "three days ago",
+      "fourdays"  : "four days ago", 
+      "fivedays"  : "five days ago",
+      "sixdays"   : "six days ago",
+      "lastweek"  : "last week", 
+      "twoweeks"  : "week before last", 
+      "threeweeks": "three weeks ago",
+      "lastmonth" : "last month", 
+      "twomonth"  : "month before last",
+      "threemonth" : "three month ago",
+      "past"      : "before that",
+
+      "deleteMessage"  : "clear trash"
+    },
+    LANGCODE_JA: {
+      "title"   : "ゴミ箱",
+      "type"    : "種類",
+      "folder"  : "フォルダ",
+      "deleteDateBefore" : "",
+      "deleteDateAfter"  : " に削除",
+
+      "deleteDialogTooltip" : "全データ削除",
+      "deleteDialogTitle" : "ゴミ箱のデータを全削除します",
+      "empty" : "ゴミ箱はピカピカです",
+      "empty2" : "ゴミ箱に移動させると、ここにデータが表示されます",
+
+      "plotname" : "プロット名 : ",
+
+      "revival" : "元に戻す",
+      "type_category" : "種類別",
+      "date_category" : "日付別",
+
+      "memo"  : "ネタ",
+      "plot"  : "プロット",
+      "char"  : "キャラ",
+      "relationShip" : "関係性",
+      "relationShipDetail" : "相関図",
+      "unit"    : "章",
+      "card"    : "節",
+      "scene"   : "シーン",
+      "cut"     : "アクション",
+      "dialog"  : "セリフ",
+
+      "today"     : "今日", 
+      "yesterday" : "昨日", 
+      "twodays"   : "2 日前", 
+      "threedays" : "3 日前",
+      "fourdays"  : "4 日前", 
+      "fivedays"  : "5 日前",
+      "sixdays"   : "6 日前",
+      "lastweek"  : "1 週間前", 
+      "twoweeks"  : "2 週間前", 
+      "threeweeks": "3 週間前", 
+      "lastmonth" : "先月", 
+      "twomonth"  : "2 か月前", 
+      "threemonth" : "3 か月前",
+      "past"       : "それ以前",
+
+      "deleteMessage"  : "ゴミ箱を綺麗にする"
+
+    },
+    LANGCODE_CH: {
+      "title"   : "垃圾桶",
+      "type"    : "类型",
+      "folder"  : "文件夹",
+      "deleteDateBefore" : "在 ",
+      "deleteDateAfter"  : " 时被毁",
+
+      "deleteDialogTooltip" : "所有数据被删除",
+      "deleteDialogTitle" : "删除所有垃圾数据",
+      "empty" : "没有什么是垃圾",
+      "empty2" : "如果你毁掉一些东西，数据就会到这里来. ",
+
+      "plotname" : "故事名称 : ",
+
+      "revival" : "撤销",
+      "type_category" : "按类型",
+      "date_category" : "按日期",
+
+      "memo"  : "素材",
+      "plot"  : "故事情节",
+      "char"  : "角色",
+      "relationShip" : "关系性",
+      "relationShipDetail" : "角色的关系图",
+      "unit"    : "章节",
+      "card"    : "故事",
+      "scene"   : "景象",
+      "cut"     : "行动",
+      "dialog"  : "对话",
+
+      "today"     : "今天",
+      "yesterday" : "昨天",
+      "twodays"   : "两天前",
+      "threedays" : "三天前",
+      "fourdays"  : "四天前",
+      "fivedays"  : "五天前",
+      "sixdays"   : "六天前",
+      "lastweek"  : "上周",
+      "twoweeks"    : "前一周",
+      "threeweeks"  : "三周前",
+      "lastmonth"   : "上月",
+      "twomonth"    : "前一个月",
+      "threemonth"  : "三个月前",
+      "past"        : "在此之前",
+
+      "deleteMessage"  : "清理垃圾"
+
+    },
+    LANGCODE_TW: {
+      "title"   : "垃圾桶",
+      "type"    : "類型",
+      "folder"  : "資料夾",
+      "deleteDateBefore" : "浪費在 ",
+      "deleteDateAfter"  : "",
+
+      "deleteDialogTooltip" : "刪除所有數據",
+      "deleteDialogTitle" : "刪除所有垃圾數據",
+      "empty" : "沒什麼是垃圾",
+      "empty2" : "如果您丟了東西，數據將來到這裡",
+
+      "plotname" : "故事情節 : ",
+
+      "revival" : "撤消",
+      "type_category" : "按類型",
+      "date_category" : "按日期",
+
+      "memo"  : "素材",
+      "plot"  : "故事情節",
+      "char"  : "角色",
+      "relationShip" : "關係性",
+      "relationShipDetail" : "角色的關係圖",
+      "unit"    : "章節",
+      "card"    : "故事",
+      "scene"   : "場面",
+      "cut"     : "行為",
+      "dialog"  : "對話",
+
+      "today"     : "今天", 
+      "yesterday" : "昨天", 
+      "twodays"   : "兩天前", 
+      "threedays" : "三天前",
+      "fourdays"  : "四天前", 
+      "fivedays"  : "五天前",
+      "sixdays"   : "六天前",
+      "lastweek"  : "上個星期", 
+      "twoweeks"  : "前一周", 
+      "threeweeks": "三個星期前",
+      "lastmonth" : "上個月", 
+      "twomonth"  : "前一個月",
+      "threemonth" : "三個月前",
+      "past"      : "在那之前",
+
+      "deleteMessage"  : "清理垃圾"
+    },
+  },  
+  'lp' : {
+    LANGCODE_EN: {
+      'smartphoneTitle' : 'For Smartphones',
+      "guidanceTitle"   : 'For Smartphones, please use the app',
+      'message1' : 'Creating is hard, isn\'t it?',
+      'message2' : 'Expanding the idea..., calculating the flow of the story..., thinking about the characters..., putting emotions on it...',
+      'message3' : 'There\'s a lot to think about',
+      'message4' : 'Story Plotter supports the burden of creation',
+      'message5' : 'Please take advantage of it!',
+      'point'    : 'Point ',
+      'pointafter'    : '',
+
+      'support_1_title' : 'Feature-rich Idea book',
+      'support_1_1'    : 'Allows you to color, tag, categorize, and search',
+      'support_1_2'    : 'Hoard your great stories and use them in your plot!',
+
+      'support_2_title' : 'For an attractive plot',
+      'support_2_1'     : 'Support to expand from idea to story',
+      'support_2_2'     : 'Minute prediction feature, easy to keep a great story flow',
+      'support_2_3'     : 'Accommodates various plot lengths',
+
+      'support_3_title' : 'Digging into the setting',
+      'support_3_1'     : 'More than 100 character setting items',
+      'support_3_2'     : 'Correlation chart where groups can also be set up',
+
+      'optionToolTip'   : "Option",
+    },
+    LANGCODE_JA: {
+      'smartphoneTitle' : 'スマートフォンの方はこちらから',
+      "guidanceTitle"   : 'スマートフォンの場合は、アプリをご利用ください',
+      'message1' : '創作って大変ですよね',
+      'message2' : 'ネタを膨らませながら…、話の流れを計算しながら…、キャラクターを考えながら…、感情を載せながら…',
+      'message3' : '考えることは山ほどあります',
+      'message4' : 'ストーリープロッターが創作の負担をサポートします',
+      'message5' : 'ぜひご活用ください',
+      'point'    : 'ポイント',
+      'pointafter'    : '',
+
+      'support_1_title' : '機能豊富なネタ帳',
+      'support_1_1'    : '色付け、タグ付け、フォルダ分類、検索ができます',
+      'support_1_2'    : '素晴らしいネタを溜めて、プロットに活かしましょう',
+
+      'support_2_title' : '魅力的なプロットのために',
+      'support_2_1'     : 'ネタからストーリーに膨らませるサポート',
+      'support_2_2'     : '分量の予測機能で、素晴らしい話の流れを維持しやすい',
+      'support_2_3'     : '様々なプロットの長さに対応',
+
+      'support_3_title' : '設定の深堀り',
+      'support_3_1'     : '100以上のキャラ設定項目',
+      'support_3_2'     : 'グループも設定できる相関図',
+
+      'optionToolTip'   : "オプション",
+    },
+    LANGCODE_CH: {
+      'smartphoneTitle' : '智能手机',
+      "guidanceTitle"   : '如果您使用的是智能手机，请使用以下APP',
+      'message1' : '创造是很难的，不是吗？',
+      'message2' : '当你发展你的想法时... 计算故事的流程... 思考人物... 并把你的情感放在他们身上...',
+      'message3' : '我有很多事情要想',
+      'message4' : '故事织机可以帮助你解决你的创作负担',
+      'message5' : '请利用它!',
+      'point'    : '點',
+      'pointafter'    : '',
+
+      'support_1_title' : '功能丰富的创意书',
+      'support_1_1'    : '您可以进行颜色、标签、分类和搜索',
+      'support_1_2'    : '积累你的好故事，并把它们用在你的剧情中!',
+
+      'support_2_title' : '对于一个耐人寻味的情节',
+      'support_2_1'     : '支持从一个想法发展一个故事',
+      'support_2_2'     : '预测分钟数的能力使其能够轻松地保持一个伟大的故事流',
+      'support_2_3'     : '支持各种地块长度',
+
+      'support_3_title' : '挖掘环境',
+      'support_3_1'     : '超过100个字符设置',
+      'support_3_2'     : '相关图，也可设置组别',
+
+      'optionToolTip'   : "选项",
+    },
+    LANGCODE_TW: {
+      'smartphoneTitle' : '對於智能手機',
+      "guidanceTitle"   : '對於智能手機，請使用該應用',
+      'message1' : '很難創造',
+      'message2' : '在充實想法，計算故事流，思考角色，散發情感時',
+      'message3' : '我有很多事情要考慮',
+      'message4' : '故事織機支持創造的負擔',
+      'message5' : '請千方百計',
+      'point'       : '第',
+      'pointafter'  : '点',
+
+      'support_1_title' : '功能豐富的創意書',
+      'support_1_1'    : '您可以為文件夾上色，標記，分類和搜索',
+      'support_1_2'    : '收集您的精彩材料並在您的情節中使用它',
+
+      'support_2_title' : '對於有吸引力的地塊',
+      'support_2_1'     : '支持從想法擴展到故事',
+      'support_2_2'     : '預測音量可輕鬆維持出色的故事流',
+      'support_2_3'     : '支持各種繪圖長度',
+
+      'support_3_title' : '深入研究設置',
+      'support_3_1'     : '超過100個字符設置項目',
+      'support_3_2'     : '也可以設置組的相關圖',
+
+      'optionToolTip'   : "選項",
+    },
+  },
+  'weather' : {
+    LANGCODE_EN: {
+      'weather' : 'Weather',
+      "sunny"     : "Sunny skies",
+      "cloudy"    : "Cloudy skies", 
+      "smock"     : "Smoke and fog", 
+      "dust"      : "dust storms", 
+      "blizzard"  : "blizzard",
+      "fog"       : "Fog",
+      "drizzle"   : "Drizzle",
+      "rain"      : "Rain",
+      "sleet"     : "Sleet",
+      "snow"      : "Snow",
+      "hail"      : "Hail",
+      "thunder"   : "Thunder",
+      'none'          : 'none',
+    },
+    LANGCODE_JA: {
+      'weather' : '天候',
+      "sunny"     : "晴れ",
+      "cloudy"    : "曇り", 
+      "smock"     : "煙霧", 
+      "dust"      : "砂じん嵐", 
+      "blizzard"  : "ふぶき",
+      "fog"       : "霧",
+      "drizzle"   : "霧雨",
+      "rain"      : "雨",
+      "sleet"     : "みぞれ",
+      "snow"      : "雪",
+      "hail"      : "ひょう",
+      "thunder"   : "雷",
+      "none"      : "なし"
+    },
+    LANGCODE_CH: {
+      "weather"  : "天气",
+      "sunny"  : "晴朗的天空",
+      "cloudy"  : "多云的天空",
+      "smock"  : "烟和雾",
+      "dust"  : "沙尘暴",
+      "blizzard"  : "暴风雪",
+      "fog"  : "多雾路段",
+      "drizzle"  : "细雨",
+      "rain"  : "雨",
+      "sleet"  : "霰",
+      "snow"  : "雪",
+      "hail"  : "冰雹",
+      "thunder"  : "雷",
+      "none"  : "没有",
+    },
+    LANGCODE_TW: {
+      "weather"  : "天氣",
+      "sunny"  : "晴朗的天空",
+      "cloudy"  : "多雲的天空",
+      "smock"  : "煙和霧",
+      "dust"  : "沙塵暴",
+      "blizzard"  : "暴風雪",
+      "fog"  : "多霧路段",
+      "drizzle"  : "細雨",
+      "rain"  : "雨",
+      "sleet"  : "霰",
+      "snow"  : "雪",
+      "hail"  : "冰雹",
+      "thunder"  : "雷",
+      "none"  : "沒有",
+    },
+  },
+};
