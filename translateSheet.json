@@ -1,4 +1,4 @@
-const Map<String, Map<String, Map<String, String>>> localizedValues = {
+{
   'top' : {
     LANGCODE_EN: {
       'title' : 'Story Plotter',
